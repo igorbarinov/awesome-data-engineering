@@ -1,4 +1,4 @@
-# awesome-data-engineering
+Awesome Data Engineering
 ==========================
 A curated list of data engineering tools for software developers
 
@@ -20,3 +20,5 @@ List of content
 
 
 Cheers to [The Data Engineering Ecosystem: An Interactive Map](http://insightdataengineering.com/blog/pipeline_map.html)
+
+Inspired by the [awesome](https://github.com/sindresorhus/awesome) list. Created by [Insight Data Engineering](http://insightdataengineering.com) fellows.
