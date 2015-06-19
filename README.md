@@ -6,6 +6,7 @@ List of content
 
 - [Data Warehouses](#data-warehouses)
 - [Ingestion](#data-ingestion)
+- - [Kafka](#kafka)
 
 # Data Warehouses
 * [Hive] (http://hive.apache.org)
