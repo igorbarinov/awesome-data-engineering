@@ -35,6 +35,9 @@ List of content
 * [librdkafka](https://github.com/edenhill/librdkafka) The Apache Kafka C/C++ library
 * [kafka-docker](https://github.com/wurstmeister/kafka-docker) Kafka in Docker
 
+# ELK Elastic Logstash Kebana
+* [docker-logstash](https://github.com/pblittle/docker-logstash)
+
 # Docker
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
 
