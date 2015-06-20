@@ -32,6 +32,7 @@ List of content
 * [kafkat](https://github.com/airbnb/kafkat) Simplified command-line administration for Kafka brokers
 * [kafkacat](https://github.com/edenhill/kafkacat) Generic command line non-JVM Apache Kafka producer and consumer
 * [pg-kafka](https://github.com/xstevens/pg_kafka) A PostgreSQL extension to produce messages to Apache Kafka
+* [librdkafka](https://github.com/edenhill/librdkafka) The Apache Kafka C/C++ library
 
 # Docker
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
