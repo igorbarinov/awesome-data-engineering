@@ -30,6 +30,7 @@ List of content
 * [Camus](https://github.com/linkedin/camus) LinkedIn's Kafka to HDFS pipeline.
 * [BottledWater](https://github.com/confluentinc/bottledwater-pg) Change data capture from PostgreSQL into Kafka
 * [kafkat](https://github.com/airbnb/kafkat) Simplified command-line administration for Kafka brokers
+* [kafkacat](https://github.com/edenhill/kafkacat) Generic command line non-JVM Apache Kafka producer and consumer
 * [pg-kafka](https://github.com/xstevens/pg_kafka) A PostgreSQL extension to produce messages to Apache Kafka
 
 # Docker
