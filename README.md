@@ -36,6 +36,10 @@ List of content
 * [kafka-docker](https://github.com/wurstmeister/kafka-docker) Kafka in Docker
 * [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
 
+# Spark
+* [Spark Packages](http://spark-packages.org) A community index of packages for Apache Spark
+* [Deep Spark](https://github.com/Stratio/deep-spark)Connecting Apache Spark with different data stores 
+
 # ELK Elastic Logstash Kebana
 * [docker-logstash](https://github.com/pblittle/docker-logstash)
 
