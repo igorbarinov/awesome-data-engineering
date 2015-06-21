@@ -35,6 +35,7 @@ List of content
 * [librdkafka](https://github.com/edenhill/librdkafka) The Apache Kafka C/C++ library
 * [kafka-docker](https://github.com/wurstmeister/kafka-docker) Kafka in Docker
 * [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
+* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
 
 # Spark
 * [Spark Packages](http://spark-packages.org) A community index of packages for Apache Spark
