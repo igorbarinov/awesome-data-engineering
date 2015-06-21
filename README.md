@@ -34,6 +34,7 @@ List of content
 * [pg-kafka](https://github.com/xstevens/pg_kafka) A PostgreSQL extension to produce messages to Apache Kafka
 * [librdkafka](https://github.com/edenhill/librdkafka) The Apache Kafka C/C++ library
 * [kafka-docker](https://github.com/wurstmeister/kafka-docker) Kafka in Docker
+* [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
 
 # ELK Elastic Logstash Kebana
 * [docker-logstash](https://github.com/pblittle/docker-logstash)
