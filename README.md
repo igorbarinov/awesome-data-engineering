@@ -12,7 +12,7 @@ List of content
 - [Stream Processing](#stream-processing)
 
 # Databases
-* [Presto] (https://prestodb.io/docs/current/index.html)
+* [Presto] (https://prestodb.io/docs/current/index.html) Presto is a distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources
 
 # Data Warehouses
 * [Hive] (http://hive.apache.org)
