@@ -26,6 +26,12 @@ List of content
 * [ProtoBuf](https://github.com/google/protobuf) Protocol Buffers - Google's data interchange format
 * [SequenceFile](http://wiki.apache.org/hadoop/SequenceFile) SequenceFile is a flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats
 
+# Stream Processing
+* [Spark Streamin](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
+* [Apache Storm](https://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system
+* [Apache Samza](https://samza.apache.org) Apache Samza is a distributed stream processing framework
+* [Apache NiFi](https://nifi.incubator.apache.org) is an easy to use, powerful, and reliable system to process and distribute data
+
 # Kafka
 * [Camus](https://github.com/linkedin/camus) LinkedIn's Kafka to HDFS pipeline.
 * [BottledWater](https://github.com/confluentinc/bottledwater-pg) Change data capture from PostgreSQL into Kafka
@@ -43,6 +49,7 @@ List of content
 
 # ELK Elastic Logstash Kebana
 * [docker-logstash](https://github.com/pblittle/docker-logstash)
+* 
 
 # Docker
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
