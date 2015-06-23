@@ -5,20 +5,33 @@ A curated list of data engineering tools for software developers
 List of content
 
 - [Databases] (#databases)
-- [Data Warehouses](#data-warehouses)
 - [Ingestion](#data-ingestion)
+- [File System] (#file-system)
 - [File Format](#file-format)
 - [Kafka](#kafka)
 - [Stream Processing](#stream-processing)
 - [Batch Processing] (#batch-processing)
+- [Front End] (#front-end)
 
 # Databases
-* [Presto] (https://prestodb.io/docs/current/index.html)
-* [Cassandra] (http://cassandra.apache.org/)
-* [MySQL] (http://www.mysql.com/)
-
-# Data Warehouses
-* [Hive] (http://hive.apache.org)
+- Relational
+	* [MySQL] (http://www.mysql.com/)
+	* [PostgreSQL] (http://www.postgresql.org/)
+	* [Amazon RDS] (http://aws.amazon.com/rds/)
+- Key-Value
+	* [Redis] (http://redis.io/)
+	* [Riak] (https://docs.basho.com/riak/latest/)
+	* [AWS DynamoDB] (http://aws.amazon.com/dynamodb/)
+- Column
+	* [Cassandra] (http://cassandra.apache.org/)
+- Document
+	* [MongoDB] (https://www.mongodb.org/)
+	* [Elasticsearch] (https://www.elastic.co/)
+	* [Couchbase] (http://www.couchbase.com/)
+- Graph
+	* [Neo4j] (http://neo4j.com/)
+	* [OrientDB] (http://orientdb.com/orientdb/)
+	* [ArangoDB] (https://www.arangodb.com/)
 
 # Data Ingestion
 * [Kafka] (http://kafka.apache.org/)
@@ -26,6 +39,11 @@ List of content
 * [RabbitMQ](http://rabbitmq.com)
 * [FluentD](http://www.fluentd.org)
 * [Apache Scoop](https://sqoop.apache.org)
+
+# File System
+* [HDFS] (https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
+* [AWS S3] (http://aws.amazon.com/s3/)
+* [Tachyon] (http://tachyon-project.org/)
 
 # File Format
 * [Apache Avro](https://avro.apache.org) Apache Avro™ is a data serialization system
@@ -42,6 +60,28 @@ List of content
 
 # Batch Processing
 * [Hadoop Mapreduce] (http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
+* [Spark] (https://spark.apache.org/)
+* [AWS EMR] (https://spark.apache.org/)
+* [Tez] (https://tez.apache.org/)
+- Batch ML
+	* [H2O] (http://h2o.ai/)
+	* [Mahout] (http://mahout.apache.org/)
+	* [Spark MLlib] (https://spark.apache.org/docs/1.2.1/mllib-guide.html)
+- Batch Graph
+	* [GraphLab] (https://dato.com/products/create/)
+	* [Giraph] (http://giraph.apache.org/)
+	* [Spark GraphX] (https://spark.apache.org/graphx/)
+- Batch SQL
+	* [Presto] (https://prestodb.io/docs/current/index.html)
+	* [Hive] (http://hive.apache.org)
+	* [Drill] (https://drill.apache.org/)
+
+# Front End
+* [Flask] (http://flask.pocoo.org/)
+* [D3] (http://d3js.org/)
+* [AngularJS] (https://angularjs.org/)
+* [Django] (https://www.djangoproject.com/)
+* [Highcharts] (http://www.highcharts.com/)
 
 # Kafka
 * [Camus](https://github.com/linkedin/camus) LinkedIn's Kafka to HDFS pipeline.
