@@ -62,6 +62,7 @@ List of content
 
 # Stream Processing
 * [Spark Streaming](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
+* [Apache Flink](https://flink.apache.org/) Apache Flink is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams.
 * [Apache Storm](https://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system
 * [Apache Samza](https://samza.apache.org) Apache Samza is a distributed stream processing framework
 * [Apache NiFi](https://nifi.incubator.apache.org) is an easy to use, powerful, and reliable system to process and distribute data
@@ -71,7 +72,8 @@ List of content
 * [Spark] (https://spark.apache.org/)
 	* [Spark Packages](http://spark-packages.org) A community index of packages for Apache Spark
 	* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores 
-* [AWS EMR] (https://spark.apache.org/)
+* [AWS EMR] (http://aws.amazon.com/elasticmapreduce/)
+* [Flink](https://flink.apache.org/)
 * [Tez] (https://tez.apache.org/)
 - Batch ML
 	* [H2O] (http://h2o.ai/)
