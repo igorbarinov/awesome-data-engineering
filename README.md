@@ -4,14 +4,13 @@ A curated list of data engineering tools for software developers
 
 List of content
 
-- [Databases] (#databases)
-- [Ingestion](#data-ingestion)
-- [File System] (#file-system)
-- [File Format](#file-format)
-- [Kafka](#kafka)
-- [Stream Processing](#stream-processing)
-- [Batch Processing] (#batch-processing)
-- [Front End] (#front-end)
+1. [Databases] (#databases)
+2. [Ingestion](#data-ingestion)
+3. [File System] (#file-system)
+4. [File Format](#file-format)
+5. [Stream Processing](#stream-processing)
+6. [Batch Processing] (#batch-processing)
+7. [Front End] (#front-end)
 
 # Databases
 - Relational
@@ -35,6 +34,15 @@ List of content
 
 # Data Ingestion
 * [Kafka] (http://kafka.apache.org/)
+	* [Camus](https://github.com/linkedin/camus) LinkedIn's Kafka to HDFS pipeline.
+	* [BottledWater](https://github.com/confluentinc/bottledwater-pg) Change data capture from PostgreSQL into Kafka
+	* [kafkat](https://github.com/airbnb/kafkat) Simplified command-line administration for Kafka brokers
+	* [kafkacat](https://github.com/edenhill/kafkacat) Generic command line non-JVM Apache Kafka producer and consumer
+	* [pg-kafka](https://github.com/xstevens/pg_kafka) A PostgreSQL extension to produce messages to Apache Kafka
+	* [librdkafka](https://github.com/edenhill/librdkafka) The Apache Kafka C/C++ library
+	* [kafka-docker](https://github.com/wurstmeister/kafka-docker) Kafka in Docker
+	* [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
+	* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
 * [AWS Kinesis] (http://aws.amazon.com/kinesis/)
 * [RabbitMQ](http://rabbitmq.com)
 * [FluentD](http://www.fluentd.org)
@@ -59,8 +67,10 @@ List of content
 * [Apache NiFi](https://nifi.incubator.apache.org) is an easy to use, powerful, and reliable system to process and distribute data
 
 # Batch Processing
-* [Hadoop Mapreduce] (http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
+* [Hadoop MapReduce] (http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
 * [Spark] (https://spark.apache.org/)
+	* [Spark Packages](http://spark-packages.org) A community index of packages for Apache Spark
+	* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores 
 * [AWS EMR] (https://spark.apache.org/)
 * [Tez] (https://tez.apache.org/)
 - Batch ML
@@ -79,28 +89,13 @@ List of content
 # Front End
 * [Flask] (http://flask.pocoo.org/)
 * [D3] (http://d3js.org/)
+	* [D3Plus] (http://d3plus.org) D3's simplier, easier to use cousin. Mostly predefined templates that you can just plug data in.
 * [AngularJS] (https://angularjs.org/)
 * [Django] (https://www.djangoproject.com/)
 * [Highcharts] (http://www.highcharts.com/)
 
-# Kafka
-* [Camus](https://github.com/linkedin/camus) LinkedIn's Kafka to HDFS pipeline.
-* [BottledWater](https://github.com/confluentinc/bottledwater-pg) Change data capture from PostgreSQL into Kafka
-* [kafkat](https://github.com/airbnb/kafkat) Simplified command-line administration for Kafka brokers
-* [kafkacat](https://github.com/edenhill/kafkacat) Generic command line non-JVM Apache Kafka producer and consumer
-* [pg-kafka](https://github.com/xstevens/pg_kafka) A PostgreSQL extension to produce messages to Apache Kafka
-* [librdkafka](https://github.com/edenhill/librdkafka) The Apache Kafka C/C++ library
-* [kafka-docker](https://github.com/wurstmeister/kafka-docker) Kafka in Docker
-* [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
-* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
-
-# Spark
-* [Spark Packages](http://spark-packages.org) A community index of packages for Apache Spark
-* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores 
-
 # ELK Elastic Logstash Kebana
 * [docker-logstash](https://github.com/pblittle/docker-logstash)
-
 
 # Docker
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
