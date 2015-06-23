@@ -10,9 +10,12 @@ List of content
 - [File Format](#file-format)
 - [Kafka](#kafka)
 - [Stream Processing](#stream-processing)
+- [Batch Processing] (#batch-processing)
 
 # Databases
 * [Presto] (https://prestodb.io/docs/current/index.html)
+* [Cassandra] (http://cassandra.apache.org/)
+* [MySQL] (http://www.mysql.com/)
 
 # Data Warehouses
 * [Hive] (http://hive.apache.org)
@@ -32,10 +35,13 @@ List of content
 * [SequenceFile](http://wiki.apache.org/hadoop/SequenceFile) SequenceFile is a flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats
 
 # Stream Processing
-* [Spark Streamin](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
+* [Spark Streaming](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
 * [Apache Storm](https://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system
 * [Apache Samza](https://samza.apache.org) Apache Samza is a distributed stream processing framework
 * [Apache NiFi](https://nifi.incubator.apache.org) is an easy to use, powerful, and reliable system to process and distribute data
+
+# Batch Processing
+* [Hadoop Mapreduce] (http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
 
 # Kafka
 * [Camus](https://github.com/linkedin/camus) LinkedIn's Kafka to HDFS pipeline.
@@ -58,7 +64,6 @@ List of content
 
 # Docker
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
-
 
 Cheers to [The Data Engineering Ecosystem: An Interactive Map](http://insightdataengineering.com/blog/pipeline_map.html)
 
