@@ -99,6 +99,7 @@ List of content
 * [AngularJS] (https://angularjs.org/)
 * [Django] (https://www.djangoproject.com/)
 * [Highcharts] (http://www.highcharts.com/)
+* [C3.js](http://c3js.org) D3-based reusable chart library
 
 # ELK Elastic Logstash Kebana
 * [docker-logstash](https://github.com/pblittle/docker-logstash)
