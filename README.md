@@ -23,6 +23,8 @@ List of content
 	* [AWS DynamoDB] (http://aws.amazon.com/dynamodb/)
 - Column
 	* [Cassandra] (http://cassandra.apache.org/)
+	* [HBase] (http://hbase.apache.org/)
+	* [AWS Redshift] (http://aws.amazon.com/redshift/)
 - Document
 	* [MongoDB] (https://www.mongodb.org/)
 	* [Elasticsearch] (https://www.elastic.co/)
@@ -31,6 +33,7 @@ List of content
 	* [Neo4j] (http://neo4j.com/)
 	* [OrientDB] (http://orientdb.com/orientdb/)
 	* [ArangoDB] (https://www.arangodb.com/)
+	* [Titan] (http://thinkaurelius.github.io/titan/)
 
 # Data Ingestion
 * [Kafka] (http://kafka.apache.org/)
@@ -43,6 +46,7 @@ List of content
 	* [kafka-docker](https://github.com/wurstmeister/kafka-docker) Kafka in Docker
 	* [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
 	* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
+	* [Secor] (https://github.com/pinterest/secor) Pinterest's Kafka to S3 distributed consumer
 * [AWS Kinesis] (http://aws.amazon.com/kinesis/)
 * [RabbitMQ](http://rabbitmq.com)
 * [FluentD](http://www.fluentd.org)
@@ -104,6 +108,10 @@ List of content
 # Datasets
 ## Realtime
 * [Instagram Realtime](https://instagram.com/developer/realtime/)
+
+## Data Dumps
+* [GitHub Archive] (https://www.githubarchive.org/) GitHub's public timeline since 2011, updated every hour
+* [Common Crawl] (https://commoncrawl.org/) Open source repository of web crawl data
 
 Cheers to [The Data Engineering Ecosystem: An Interactive Map](http://insightdataengineering.com/blog/pipeline_map.html)
 
