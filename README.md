@@ -25,6 +25,7 @@ List of content
 - Column
 	* [Cassandra] (http://cassandra.apache.org/)
 	* [HBase] (http://hbase.apache.org/)
+	* [Infobright] (http://www.infobright.org)
 	* [AWS Redshift] (http://aws.amazon.com/redshift/)
 - Document
 	* [MongoDB] (https://www.mongodb.org/)
