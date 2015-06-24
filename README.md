@@ -11,6 +11,7 @@ List of content
 5. [Stream Processing](#stream-processing)
 6. [Batch Processing] (#batch-processing)
 7. [Front End] (#front-end)
+8. [Frameworks] (#frameworks)
 
 # Databases
 - Relational
@@ -100,6 +101,10 @@ List of content
 * [Django] (https://www.djangoproject.com/)
 * [Highcharts] (http://www.highcharts.com/)
 * [C3.js](http://c3js.org) D3-based reusable chart library
+
+# Frameworks
+- [Luigi] (https://github.com/spotify/luigi)
+- [Cascading] (http://www.cascading.org/)
 
 # ELK Elastic Logstash Kebana
 * [docker-logstash](https://github.com/pblittle/docker-logstash)
