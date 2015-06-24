@@ -53,6 +53,7 @@ List of content
 * [RabbitMQ](http://rabbitmq.com)
 * [FluentD](http://www.fluentd.org)
 * [Apache Scoop](https://sqoop.apache.org)
+* [Luigi](https://github.com/spotify/luigi) Python module that helps you build complex pipelines of batch jobs
 
 # File System
 * [HDFS] (https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
