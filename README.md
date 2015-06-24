@@ -103,8 +103,8 @@ List of content
 * [C3.js](http://c3js.org) D3-based reusable chart library
 
 # Frameworks
-- [Luigi] (https://github.com/spotify/luigi)
-- [Cascading] (http://www.cascading.org/)
+- [Luigi] (https://github.com/spotify/luigi) Luigi is a Python module that helps you build complex pipelines of batch jobs.
+- [Cascading] (http://www.cascading.org/) Java based application development platform.
 
 # ELK Elastic Logstash Kebana
 * [docker-logstash](https://github.com/pblittle/docker-logstash)
