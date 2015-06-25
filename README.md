@@ -79,6 +79,7 @@ List of content
 * [Spark] (https://spark.apache.org/)
 	* [Spark Packages](http://spark-packages.org) A community index of packages for Apache Spark
 	* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores 
+	* [Spark RDD API Examples](http://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html) by Zhen He
 * [AWS EMR] (http://aws.amazon.com/elasticmapreduce/)
 * [Flink](https://flink.apache.org/)
 * [Tez] (https://tez.apache.org/)
