@@ -118,6 +118,7 @@ List of content
 
 # Docker
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
+* [Rancher](http://rancher.com/rancher-os/) RancherOS is a 20mb Linux distro that runs the entire OS as Docker containers
 
 
 # Datasets
