@@ -18,6 +18,7 @@ List of content
 	* [MySQL] (http://www.mysql.com/)
 	* [PostgreSQL] (http://www.postgresql.org/)
 	* [Amazon RDS] (http://aws.amazon.com/rds/)
+	* [Crate.IO] (https://crate.io/)
 - Key-Value
 	* [Redis] (http://redis.io/)
 	* [Riak] (https://docs.basho.com/riak/latest/)
