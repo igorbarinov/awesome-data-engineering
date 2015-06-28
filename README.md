@@ -31,6 +31,7 @@ List of content
 	* [MongoDB] (https://www.mongodb.org/)
 	* [Elasticsearch] (https://www.elastic.co/)
 	* [Couchbase] (http://www.couchbase.com/)
+	* [RethinkDB](http://rethinkdb.com/) The open-source database for the realtime web
 - Graph
 	* [Neo4j] (http://neo4j.com/)
 	* [OrientDB] (http://orientdb.com/orientdb/)
