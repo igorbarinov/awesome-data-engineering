@@ -10,7 +10,7 @@ List of content
 4. [File Format](#file-format)
 5. [Stream Processing](#stream-processing)
 6. [Batch Processing] (#batch-processing)
-7. [Front End] (#front-end)
+7. [Charts] (#charts)
 8. [Frameworks] (#frameworks)
 
 # Databases
