@@ -98,14 +98,12 @@ List of content
 	* [Hive] (http://hive.apache.org)
 	* [Drill] (https://drill.apache.org/)
 
-# Front End
-* [Flask] (http://flask.pocoo.org/)
+# Charts
+* [Highcharts] (http://www.highcharts.com/)
+* [ZingChart](http://www.zingchart.com/)
+* [C3.js](http://c3js.org) D3-based reusable chart library
 * [D3] (http://d3js.org/)
 	* [D3Plus] (http://d3plus.org) D3's simplier, easier to use cousin. Mostly predefined templates that you can just plug data in.
-* [AngularJS] (https://angularjs.org/)
-* [Django] (https://www.djangoproject.com/)
-* [Highcharts] (http://www.highcharts.com/)
-* [C3.js](http://c3js.org) D3-based reusable chart library
 
 # Frameworks
 * [Luigi] (https://github.com/spotify/luigi) Luigi is a Python module that helps you build complex pipelines of batch jobs.
