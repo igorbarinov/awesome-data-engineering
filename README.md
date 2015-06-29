@@ -115,6 +115,7 @@ List of content
 
 # ELK Elastic Logstash Kebana
 * [docker-logstash](https://github.com/pblittle/docker-logstash)
+* [elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) JDBC importer for Elasticsearch
 
 # Docker
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
