@@ -104,6 +104,7 @@ List of content
 * [C3.js](http://c3js.org) D3-based reusable chart library
 * [D3] (http://d3js.org/)
 	* [D3Plus] (http://d3plus.org) D3's simplier, easier to use cousin. Mostly predefined templates that you can just plug data in.
+* [SmoothieCharts](http://smoothiecharts.org)
 
 # Frameworks
 * [Luigi] (https://github.com/spotify/luigi) Luigi is a Python module that helps you build complex pipelines of batch jobs.
