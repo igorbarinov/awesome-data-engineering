@@ -61,6 +61,8 @@ List of content
 * [HDFS] (https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
 * [AWS S3] (http://aws.amazon.com/s3/)
 * [Tachyon] (http://tachyon-project.org/)
+* [CEPH](http://ceph.com/) Ceph is a unified, distributed storage system designed for excellent performance, reliability and scalability
+* [OrangeFS](http://www.orangefs.org/) Orange File System is a branch of the Parallel Virtual File System
 
 # File Format
 * [Apache Avro](https://avro.apache.org) Apache Avro™ is a data serialization system
