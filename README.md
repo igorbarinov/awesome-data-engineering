@@ -38,6 +38,8 @@ List of content
 	* [OrientDB] (http://orientdb.com/orientdb/)
 	* [ArangoDB] (https://www.arangodb.com/)
 	* [Titan] (http://thinkaurelius.github.io/titan/)
+- Distributed
+	* [DAtomic](http://www.datomic.com)
 
 # Data Ingestion
 * [Kafka] (http://kafka.apache.org/)
