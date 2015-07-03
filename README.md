@@ -72,6 +72,7 @@ List of content
 * [Apache Thrift](https://thrift.apache.org) The Apache Thrift software framework, for scalable cross-language services development
 * [ProtoBuf](https://github.com/google/protobuf) Protocol Buffers - Google's data interchange format
 * [SequenceFile](http://wiki.apache.org/hadoop/SequenceFile) SequenceFile is a flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats
+* [Kryo](https://github.com/EsotericSoftware/kryo) Kryo is a fast and efficient object graph serialization framework for Java
 
 # Stream Processing
 * [Spark Streaming](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
