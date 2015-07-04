@@ -62,6 +62,7 @@ List of content
 
 # File System
 * [HDFS] (https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
+	* [Snakebit](https://github.com/spotify/snakebite) A pure python HDFS client
 * [AWS S3] (http://aws.amazon.com/s3/)
 * [Tachyon] (http://tachyon-project.org/)
 * [CEPH](http://ceph.com/) Ceph is a unified, distributed storage system designed for excellent performance, reliability and scalability
