@@ -40,6 +40,7 @@ List of content
 	* [Titan] (http://thinkaurelius.github.io/titan/)
 - Distributed
 	* [DAtomic](http://www.datomic.com)
+	* [Apache Geode](http://geode.incubator.apache.org) 
 
 # Data Ingestion
 * [Kafka] (http://kafka.apache.org/)
