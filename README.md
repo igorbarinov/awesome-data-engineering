@@ -64,7 +64,7 @@ List of content
 * [HDFS] (https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
 	* [Snakebit](https://github.com/spotify/snakebite) A pure python HDFS client
 * [AWS S3] (http://aws.amazon.com/s3/)
-* [Tachyon] (http://tachyon-project.org/)
+* [Tachyon] (http://tachyon-project.org/) Tachyon is a memory-centric distributed storage system enabling reliable data sharing at memory-speed across cluster frameworks, such as Spark and MapReduce
 * [CEPH](http://ceph.com/) Ceph is a unified, distributed storage system designed for excellent performance, reliability and scalability
 * [OrangeFS](http://www.orangefs.org/) Orange File System is a branch of the Parallel Virtual File System
 
@@ -131,6 +131,7 @@ List of content
 # Datasets
 ## Realtime
 * [Instagram Realtime](https://instagram.com/developer/realtime/)
+* [Twitter Realtime](https://dev.twitter.com/streaming/overview)
 
 ## Data Dumps
 * [GitHub Archive] (https://www.githubarchive.org/) GitHub's public timeline since 2011, updated every hour
