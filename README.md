@@ -105,6 +105,7 @@ List of content
 	* [Presto] (https://prestodb.io/docs/current/index.html)
 	* [Hive] (http://hive.apache.org)
 		* [Hivemall](https://github.com/myui/hivemall) Scalable machine learning library for Hive/Hadoop 
+		* [PyHive] (https://github.com/dropbox/PyHive) Python interface to Hive and Presto
 	* [Drill] (https://drill.apache.org/)
 
 # Charts
