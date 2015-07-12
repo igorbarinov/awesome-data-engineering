@@ -16,6 +16,7 @@ List of content
 # Databases
 - Relational
 	* [MySQL] (http://www.mysql.com/)
+	* [MariaDB] (https://mariadb.org/) An enhanced, drop-in replacement for MySQL
 	* [PostgreSQL] (http://www.postgresql.org/)
 	* [Amazon RDS] (http://aws.amazon.com/rds/)
 	* [Crate.IO] (https://crate.io/) Scalable SQL database with the NOSQL goodies
