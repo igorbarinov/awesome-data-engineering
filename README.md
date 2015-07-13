@@ -24,6 +24,7 @@ List of content
 	* [Redis] (http://redis.io/)
 	* [Riak] (https://docs.basho.com/riak/latest/)
 	* [AWS DynamoDB] (http://aws.amazon.com/dynamodb/)
+	* [HyperDex](https://github.com/rescrv/HyperDex) HyperDex is a scalable, searchable key-value store
 - Column
 	* [Cassandra] (http://cassandra.apache.org/)
 	* [HBase] (http://hbase.apache.org/)
