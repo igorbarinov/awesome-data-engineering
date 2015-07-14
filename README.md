@@ -70,6 +70,8 @@ List of content
 * [CEPH](http://ceph.com/) Ceph is a unified, distributed storage system designed for excellent performance, reliability and scalability
 * [OrangeFS](http://www.orangefs.org/) Orange File System is a branch of the Parallel Virtual File System
 * [SnackFS](https://github.com/tuplejump/snackfs-release) SnackFS is our bite-sized, lightweight HDFS compatible FileSystem built over Cassandra
+* [GlusterFS](http://www.gluster.org/) Gluster Filesystem
+* [XtreemFS](http://www.xtreemfs.org/) fault-tolerant distributed file system for all storage needs
 
 # File Format
 * [Apache Avro](https://avro.apache.org) Apache Avro™ is a data serialization system
