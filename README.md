@@ -12,6 +12,8 @@ List of content
 6. [Batch Processing] (#batch-processing)
 7. [Charts] (#charts)
 8. [Frameworks] (#frameworks)
+9. [Datasets](#datasets)
+9. [Monitoring] (#monitoring)
 
 # Databases
 - Relational
@@ -148,6 +150,12 @@ List of content
 Cheers to [The Data Engineering Ecosystem: An Interactive Map](http://insightdataengineering.com/blog/pipeline_map.html)
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list. Created by [Insight Data Engineering](http://insightdataengineering.com) fellows.
+
+# Monitoring
+
+## Prometheus
+* [Prometheus.io](https://github.com/prometheus/prometheus) An open-source service monitoring system and time series database
+* [HAProxy](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
 
 ## License
 
