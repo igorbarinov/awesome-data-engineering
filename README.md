@@ -10,7 +10,7 @@ List of content
 4. [File Format](#file-format)
 5. [Stream Processing](#stream-processing)
 6. [Batch Processing] (#batch-processing)
-7. [Charts] (#charts)
+7. [Charts and Dashboards] (#charts-and-dashboards)
 8. [Frameworks] (#frameworks)
 9. [Datasets](#datasets)
 9. [Monitoring] (#monitoring)
@@ -114,13 +114,14 @@ List of content
 		* [PyHive] (https://github.com/dropbox/PyHive) Python interface to Hive and Presto
 	* [Drill] (https://drill.apache.org/)
 
-# Charts
+# Charts and Dashboards
 * [Highcharts] (http://www.highcharts.com/)
 * [ZingChart](http://www.zingchart.com/)
 * [C3.js](http://c3js.org) D3-based reusable chart library
 * [D3] (http://d3js.org/)
 	* [D3Plus] (http://d3plus.org) D3's simplier, easier to use cousin. Mostly predefined templates that you can just plug data in.
 * [SmoothieCharts](http://smoothiecharts.org)
+* [PyXley](https://github.com/stitchfix/pyxley)Python helpers for building dashboards using Flask and React
 
 # Frameworks
 * [Luigi] (https://github.com/spotify/luigi) Luigi is a Python module that helps you build complex pipelines of batch jobs.
@@ -155,7 +156,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list. Created
 
 ## Prometheus
 * [Prometheus.io](https://github.com/prometheus/prometheus) An open-source service monitoring system and time series database
-* [HAProxy](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
+* [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
 
 ## License
 
