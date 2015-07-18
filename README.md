@@ -27,6 +27,7 @@ List of content
 	* [Riak] (https://docs.basho.com/riak/latest/)
 	* [AWS DynamoDB] (http://aws.amazon.com/dynamodb/)
 	* [HyperDex](https://github.com/rescrv/HyperDex) HyperDex is a scalable, searchable key-value store
+	* [SSDB](http://ssdb.io) A high performance NoSQL database supporting many data structures, an alternative to Redis
 - Column
 	* [Cassandra] (http://cassandra.apache.org/)
 	* [HBase] (http://hbase.apache.org/)
