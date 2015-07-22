@@ -149,6 +149,7 @@ List of content
 ## Data Dumps
 * [GitHub Archive] (https://www.githubarchive.org/) GitHub's public timeline since 2011, updated every hour
 * [Common Crawl] (https://commoncrawl.org/) Open source repository of web crawl data
+* [Wikipedia] (https://dumps.wikimedia.org/enwiki/latest/) Wikipedia's complete copy of all wikis, in the form of wikitext source and metadata embedded in XML. A number of raw database tables in SQL form are also available.
 
 Cheers to [The Data Engineering Ecosystem: An Interactive Map](http://insightdataengineering.com/blog/pipeline_map.html)
 
