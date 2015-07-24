@@ -43,6 +43,7 @@ List of content
 	* [OrientDB] (http://orientdb.com/orientdb/)
 	* [ArangoDB] (https://www.arangodb.com/)
 	* [Titan] (http://thinkaurelius.github.io/titan/)
+	* [FlockDB](https://github.com/twitter/flockdb) A distributed, fault-tolerant graph database by Twitter
 - Distributed
 	* [DAtomic](http://www.datomic.com)
 	* [Apache Geode](http://geode.incubator.apache.org) 
