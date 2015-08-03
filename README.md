@@ -47,6 +47,8 @@ List of content
 - Distributed
 	* [DAtomic](http://www.datomic.com)
 	* [Apache Geode](http://geode.incubator.apache.org) 
+- Timeseries
+	* [InfluxDB](https://github.com/influxdb/influxdb) Scalable datastore for metrics, events, and real-time analytics
 
 # Data Ingestion
 * [Kafka] (http://kafka.apache.org/)
