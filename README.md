@@ -49,6 +49,8 @@ List of content
 	* [Apache Geode](http://geode.incubator.apache.org) 
 - Timeseries
 	* [InfluxDB](https://github.com/influxdb/influxdb) Scalable datastore for metrics, events, and real-time analytics
+	* [OpenTSDB](https://github.com/OpenTSDB/opentsdb) A scalable, distributed Time Series Database.
+	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database
 
 # Data Ingestion
 * [Kafka] (http://kafka.apache.org/)
