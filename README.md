@@ -85,7 +85,9 @@ List of content
 # File Format
 * [Apache Avro](https://avro.apache.org) Apache Avro™ is a data serialization system
 * [Apache Parquet](https://parquet.apache.org) Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
-	*[Snappy](https://github.com/google/snappy) A fast compressor/decompressor. Used with Parquet
+	* [Snappy](https://github.com/google/snappy) A fast compressor/decompressor. Used with Parquet
+	* [PigZ](http://zlib.net/pigz/) A parallel implementation of gzip for modern
+multi-processor, multi-core machines
 * [Apache Thrift](https://thrift.apache.org) The Apache Thrift software framework, for scalable cross-language services development
 * [ProtoBuf](https://github.com/google/protobuf) Protocol Buffers - Google's data interchange format
 * [SequenceFile](http://wiki.apache.org/hadoop/SequenceFile) SequenceFile is a flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats
