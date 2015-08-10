@@ -81,6 +81,7 @@ List of content
 * [SnackFS](https://github.com/tuplejump/snackfs-release) SnackFS is our bite-sized, lightweight HDFS compatible FileSystem built over Cassandra
 * [GlusterFS](http://www.gluster.org/) Gluster Filesystem
 * [XtreemFS](http://www.xtreemfs.org/) fault-tolerant distributed file system for all storage needs
+* [SeaweedFS](https://github.com/chrislusf/seaweedfs) Seaweed-FS is a simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast! Instead of supporting full POSIX file system semantics, Seaweed-FS choose to implement only a key~file mapping. Similar to the word "NoSQL", you can call it as "NoFS".
 
 # File Format
 * [Apache Avro](https://avro.apache.org) Apache Avro™ is a data serialization system
