@@ -153,6 +153,7 @@ multi-processor, multi-core machines
 * [Rancher](http://rancher.com/rancher-os/) RancherOS is a 20mb Linux distro that runs the entire OS as Docker containers
 * [Kontena](http://www.kontena.io/) Application Containers for Masses
 * [Weave](https://github.com/weaveworks/weave) Weaving Docker containers into applications http://weave.works
+* [Zodiac](https://github.com/CenturyLinkLabs/zodiac) A lightweight tool for easy deployment and rollback of dockerized applications
 
 
 # Datasets
