@@ -151,6 +151,7 @@ multi-processor, multi-core machines
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
 * [Rancher](http://rancher.com/rancher-os/) RancherOS is a 20mb Linux distro that runs the entire OS as Docker containers
 * [Kontena](http://www.kontena.io/) Application Containers for Masses
+* [Weave](https://github.com/weaveworks/weave) Weaving Docker containers into applications http://weave.works
 
 
 # Datasets
