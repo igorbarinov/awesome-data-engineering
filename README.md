@@ -155,6 +155,7 @@ multi-processor, multi-core machines
 * [Weave](https://github.com/weaveworks/weave) Weaving Docker containers into applications http://weave.works
 * [Zodiac](https://github.com/CenturyLinkLabs/zodiac) A lightweight tool for easy deployment and rollback of dockerized applications
 * [cAdvisor](https://github.com/google/cadvisor) Analyzes resource usage and performance characteristics of running containers
+* [Micro S3 persistence](https://github.com/shinymayhem/micro-s3-persistence) Docker microservice for saving/restoring volume data to S3
 
 
 # Datasets
