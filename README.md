@@ -154,6 +154,7 @@ multi-processor, multi-core machines
 * [Kontena](http://www.kontena.io/) Application Containers for Masses
 * [Weave](https://github.com/weaveworks/weave) Weaving Docker containers into applications http://weave.works
 * [Zodiac](https://github.com/CenturyLinkLabs/zodiac) A lightweight tool for easy deployment and rollback of dockerized applications
+* [cAdvisor](https://github.com/google/cadvisor) Analyzes resource usage and performance characteristics of running containers
 
 
 # Datasets
