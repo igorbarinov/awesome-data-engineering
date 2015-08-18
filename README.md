@@ -30,6 +30,7 @@ List of content
 	* [AWS DynamoDB] (http://aws.amazon.com/dynamodb/)
 	* [HyperDex](https://github.com/rescrv/HyperDex) HyperDex is a scalable, searchable key-value store
 	* [SSDB](http://ssdb.io) A high performance NoSQL database supporting many data structures, an alternative to Redis
+	* [Kyoto Tycoon]() Kyoto Tycoon is a lightweight network server on top of the Kyoto Cabinet key-value database, built for high-performance and concurrency
 - Column
 	* [Cassandra] (http://cassandra.apache.org/)
 		* [Cassandra Calculator] (http://www.ecyrd.com/cassandracalculator/) This simple form allows you to try out different values for your Apache Cassandra cluster and see what the impact is for your application.	
