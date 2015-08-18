@@ -32,6 +32,7 @@ List of content
 	* [SSDB](http://ssdb.io) A high performance NoSQL database supporting many data structures, an alternative to Redis
 - Column
 	* [Cassandra] (http://cassandra.apache.org/)
+		* [Cassandra Calculator] (http://www.ecyrd.com/cassandracalculator/) This simple form allows you to try out different values for your Apache Cassandra cluster and see what the impact is for your application.	
 	* [HBase] (http://hbase.apache.org/)
 	* [Infobright] (http://www.infobright.org)
 	* [AWS Redshift] (http://aws.amazon.com/redshift/)
