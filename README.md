@@ -110,6 +110,7 @@ multi-processor, multi-core machines
 	* [Spark Packages](http://spark-packages.org) A community index of packages for Apache Spark
 	* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores 
 	* [Spark RDD API Examples](http://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html) by Zhen He
+	* [Livy](https://github.com/cloudera/hue/tree/master/apps/spark/java#welcome-to-livy-the-rest-spark-server) Livy, the REST Spark Server
 * [AWS EMR] (http://aws.amazon.com/elasticmapreduce/)
 * [Flink](https://flink.apache.org/)
 * [Tez] (https://tez.apache.org/)
