@@ -20,44 +20,44 @@ List of content
 # Databases
 - Relational
 	* [MySQL] (http://www.mysql.com/)
-	* [MariaDB] (https://mariadb.org/) An enhanced, drop-in replacement for MySQL
+	* [MariaDB] (https://mariadb.org/) An enhanced, drop-in replacement for MySQL.
 	* [PostgreSQL] (http://www.postgresql.org/)
 	* [Amazon RDS] (http://aws.amazon.com/rds/)
-	* [Crate.IO] (https://crate.io/) Scalable SQL database with the NOSQL goodies
+	* [Crate.IO] (https://crate.io/) Scalable SQL database with the NOSQL goodies.
 - Key-Value
-	* [Redis] (http://redis.io/)
-	* [Riak] (https://docs.basho.com/riak/latest/)
-	* [AWS DynamoDB] (http://aws.amazon.com/dynamodb/)
+	* [Redis] (http://redis.io/) An open source, BSD licensed, advanced key-value cache and store.
+	* [Riak] (https://docs.basho.com/riak/latest/) A distributed database designed to deliver maximum data availability by distributing data across multiple servers.
+	* [AWS DynamoDB] (http://aws.amazon.com/dynamodb/) A fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale.
 	* [HyperDex](https://github.com/rescrv/HyperDex) HyperDex is a scalable, searchable key-value store
 	* [SSDB](http://ssdb.io) A high performance NoSQL database supporting many data structures, an alternative to Redis
 	* [Kyoto Tycoon]() Kyoto Tycoon is a lightweight network server on top of the Kyoto Cabinet key-value database, built for high-performance and concurrency
 - Column
 	* [Cassandra] (http://cassandra.apache.org/)
 		* [Cassandra Calculator] (http://www.ecyrd.com/cassandracalculator/) This simple form allows you to try out different values for your Apache Cassandra cluster and see what the impact is for your application.	
-	* [HBase] (http://hbase.apache.org/)
-	* [Infobright] (http://www.infobright.org)
-	* [AWS Redshift] (http://aws.amazon.com/redshift/)
+	* [HBase] (http://hbase.apache.org/) The Hadoop database, a distributed, scalable, big data store.
+	* [Infobright] (http://www.infobright.org) Column oriented, open-source analytic database provides both speed and efficiency.  
+	* [AWS Redshift] (http://aws.amazon.com/redshift/) A fast, fully managed, petabyte-scale data warehouse that makes it simple and cost-effective to analyze all your data using your existing business intelligence tools.
 - Document
-	* [MongoDB] (https://www.mongodb.org/)
-	* [Elasticsearch] (https://www.elastic.co/)
-	* [Couchbase] (http://www.couchbase.com/)
-	* [RethinkDB](http://rethinkdb.com/) The open-source database for the realtime web
+	* [MongoDB] (https://www.mongodb.org/) An open-source, document database designed for ease of development and scaling. 
+	* [Elasticsearch] (https://www.elastic.co/) Search & Analyze Data in Real Time.
+	* [Couchbase] (http://www.couchbase.com/) The highest performing NoSQL distributed database.
+	* [RethinkDB](http://rethinkdb.com/) The open-source database for the realtime web.
 - Graph
-	* [Neo4j] (http://neo4j.com/)
-	* [OrientDB] (http://orientdb.com/orientdb/)
-	* [ArangoDB] (https://www.arangodb.com/)
+	* [Neo4j] (http://neo4j.com/) The world’s leading graph database.
+	* [OrientDB] (http://orientdb.com/orientdb/) 2nd Generation Distributed Graph Database with the flexibility of Documents in one product with an Open Source commercial friendly license.
+	* [ArangoDB] (https://www.arangodb.com/) A distributed free and open-source database with a flexible data model for documents, graphs, and key-values. 
 	* [Titan] (http://thinkaurelius.github.io/titan/)
-	* [FlockDB](https://github.com/twitter/flockdb) A distributed, fault-tolerant graph database by Twitter
+	* [FlockDB](https://github.com/twitter/flockdb) A distributed, fault-tolerant graph database by Twitter.
 - Distributed
-	* [DAtomic](http://www.datomic.com)
-	* [Apache Geode](http://geode.incubator.apache.org) 
+	* [DAtomic](http://www.datomic.com) The fully transactional, cloud-ready, distributed database.
+	* [Apache Geode](http://geode.incubator.apache.org) An open source, distributed, in-memory database for scale-out applications.
 - Timeseries
-	* [InfluxDB](https://github.com/influxdb/influxdb) Scalable datastore for metrics, events, and real-time analytics
+	* [InfluxDB](https://github.com/influxdb/influxdb) Scalable datastore for metrics, events, and real-time analytics.
 	* [OpenTSDB](https://github.com/OpenTSDB/opentsdb) A scalable, distributed Time Series Database.
-	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database
+	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database.
 
 # Data Ingestion
-* [Kafka] (http://kafka.apache.org/)
+* [Kafka] (http://kafka.apache.org/) Publish-subscribe messaging rethought as a distributed commit log.
 	* [Camus](https://github.com/linkedin/camus) LinkedIn's Kafka to HDFS pipeline.
 	* [BottledWater](https://github.com/confluentinc/bottledwater-pg) Change data capture from PostgreSQL into Kafka
 	* [kafkat](https://github.com/airbnb/kafkat) Simplified command-line administration for Kafka brokers
@@ -68,10 +68,10 @@ List of content
 	* [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
 	* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
 	* [Secor] (https://github.com/pinterest/secor) Pinterest's Kafka to S3 distributed consumer
-* [AWS Kinesis] (http://aws.amazon.com/kinesis/)
-* [RabbitMQ](http://rabbitmq.com)
-* [FluentD](http://www.fluentd.org)
-* [Apache Scoop](https://sqoop.apache.org)
+* [AWS Kinesis] (http://aws.amazon.com/kinesis/) A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
+* [RabbitMQ](http://rabbitmq.com) Robust messaging for applications.
+* [FluentD](http://www.fluentd.org) An open source data collector for unified logging layer.
+* [Apache Scoop](https://sqoop.apache.org) A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
 * [Luigi](https://github.com/spotify/luigi) Python module that helps you build complex pipelines of batch jobs
 
 # File System
@@ -112,32 +112,32 @@ multi-processor, multi-core machines
 	* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores 
 	* [Spark RDD API Examples](http://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html) by Zhen He
 	* [Livy](https://github.com/cloudera/hue/tree/master/apps/spark/java#welcome-to-livy-the-rest-spark-server) Livy, the REST Spark Server
-* [AWS EMR] (http://aws.amazon.com/elasticmapreduce/)
-* [Flink](https://flink.apache.org/)
-* [Tez] (https://tez.apache.org/)
+* [AWS EMR] (http://aws.amazon.com/elasticmapreduce/) A web service that makes it easy to quickly and cost-effectively process vast amounts of data.
+* [Flink](https://flink.apache.org/) An open source platform for scalable batch and stream data processing.
+* [Tez] (https://tez.apache.org/) An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
 - Batch ML
-	* [H2O] (http://h2o.ai/)
-	* [Mahout] (http://mahout.apache.org/)
-	* [Spark MLlib] (https://spark.apache.org/docs/1.2.1/mllib-guide.html)
+	* [H2O] (http://h2o.ai/) Fast scalable machine learning API for smarter applications.
+	* [Mahout] (http://mahout.apache.org/) An environment for quickly creating scalable performant machine learning applications.
+	* [Spark MLlib] (https://spark.apache.org/docs/1.2.1/mllib-guide.html) Spark’s scalable machine learning library consisting of common learning algorithms and utilities, including classification, regression, clustering, collaborative filtering, dimensionality reduction, as well as underlying optimization primitives.
 - Batch Graph
-	* [GraphLab] (https://dato.com/products/create/)
-	* [Giraph] (http://giraph.apache.org/)
-	* [Spark GraphX] (https://spark.apache.org/graphx/)
+	* [GraphLab Create] (https://dato.com/products/create/) A machine learning platform that enables data scientists and app developers to easily create intelligent apps at scale.
+	* [Giraph] (http://giraph.apache.org/) An iterative graph processing system built for high scalability. 
+	* [Spark GraphX] (https://spark.apache.org/graphx/) Apache Spark's API for graphs and graph-parallel computation. 
 - Batch SQL
-	* [Presto] (https://prestodb.io/docs/current/index.html)
-	* [Hive] (http://hive.apache.org)
-		* [Hivemall](https://github.com/myui/hivemall) Scalable machine learning library for Hive/Hadoop 
-		* [PyHive] (https://github.com/dropbox/PyHive) Python interface to Hive and Presto
-	* [Drill] (https://drill.apache.org/)
+	* [Presto] (https://prestodb.io/docs/current/index.html) A distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.
+	* [Hive] (http://hive.apache.org) Data warehouse software facilitates querying and managing large datasets residing in distributed storage. 
+		* [Hivemall](https://github.com/myui/hivemall) Scalable machine learning library for Hive/Hadoop.
+		* [PyHive] (https://github.com/dropbox/PyHive) Python interface to Hive and Presto.
+	* [Drill] (https://drill.apache.org/) Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 
 # Charts and Dashboards
-* [Highcharts] (http://www.highcharts.com/)
-* [ZingChart](http://www.zingchart.com/)
-* [C3.js](http://c3js.org) D3-based reusable chart library
-* [D3] (http://d3js.org/)
+* [Highcharts] (http://www.highcharts.com/) A charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application.
+* [ZingChart](http://www.zingchart.com/) Fast JavaScript charts for any data set.
+* [C3.js](http://c3js.org) D3-based reusable chart library.
+* [D3.js] (http://d3js.org/) A JavaScript library for manipulating documents based on data.
 	* [D3Plus] (http://d3plus.org) D3's simplier, easier to use cousin. Mostly predefined templates that you can just plug data in.
-* [SmoothieCharts](http://smoothiecharts.org)
-* [PyXley](https://github.com/stitchfix/pyxley)Python helpers for building dashboards using Flask and React
+* [SmoothieCharts](http://smoothiecharts.org) A JavaScript Charting Library for Streaming Data.
+* [PyXley](https://github.com/stitchfix/pyxley) Python helpers for building dashboards using Flask and React
 
 # Frameworks
 * [Luigi] (https://github.com/spotify/luigi) Luigi is a Python module that helps you build complex pipelines of batch jobs.
@@ -148,7 +148,7 @@ multi-processor, multi-core machines
 * [Oozie](http://oozie.apache.org/) Oozie is a workflow scheduler system to manage Apache Hadoop jobs
 
 # ELK Elastic Logstash Kebana
-* [docker-logstash](https://github.com/pblittle/docker-logstash)
+* [docker-logstash](https://github.com/pblittle/docker-logstash) A highly configurable logstash (1.4.4) docker image running Elasticsearch (1.7.0) and Kibana (3.1.2).
 * [elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) JDBC importer for Elasticsearch
 * [ZomboDB](https://github.com/zombodb/zombodb) Postgres Extension that allows creating an index backed by Elasticsearch
 
@@ -166,8 +166,8 @@ multi-processor, multi-core machines
 
 # Datasets
 ## Realtime
-* [Instagram Realtime](https://instagram.com/developer/realtime/)
-* [Twitter Realtime](https://dev.twitter.com/streaming/overview)
+* [Instagram Realtime](https://instagram.com/developer/realtime/) Real-time photo updates provide your application with instant notifications of new photos as they are posted on Instagram.
+* [Twitter Realtime](https://dev.twitter.com/streaming/overview) The Streaming APIs give developers low latency access to Twitter’s global stream of Tweet data.
 * [Firebase Realtime](https://www.firebase.com/docs/open-data/) Airport delays, Parking,  Cryptocurrencies, Earthquakes, Transit, Weather
 
 ## Data Dumps
