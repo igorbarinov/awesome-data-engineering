@@ -19,10 +19,10 @@ List of content
 
 # Databases
 - Relational
-	* [MySQL] (http://www.mysql.com/)
+	* [MySQL] (http://www.mysql.com/) The world's most popular open source database.
 	* [MariaDB] (https://mariadb.org/) An enhanced, drop-in replacement for MySQL.
-	* [PostgreSQL] (http://www.postgresql.org/)
-	* [Amazon RDS] (http://aws.amazon.com/rds/)
+	* [PostgreSQL] (http://www.postgresql.org/) The world's most advanced open source database.
+	* [Amazon RDS] (http://aws.amazon.com/rds/) Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud. 
 	* [Crate.IO] (https://crate.io/) Scalable SQL database with the NOSQL goodies.
 - Key-Value
 	* [Redis] (http://redis.io/) An open source, BSD licensed, advanced key-value cache and store.
@@ -32,7 +32,7 @@ List of content
 	* [SSDB](http://ssdb.io) A high performance NoSQL database supporting many data structures, an alternative to Redis
 	* [Kyoto Tycoon]() Kyoto Tycoon is a lightweight network server on top of the Kyoto Cabinet key-value database, built for high-performance and concurrency
 - Column
-	* [Cassandra] (http://cassandra.apache.org/)
+	* [Cassandra] (http://cassandra.apache.org/) The right choice when you need scalability and high availability without compromising performance.
 		* [Cassandra Calculator] (http://www.ecyrd.com/cassandracalculator/) This simple form allows you to try out different values for your Apache Cassandra cluster and see what the impact is for your application.	
 	* [HBase] (http://hbase.apache.org/) The Hadoop database, a distributed, scalable, big data store.
 	* [Infobright] (http://www.infobright.org) Column oriented, open-source analytic database provides both speed and efficiency.  
@@ -46,7 +46,7 @@ List of content
 	* [Neo4j] (http://neo4j.com/) The world’s leading graph database.
 	* [OrientDB] (http://orientdb.com/orientdb/) 2nd Generation Distributed Graph Database with the flexibility of Documents in one product with an Open Source commercial friendly license.
 	* [ArangoDB] (https://www.arangodb.com/) A distributed free and open-source database with a flexible data model for documents, graphs, and key-values. 
-	* [Titan] (http://thinkaurelius.github.io/titan/)
+	* [Titan] (http://thinkaurelius.github.io/titan/) A scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster.
 	* [FlockDB](https://github.com/twitter/flockdb) A distributed, fault-tolerant graph database by Twitter.
 - Distributed
 	* [DAtomic](http://www.datomic.com) The fully transactional, cloud-ready, distributed database.
