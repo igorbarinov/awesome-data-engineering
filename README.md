@@ -161,7 +161,7 @@ multi-processor, multi-core machines
 * [Zodiac](https://github.com/CenturyLinkLabs/zodiac) A lightweight tool for easy deployment and rollback of dockerized applications
 * [cAdvisor](https://github.com/google/cadvisor) Analyzes resource usage and performance characteristics of running containers
 * [Micro S3 persistence](https://github.com/shinymayhem/micro-s3-persistence) Docker microservice for saving/restoring volume data to S3
-* [Dockup](https://github.com/tutumcloud/dockup) Docker image to backup/restore your Docker container volumes to AWS S3 http://tutum.co
+* [Dockup](https://github.com/tutumcloud/dockup) Docker image to backup/restore your Docker container volumes to AWS S3
 
 
 # Datasets
