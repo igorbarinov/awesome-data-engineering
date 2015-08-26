@@ -12,7 +12,7 @@ List of content
 5. [Stream Processing](#stream-processing)
 6. [Batch Processing] (#batch-processing)
 7. [Charts and Dashboards] (#charts-and-dashboards)
-8. [Frameworks] (#frameworks)
+8. [Workflow] (#workflow)
 9. [Datasets](#datasets)
 10. [Monitoring] (#monitoring)
 11. [Docker](#docker)
@@ -140,7 +140,7 @@ multi-processor, multi-core machines
 * [SmoothieCharts](http://smoothiecharts.org) A JavaScript Charting Library for Streaming Data.
 * [PyXley](https://github.com/stitchfix/pyxley) Python helpers for building dashboards using Flask and React
 
-# Frameworks
+# Workflow
 * [Luigi] (https://github.com/spotify/luigi) Luigi is a Python module that helps you build complex pipelines of batch jobs.
 	* [CronQ](https://github.com/seatgeek/cronq) An application cron-like system. [Used](http://chairnerd.seatgeek.com/building-out-the-seatgeek-data-pipeline/) w/Luige 
 * [Cascading] (http://www.cascading.org/) Java based application development platform.
