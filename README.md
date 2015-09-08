@@ -95,10 +95,12 @@ List of content
 	* [Snappy](https://github.com/google/snappy) A fast compressor/decompressor. Used with Parquet
 	* [PigZ](http://zlib.net/pigz/) A parallel implementation of gzip for modern
 multi-processor, multi-core machines
+* [Apache ORC](https://orc.apache.org/) The smallest, fastest columnar storage for Hadoop workloads 
 * [Apache Thrift](https://thrift.apache.org) The Apache Thrift software framework, for scalable cross-language services development
 * [ProtoBuf](https://github.com/google/protobuf) Protocol Buffers - Google's data interchange format
 * [SequenceFile](http://wiki.apache.org/hadoop/SequenceFile) SequenceFile is a flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats
 * [Kryo](https://github.com/EsotericSoftware/kryo) Kryo is a fast and efficient object graph serialization framework for Java
+
 
 # Stream Processing
 * [Spark Streaming](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
