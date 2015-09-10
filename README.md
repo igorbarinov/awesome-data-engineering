@@ -8,7 +8,7 @@ List of content
 1. [Databases] (#databases)
 2. [Ingestion](#data-ingestion)
 3. [File System] (#file-system)
-4. [File Format](#file-format)
+4. [Serialization format](#serialization-format)
 5. [Stream Processing](#stream-processing)
 6. [Batch Processing] (#batch-processing)
 7. [Charts and Dashboards] (#charts-and-dashboards)
@@ -89,7 +89,7 @@ List of content
 * [SeaweedFS](https://github.com/chrislusf/seaweedfs) Seaweed-FS is a simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast! Instead of supporting full POSIX file system semantics, Seaweed-FS choose to implement only a key~file mapping. Similar to the word "NoSQL", you can call it as "NoFS".
 * [S3QL](https://bitbucket.org/nikratio/s3ql) S3QL is a file system that stores all its data online using storage services like Google Storage, Amazon S3, or OpenStack.
 
-# File Format
+# Serialization format
 * [Apache Avro](https://avro.apache.org) Apache Avro™ is a data serialization system
 * [Apache Parquet](https://parquet.apache.org) Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
 	* [Snappy](https://github.com/google/snappy) A fast compressor/decompressor. Used with Parquet
