@@ -149,7 +149,7 @@ multi-processor, multi-core machines
 	* [CronQ](https://github.com/seatgeek/cronq) An application cron-like system. [Used](http://chairnerd.seatgeek.com/building-out-the-seatgeek-data-pipeline/) w/Luige 
 * [Cascading] (http://www.cascading.org/) Java based application development platform.
 * [Airflow] (https://github.com/airbnb/airflow) Airflow is a system to programmaticaly author, schedule and monitor data pipelines.
-* [Azkeban] (https://azkaban.github.io/) Azkaban is a batch workflow job scheduler created at LinkedIn to run Hadoop jobs. Azkaban resolves the ordering through job dependencies and provides an easy to use web user interface to maintain and track your workflows. 
+* [Azkaban] (https://azkaban.github.io/) Azkaban is a batch workflow job scheduler created at LinkedIn to run Hadoop jobs. Azkaban resolves the ordering through job dependencies and provides an easy to use web user interface to maintain and track your workflows. 
 * [Oozie](http://oozie.apache.org/) Oozie is a workflow scheduler system to manage Apache Hadoop jobs
 
 # ELK Elastic Logstash Kibana
