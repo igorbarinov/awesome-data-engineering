@@ -74,6 +74,7 @@ List of content
 * [FluentD](http://www.fluentd.org) An open source data collector for unified logging layer.
 * [Apache Scoop](https://sqoop.apache.org) A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
 * [Heka](https://github.com/mozilla-services/heka) Data Acquisition and Processing Made Easy
+* [Gobblin](https://github.com/linkedin/gobblin) Universal data ingestion framework for Hadoop from Linkedin
 
 # File System
 * [HDFS] (https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
