@@ -56,6 +56,8 @@ List of content
 	* [InfluxDB](https://github.com/influxdb/influxdb) Scalable datastore for metrics, events, and real-time analytics.
 	* [OpenTSDB](https://github.com/OpenTSDB/opentsdb) A scalable, distributed Time Series Database.
 	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database.
+- Other
+	* [Tarantool](https://github.com/tarantool/tarantool/) Tarantool is an in-memory database and application server.
 
 # Data Ingestion
 * [Kafka] (http://kafka.apache.org/) Publish-subscribe messaging rethought as a distributed commit log.
