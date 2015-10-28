@@ -58,6 +58,7 @@ List of content
 	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database.
 - Other
 	* [Tarantool](https://github.com/tarantool/tarantool/) Tarantool is an in-memory database and application server.
+	* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
 
 # Data Ingestion
 * [Kafka] (http://kafka.apache.org/) Publish-subscribe messaging rethought as a distributed commit log.
