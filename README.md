@@ -39,6 +39,7 @@ List of content
 	* [HBase] (http://hbase.apache.org/) The Hadoop database, a distributed, scalable, big data store.
 	* [Infobright] (http://www.infobright.org) Column oriented, open-source analytic database provides both speed and efficiency.  
 	* [AWS Redshift] (http://aws.amazon.com/redshift/) A fast, fully managed, petabyte-scale data warehouse that makes it simple and cost-effective to analyze all your data using your existing business intelligence tools.
+	* FiloDB (https://github.com/tuplejump/FiloDB) Distributed. Columnar. Versioned. Streaming. SQL.
 - Document
 	* [MongoDB] (https://www.mongodb.org/) An open-source, document database designed for ease of development and scaling. 
 	* [Percona Server for MongoDB](https://www.percona.com/software/mongo-database/percona-server-for-mongodb) Percona Server for MongoDB® is a free, enhanced, fully compatible, open source, drop-in replacement for the MongoDB® Community Edition that includes enterprise-grade features and functionality.
