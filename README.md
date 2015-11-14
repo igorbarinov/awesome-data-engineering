@@ -76,7 +76,7 @@ List of content
 	* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
 	* [Secor] (https://github.com/pinterest/secor) Pinterest's Kafka to S3 distributed consumer
 * [AWS Kinesis] (http://aws.amazon.com/kinesis/) A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
-* [RabbitMQ](http://rabbitmq.com) Robust messaging for applications.
+* [RabbitMQ](http://www.rabbitmq.com/) Robust messaging for applications.
 * [FluentD](http://www.fluentd.org) An open source data collector for unified logging layer.
 * [Apache Scoop](https://sqoop.apache.org) A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
 * [Heka](https://github.com/mozilla-services/heka) Data Acquisition and Processing Made Easy
@@ -114,8 +114,8 @@ multi-processor, multi-core machines
 * [Apache Flink](https://flink.apache.org/) Apache Flink is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams.
 * [Apache Storm](https://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system
 * [Apache Samza](https://samza.apache.org) Apache Samza is a distributed stream processing framework
-* [Apache NiFi](https://nifi.incubator.apache.org) is an easy to use, powerful, and reliable system to process and distribute data
-* [VoltDB](http://voltdb.com/)
+* [Apache NiFi](http://nifi.apache.org/) is an easy to use, powerful, and reliable system to process and distribute data
+* [VoltDB](https://voltdb.com/)
 * [PipelineDB](https://github.com/pipelinedb/pipelinedb) The Streaming SQL Database https://www.pipelinedb.com
 
 # Batch Processing
@@ -206,4 +206,4 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list. Created
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Igor Barinov](http://github.com/igorbarinov/) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [Igor Barinov](https://github.com/igorbarinov/) has waived all copyright and related or neighboring rights to this work.
