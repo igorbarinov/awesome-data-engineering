@@ -58,6 +58,7 @@ List of content
 - Distributed
 	* [DAtomic](http://www.datomic.com) The fully transactional, cloud-ready, distributed database.
 	* [Apache Geode](http://geode.incubator.apache.org) An open source, distributed, in-memory database for scale-out applications.
+	* [Gaffer ](https://github.com/GovernmentCommunicationsHeadquarters/Gaffer) A large-scale graph database
 - Timeseries
 	* [InfluxDB](https://github.com/influxdb/influxdb) Scalable datastore for metrics, events, and real-time analytics.
 	* [OpenTSDB](https://github.com/OpenTSDB/opentsdb) A scalable, distributed Time Series Database.
