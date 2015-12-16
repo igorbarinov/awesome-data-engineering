@@ -81,6 +81,7 @@ List of content
 	* [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
 	* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
 	* [Secor] (https://github.com/pinterest/secor) Pinterest's Kafka to S3 distributed consumer
+	* [Kafka-logger](https://github.com/uber/kafka-logger) Kafka-winston logger for nodejs from uber
 * [AWS Kinesis] (http://aws.amazon.com/kinesis/) A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
 * [RabbitMQ](http://www.rabbitmq.com/) Robust messaging for applications.
 * [FluentD](http://www.fluentd.org) An open source data collector for unified logging layer.
