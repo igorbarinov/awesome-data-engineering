@@ -85,7 +85,7 @@ List of content
 * [AWS Kinesis] (http://aws.amazon.com/kinesis/) A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
 * [RabbitMQ](http://www.rabbitmq.com/) Robust messaging for applications.
 * [FluentD](http://www.fluentd.org) An open source data collector for unified logging layer.
-* [Apache Scoop](https://sqoop.apache.org) A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
+* [Apache Sqoop](https://sqoop.apache.org) A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
 * [Heka](https://github.com/mozilla-services/heka) Data Acquisition and Processing Made Easy
 * [Gobblin](https://github.com/linkedin/gobblin) Universal data ingestion framework for Hadoop from Linkedin
 
