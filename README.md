@@ -38,7 +38,7 @@ List of content
 	* [Cassandra] (http://cassandra.apache.org/) The right choice when you need scalability and high availability without compromising performance.
 		* [Cassandra Calculator] (http://www.ecyrd.com/cassandracalculator/) This simple form allows you to try out different values for your Apache Cassandra cluster and see what the impact is for your application.
 		* [CCM](https://github.com/pcmanus/ccm) A script to easily create and destroy an Apache Cassandra cluster on localhost
-		* [ScyllaDB](https://github.com/scylladb/scylla) NoSQL data store using the seastar framework, compatible with Apache Cassandra http://scylladb.com
+		* [ScyllaDB](https://github.com/scylladb/scylla) NoSQL data store using the seastar framework, compatible with Apache Cassandra http://www.scylladb.com/
 	* [HBase] (http://hbase.apache.org/) The Hadoop database, a distributed, scalable, big data store.
 	* [Infobright] (http://www.infobright.org) Column oriented, open-source analytic database provides both speed and efficiency.  
 	* [AWS Redshift] (http://aws.amazon.com/redshift/) A fast, fully managed, petabyte-scale data warehouse that makes it simple and cost-effective to analyze all your data using your existing business intelligence tools.
@@ -61,7 +61,7 @@ List of content
 	* [Apache Geode](http://geode.incubator.apache.org) An open source, distributed, in-memory database for scale-out applications.
 	* [Gaffer ](https://github.com/GovernmentCommunicationsHeadquarters/Gaffer) A large-scale graph database
 - Timeseries
-	* [InfluxDB](https://github.com/influxdb/influxdb) Scalable datastore for metrics, events, and real-time analytics.
+	* [InfluxDB](https://github.com/influxdata/influxdb) Scalable datastore for metrics, events, and real-time analytics.
 	* [OpenTSDB](https://github.com/OpenTSDB/opentsdb) A scalable, distributed Time Series Database.
 	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database.
 	* [Heroic] (https://github.com/spotify/heroic) A scalable time series database based on Cassandra and Elasticsearch, by Spotify
@@ -136,7 +136,7 @@ multi-processor, multi-core machines
 * [Flink](https://flink.apache.org/) An open source platform for scalable batch and stream data processing.
 * [Tez] (https://tez.apache.org/) An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
 - Batch ML
-	* [H2O] (http://h2o.ai/) Fast scalable machine learning API for smarter applications.
+	* [H2O] (http://www.h2o.ai/) Fast scalable machine learning API for smarter applications.
 	* [Mahout] (http://mahout.apache.org/) An environment for quickly creating scalable performant machine learning applications.
 	* [Spark MLlib] (https://spark.apache.org/docs/1.2.1/mllib-guide.html) Spark’s scalable machine learning library consisting of common learning algorithms and utilities, including classification, regression, clustering, collaborative filtering, dimensionality reduction, as well as underlying optimization primitives.
 - Batch Graph
@@ -177,7 +177,7 @@ multi-processor, multi-core machines
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
 * [Rancher](http://rancher.com/rancher-os/) RancherOS is a 20mb Linux distro that runs the entire OS as Docker containers
 * [Kontena](http://www.kontena.io/) Application Containers for Masses
-* [Weave](https://github.com/weaveworks/weave) Weaving Docker containers into applications http://weave.works
+* [Weave](https://github.com/weaveworks/weave) Weaving Docker containers into applications http://www.weave.works/
 * [Zodiac](https://github.com/CenturyLinkLabs/zodiac) A lightweight tool for easy deployment and rollback of dockerized applications
 * [cAdvisor](https://github.com/google/cadvisor) Analyzes resource usage and performance characteristics of running containers
 * [Micro S3 persistence](https://github.com/shinymayhem/micro-s3-persistence) Docker microservice for saving/restoring volume data to S3
