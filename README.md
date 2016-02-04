@@ -159,6 +159,7 @@ multi-processor, multi-core machines
 	* [D3Plus] (http://d3plus.org) D3's simplier, easier to use cousin. Mostly predefined templates that you can just plug data in.
 * [SmoothieCharts](http://smoothiecharts.org) A JavaScript Charting Library for Streaming Data.
 * [PyXley](https://github.com/stitchfix/pyxley) Python helpers for building dashboards using Flask and React
+* [Plotly](https://github.com/plotly/dash) Flask, JS, and CSS boilerplate for interactive, web-based visualization apps in Python
 
 # Workflow
 * [Luigi] (https://github.com/spotify/luigi) Luigi is a Python module that helps you build complex pipelines of batch jobs.
