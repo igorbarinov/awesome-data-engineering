@@ -67,6 +67,12 @@ List of content
 	* [OpenTSDB](https://github.com/OpenTSDB/opentsdb) A scalable, distributed Time Series Database.
 	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database.
 	* [Heroic] (https://github.com/spotify/heroic) A scalable time series database based on Cassandra and Elasticsearch, by Spotify
+	* [Druid](https://github.com/druid-io/druid/) Column oriented distributed data store ideal for powering interactive applications
+	* [Riak-TS](http://basho.com/products/riak-ts/) Riak TS is the only enterprise-grade NoSQL time series database optimized specifically for IoT and Time Series data
+	* [Akumuli](https://github.com/akumuli/Akumuli) Akumuli is a numeric time-series database. It can be used to capture, store and process time-series data in real-time. The word "akumuli" can be translated from esperanto as "accumulate".
+	* [Rhombus](https://github.com/Pardot/Rhombus) A time-series object store for Cassandra that handles all the complexity of building wide row indexes.
+	* [Dalmatiner DB](https://github.com/dalmatinerdb/dalmatinerdb) Fast distributed metrics database
+	* [Blueflood](https://github.com/rackerlabs/blueflood) A distributed system designed to ingest and process time series data 
 - Other
 	* [Tarantool](https://github.com/tarantool/tarantool/) Tarantool is an in-memory database and application server.
 	* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
