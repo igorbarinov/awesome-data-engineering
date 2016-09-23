@@ -219,6 +219,12 @@ multi-processor, multi-core machines
 * [Prometheus.io](https://github.com/prometheus/prometheus) An open-source service monitoring system and time series database
 * [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
 
+# Monitoring Guides
+* [HAProxy performance monitoring](https://www.datadoghq.com/blog/monitoring-haproxy-performance-metrics?ref=awesome)
+* [Kafka performance monitoring](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics?ref=awesome)
+* [Hadoop performance monitoring](https://www.datadoghq.com/blog/monitor-hadoop-metrics?ref=awesome)
+* [Cassandra performance monitoring](https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics?ref=awesome)
+
 Cheers to [The Data Engineering Ecosystem: An Interactive Map](http://insightdataengineering.com/blog/pipeline_map.html)
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list. Created by [Insight Data Engineering](http://insightdataengineering.com) fellows.
