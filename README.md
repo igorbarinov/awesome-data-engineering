@@ -72,7 +72,8 @@ List of content
 	* [Akumuli](https://github.com/akumuli/Akumuli) Akumuli is a numeric time-series database. It can be used to capture, store and process time-series data in real-time. The word "akumuli" can be translated from esperanto as "accumulate".
 	* [Rhombus](https://github.com/Pardot/Rhombus) A time-series object store for Cassandra that handles all the complexity of building wide row indexes.
 	* [Dalmatiner DB](https://github.com/dalmatinerdb/dalmatinerdb) Fast distributed metrics database
-	* [Blueflood](https://github.com/rackerlabs/blueflood) A distributed system designed to ingest and process time series data 
+	* [Blueflood](https://github.com/rackerlabs/blueflood) A distributed system designed to ingest and process time series data
+	* [Timely](https://github.com/NationalSecurityAgency/timely) Timely is a time series database application that provides secure access to time series data based on Accumulo and Grafana.
 - Other
 	* [Tarantool](https://github.com/tarantool/tarantool/) Tarantool is an in-memory database and application server.
 	* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
