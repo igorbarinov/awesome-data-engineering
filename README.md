@@ -152,7 +152,7 @@ multi-processor, multi-core machines
 	* [Mahout] (http://mahout.apache.org/) An environment for quickly creating scalable performant machine learning applications.
 	* [Spark MLlib] (https://spark.apache.org/docs/1.2.1/mllib-guide.html) Spark’s scalable machine learning library consisting of common learning algorithms and utilities, including classification, regression, clustering, collaborative filtering, dimensionality reduction, as well as underlying optimization primitives.
 - Batch Graph
-	* [GraphLab Create] (https://dato.com/products/create/) A machine learning platform that enables data scientists and app developers to easily create intelligent apps at scale.
+	* [GraphLab Create] (https://turi.com/products/create/docs/) A machine learning platform that enables data scientists and app developers to easily create intelligent apps at scale.
 	* [Giraph] (http://giraph.apache.org/) An iterative graph processing system built for high scalability. 
 	* [Spark GraphX] (https://spark.apache.org/graphx/) Apache Spark's API for graphs and graph-parallel computation. 
 - Batch SQL
