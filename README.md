@@ -5,16 +5,16 @@ A curated list of data engineering tools for software developers [![Awesome](htt
 
 List of content
 
-1. [Databases] (#databases)
+1. [Databases](#databases)
 2. [Ingestion](#data-ingestion)
-3. [File System] (#file-system)
+3. [File System](#file-system)
 4. [Serialization format](#serialization-format)
 5. [Stream Processing](#stream-processing)
-6. [Batch Processing] (#batch-processing)
-7. [Charts and Dashboards] (#charts-and-dashboards)
-8. [Workflow] (#workflow)
+6. [Batch Processing](#batch-processing)
+7. [Charts and Dashboards](#charts-and-dashboards)
+8. [Workflow](#workflow)
 9. [Datasets](#datasets)
-10. [Monitoring] (#monitoring)
+10. [Monitoring](#monitoring)
 11. [Docker](#docker)
 
 # Databases
