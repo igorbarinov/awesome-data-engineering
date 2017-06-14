@@ -231,8 +231,6 @@ multi-processor, multi-core machines
 ## Conferences
 * [DataEngConf](http://www.dataengconf.com/about) DataEngConf is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
 
-## Prometheus
-
 Cheers to [The Data Engineering Ecosystem: An Interactive Map](http://xyz.insightdataengineering.com/blog/pipeline_map.html)
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list. Created by [Insight Data Engineering](http://insightdataengineering.com) fellows.
