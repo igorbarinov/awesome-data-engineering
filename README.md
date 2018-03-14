@@ -107,6 +107,9 @@ List of content
 	* [Snakebite](https://github.com/spotify/snakebite) A pure python HDFS client
 * [AWS S3](http://aws.amazon.com/s3/)
 	* [smart_open](https://github.com/piskvorky/smart_open) Utils for streaming large files (S3, HDFS, gzip, bz2)
+    * [s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) mount s3 bucket 
+* [Google Cloud Storage](cloud.google.com/storage)
+    * [s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) this tool can also mount google cloud storage bucket 
 * [Tachyon](http://tachyon-project.org/) Tachyon is a memory-centric distributed storage system enabling reliable data sharing at memory-speed across cluster frameworks, such as Spark and MapReduce
 * [CEPH](http://ceph.com/) Ceph is a unified, distributed storage system designed for excellent performance, reliability and scalability
 * [OrangeFS](http://www.orangefs.org/) Orange File System is a branch of the Parallel Virtual File System
