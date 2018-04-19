@@ -101,6 +101,9 @@ List of content
 * [Apache Sqoop](https://sqoop.apache.org) A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
 * [Heka](https://github.com/mozilla-services/heka) Data Acquisition and Processing Made Easy
 * [Gobblin](https://github.com/linkedin/gobblin) Universal data ingestion framework for Hadoop from Linkedin
+* [Nakadi](http://nakadi.io) Nakadi is an open source event messaging platform that provides a REST API on top of Kafka-like queues.
+* [Pravega](https://pravega.io) Pravega provides a new storage abstraction - a stream - for continuous and unbounded data.
+* [Apache Pulsar](https://pulsar.apache.org/) Apache Pulsar is an open-source distributed pub-sub messaging system.
 
 # File System
 * [HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
