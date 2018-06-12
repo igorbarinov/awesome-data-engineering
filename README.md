@@ -16,6 +16,8 @@ List of content
 9. [Datasets](#datasets)
 10. [Monitoring](#monitoring)
 11. [Docker](#docker)
+12. [Datasets](#datasets)
+13. [Community](#community)
 
 # Databases
 - Relational
@@ -243,6 +245,9 @@ multi-processor, multi-core machines
 
 ## Podcasts
 * [Data Engineering Podcast](https://www.dataengineeringpodcast.com/) The show about modern data infrastructure.
+
+## Journals
+* [Data Engineering Bulletin](http://sites.computer.org/debull/bull_issues.html) Published by the IEEE Technical Committee on Data Engineering
 
 Cheers to [The Data Engineering Ecosystem: An Interactive Map](http://xyz.insightdataengineering.com/blog/pipeline_map.html)
 
