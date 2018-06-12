@@ -16,8 +16,7 @@ List of content
 9. [Datasets](#datasets)
 10. [Monitoring](#monitoring)
 11. [Docker](#docker)
-12. [Datasets](#datasets)
-13. [Community](#community)
+12. [Community](#community)
 
 # Databases
 - Relational
