@@ -140,7 +140,7 @@ multi-processor, multi-core machines
 * [Apache Storm](https://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system
 * [Apache Samza](https://samza.apache.org) Apache Samza is a distributed stream processing framework
 * [Apache NiFi](http://nifi.apache.org/) is an easy to use, powerful, and reliable system to process and distribute data
-* [VoltDB](https://voltdb.com/)
+* [VoltDB](https://voltdb.com/) VoltDb is an ACID-compliant RDBMS which uses a [shared nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture).
 * [PipelineDB](https://github.com/pipelinedb/pipelinedb) The Streaming SQL Database https://www.pipelinedb.com
 * [Spring Cloud Dataflow](http://cloud.spring.io/spring-cloud-dataflow/) Streaming and tasks execution between Spring Boot apps
 * [Bonobo](https://www.bonobo-project.org/) Bonobo is a data-processing toolkit for python 3.5+
