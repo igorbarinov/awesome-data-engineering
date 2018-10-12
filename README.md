@@ -75,6 +75,7 @@ List of content
 	* [Dalmatiner DB](https://github.com/dalmatinerdb/dalmatinerdb) Fast distributed metrics database
 	* [Blueflood](https://github.com/rackerlabs/blueflood) A distributed system designed to ingest and process time series data
 	* [Timely](https://github.com/NationalSecurityAgency/timely) Timely is a time series database application that provides secure access to time series data based on Accumulo and Grafana.
+	* [TimescaleDB](https://github.com/timescale/timescaledb) TimescaleDB is an open-source database designed to make SQL scalable for time-series data. Packaged as a PostgreSQL extension, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.
 - Other
 	* [Tarantool](https://github.com/tarantool/tarantool/) Tarantool is an in-memory database and application server.
 	* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
