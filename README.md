@@ -146,6 +146,7 @@ multi-processor, multi-core machines
 * [Spring Cloud Dataflow](https://cloud.spring.io/spring-cloud-dataflow/) Streaming and tasks execution between Spring Boot apps
 * [Bonobo](https://www.bonobo-project.org/) Bonobo is a data-processing toolkit for python 3.5+
 * [Robinhood's Faust](https://github.com/robinhood/faust) Forever scalable event processing & in-memory durable K/V store as a library with asyncio & static typing.
+* [Streamz](https://github.com/mrocklin/streamz) Build python pipelines to manage continuous streams of data. Simple to use in simple cases, but also supports complex pipelines that involve branching, joining, flow control, feedback, back pressure, and so on.
 
 # Batch Processing
 * [Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
@@ -157,6 +158,7 @@ multi-processor, multi-core machines
 * [AWS EMR](https://aws.amazon.com/emr/) A web service that makes it easy to quickly and cost-effectively process vast amounts of data.
 * [Tez](https://tez.apache.org/) An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
 * [Bistro](https://github.com/asavinov/bistro) is a light-weight engine for general-purpose data processing including both batch and stream analytics. It is based on a novel unique data model, which represents data via *functions* and processes data via *columns operations* as opposed to having only set operations in conventional approaches like MapReduce or SQL.
+* [Dask](https://github.com/dask/dask) Python parallel computing with task scheduling.
 - Batch ML
 	* [H2O](https://www.h2o.ai/) Fast scalable machine learning API for smarter applications.
 	* [Mahout](https://mahout.apache.org/) An environment for quickly creating scalable performant machine learning applications.
@@ -185,6 +187,12 @@ multi-processor, multi-core machines
 * [Redash](https://redash.io/) Make Your Company Data Driven. Connect to any data source, easily visualize and share your data.
 * [Metabase](https://github.com/metabase/metabase) Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.
 * [PyQtGraph](http://www.pyqtgraph.org/) PyQtGraph is a pure-python graphics and GUI library built on PyQt4 / PySide and numpy. It is intended for use in mathematics / scientific / engineering applications.
+* [PyViz](https://github.com/pyviz) (Python Visualization):
+	* [HoloViews](https://github.com/pyviz/holoviews): Stop plotting your data - annotate your data and let it visualize itself.
+		* [GeoViews](https://github.com/pyviz/geoviews): Simple, concise geographical visualization in Python.
+	* [Bokeh](https://github.com/bokeh/bokeh): Quickly and easily create interactive plots, dashboards, and data applications.
+	* [Datashader](https://github.com/pyviz/datashader): Turns even the largest data into images, accurately.
+	* [Altair](https://github.com/altair-viz/altair): Declarative statistical visualization library for Python.
 
 
 # Workflow
