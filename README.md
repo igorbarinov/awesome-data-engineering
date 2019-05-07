@@ -185,8 +185,7 @@ multi-processor, multi-core machines
 * [Redash](https://redash.io/) Make Your Company Data Driven. Connect to any data source, easily visualize and share your data.
 * [Metabase](https://github.com/metabase/metabase) Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.
 * [PyQtGraph](http://www.pyqtgraph.org/) PyQtGraph is a pure-python graphics and GUI library built on PyQt4 / PySide and numpy. It is intended for use in mathematics / scientific / engineering applications.
-* [Dashing](http://dashing.io/) Dashing is a Sinatra based framework that lets you build beautiful dashboards.
-
+* [Smashing](https://github.com/Smashing/smashing) Smashing, the spiritual successor to Dashing, is a Sinatra based framework that lets you build excellent dashboards. It looks especially great on TVs.
 
 # Workflow
 * [Luigi](https://github.com/spotify/luigi) Luigi is a Python module that helps you build complex pipelines of batch jobs.
