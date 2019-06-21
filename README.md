@@ -52,6 +52,7 @@ List of content
 		* [Percona Server for MongoDB](https://www.percona.com/software/mongo-database/percona-server-for-mongodb) Percona Server for MongoDB® is a free, enhanced, fully compatible, open source, drop-in replacement for the MongoDB® Community Edition that includes enterprise-grade features and functionality.
 		* [MemDB](https://github.com/rain1017/memdb) Distributed Transactional In-Memory Database (based on MongoDB)
 	* [Elasticsearch](https://www.elastic.co/) Search & Analyze Data in Real Time.
+	* [FaunaDB](https://fauna.com/) GraphQL API, multi-region ACID transactions, relational joins, serverless pricing.
 	* [Couchbase](https://www.couchbase.com/) The highest performing NoSQL distributed database.
 	* [RethinkDB](https://rethinkdb.com/) The open-source database for the realtime web.
 	* [RavenDB](https://ravendb.net/) Fully Transactional NoSQL Document Database.
