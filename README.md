@@ -232,6 +232,9 @@ multi-processor, multi-core machines
 * [Prometheus.io](https://github.com/prometheus/prometheus) An open-source service monitoring system and time series database
 * [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
 
+## intermix.io
+* [intermix.io](https://intermix.io/) Performance monitoring for Amazon Redshift
+
 # Community
 
 ## Forums
