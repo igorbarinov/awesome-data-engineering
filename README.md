@@ -197,6 +197,7 @@ multi-processor, multi-core machines
 * [Oozie](https://oozie.apache.org/) Oozie is a workflow scheduler system to manage Apache Hadoop jobs
 * [Pinball](https://github.com/pinterest/pinball) DAG based workflow manager. Job flows are defined programmaticaly in Python. Support output passing between jobs.
 * [Dagster](https://github.com/dagster-io/dagster) Dagster is an open-source Python library for building data applications.
+* [Kedro](https://github.com/quantumblacklabs/kedro/) Kedro is a development workflow framework that implements best practices for data pipelines with an eye towards productionizing machine learning models. Kedro has an interesting SDK for working with data sources, and has an integration with PySpark.
 
 # ELK Elastic Logstash Kibana
 * [docker-logstash](https://github.com/pblittle/docker-logstash) A highly configurable logstash (1.4.4) docker image running Elasticsearch (1.7.0) and Kibana (3.1.2).
