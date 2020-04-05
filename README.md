@@ -186,6 +186,7 @@ multi-processor, multi-core machines
 * [Redash](https://redash.io/) Make Your Company Data Driven. Connect to any data source, easily visualize and share your data.
 * [Metabase](https://github.com/metabase/metabase) Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.
 * [PyQtGraph](http://www.pyqtgraph.org/) PyQtGraph is a pure-python graphics and GUI library built on PyQt4 / PySide and numpy. It is intended for use in mathematics / scientific / engineering applications.
+* [Altair](https://altair-viz.github.io/) Altair is a declarative statistical visualization library for Python, based on Vega and Vega-Lite. Highly inspired by ggplot library in R and based off of the Grammar of Graphics specification.
 
 
 # Workflow
