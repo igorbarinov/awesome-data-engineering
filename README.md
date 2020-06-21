@@ -47,7 +47,7 @@ List of content
 	* [AWS Redshift](https://aws.amazon.com/redshift/) A fast, fully managed, petabyte-scale data warehouse that makes it simple and cost-effective to analyze all your data using your existing business intelligence tools.
 	* [FiloDB](https://github.com/filodb/FiloDB) Distributed. Columnar. Versioned. Streaming. SQL.
 	* [Vertica](https://www.vertica.com) Distributed, MPP columnar database with extensive analytics SQL.
-	* [ClickHouse](https://clickhouse.tech) Distributed columnar DBMS for OLAP, with SQL support.
+	* [ClickHouse](https://clickhouse.tech) Distributed columnar DBMS for OLAP. SQL.
 - Document
 	* [MongoDB](https://www.mongodb.com) An open-source, document database designed for ease of development and scaling. 
 		* [Percona Server for MongoDB](https://www.percona.com/software/mongo-database/percona-server-for-mongodb) Percona Server for MongoDB® is a free, enhanced, fully compatible, open source, drop-in replacement for the MongoDB® Community Edition that includes enterprise-grade features and functionality.
