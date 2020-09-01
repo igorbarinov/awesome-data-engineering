@@ -13,6 +13,7 @@ List of content
 6. [Batch Processing](#batch-processing)
 7. [Charts and Dashboards](#charts-and-dashboards)
 8. [Workflow](#workflow)
+9. [Data Lake Management](#data-lake-management)
 9. [ELK Elastic Logstash Kibana](#elk-elastic-logstash-kibana)
 10. [Docker](#docker)
 11. [Datasets](#datasets)
@@ -199,6 +200,9 @@ multi-processor, multi-core machines
 * [Oozie](https://oozie.apache.org/) Oozie is a workflow scheduler system to manage Apache Hadoop jobs
 * [Pinball](https://github.com/pinterest/pinball) DAG based workflow manager. Job flows are defined programmaticaly in Python. Support output passing between jobs.
 * [Dagster](https://github.com/dagster-io/dagster) Dagster is an open-source Python library for building data applications.
+
+# Data Lake Management
+* [lakeFS](https://github.com/treeverse/lakeFS) lakeFS is an open source platform that delivers resilience and manageability to object-storage based data lakes.
 
 # ELK Elastic Logstash Kibana
 * [docker-logstash](https://github.com/pblittle/docker-logstash) A highly configurable logstash (1.4.4) docker image running Elasticsearch (1.7.0) and Kibana (3.1.2).
