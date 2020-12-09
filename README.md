@@ -114,6 +114,7 @@ List of content
 	* [Snakebite](https://github.com/spotify/snakebite) A pure python HDFS client
 * [AWS S3](https://aws.amazon.com/s3/)
 	* [smart_open](https://github.com/RaRe-Technologies/smart_open) Utils for streaming large files (S3, HDFS, gzip, bz2)
+* [Apache Ozone](https://ozone.apache.org/) Ozone is distributed object store for Hadoop built on a highly available, replicated block storage layer called Hadoop Distributed Data Store (HDDS).
 * [Alluxio](https://www.alluxio.org/) Alluxio is a memory-centric distributed storage system enabling reliable data sharing at memory-speed across cluster frameworks, such as Spark and MapReduce
 * [CEPH](https://ceph.com/) Ceph is a unified, distributed storage system designed for excellent performance, reliability and scalability
 * [OrangeFS](https://www.orangefs.org/) Orange File System is a branch of the Parallel Virtual File System
