@@ -30,7 +30,7 @@ List of content
 	* [MariaDB](https://mariadb.org/) An enhanced, drop-in replacement for MySQL.
 	* [PostgreSQL](https://www.postgresql.org/) The world's most advanced open source database.
 	* [Amazon RDS](https://aws.amazon.com/rds/) Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud. 
-	* [Crate.IO](https://crate.io/) Scalable SQL database with the NOSQL goodies.
+	* [Crate.IO](https://crate.io/) Scalable SQL database with the NoSQL goodies.
 - Key-Value
 	* [Redis](https://redis.io/) An open source, BSD licensed, advanced key-value cache and store.
 	* [Riak](http://docs.basho.com/riak/kv/) A distributed database designed to deliver maximum data availability by distributing data across multiple servers.
