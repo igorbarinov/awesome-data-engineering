@@ -201,6 +201,7 @@ multi-processor, multi-core machines
 * [Pinball](https://github.com/pinterest/pinball) DAG based workflow manager. Job flows are defined programmaticaly in Python. Support output passing between jobs.
 * [Dagster](https://github.com/dagster-io/dagster) Dagster is an open-source Python library for building data applications.
 * [Dataform] (https://dataform.co/) is an open-source framework and web based IDE to manage datasets and their dependencies. SQLX extends your existing SQL warehouse dialect to add features that support dependency management, testing, documentation and more.
+* [Datumaro](https://github.com/openvinotoolkit/datumaro) Dataset Management Framework is a Python library and a CLI tool to build, analyze and manage Computer Vision datasets.
 
 # Data Lake Management
 * [lakeFS](https://github.com/treeverse/lakeFS) lakeFS is an open source platform that delivers resilience and manageability to object-storage based data lakes.
