@@ -69,6 +69,7 @@ List of content
 - Timeseries
 	* [InfluxDB](https://github.com/influxdata/influxdb) Scalable datastore for metrics, events, and real-time analytics.
 	* [OpenTSDB](https://github.com/OpenTSDB/opentsdb) A scalable, distributed Time Series Database.
+	* [QuestDB](https://questdb.io/) A relational column-oriented database designed for real-time analytics on time series and event data.
 	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database.
 	* [Heroic](https://github.com/spotify/heroic) A scalable time series database based on Cassandra and Elasticsearch, by Spotify
 	* [Druid](https://github.com/apache/incubator-druid) Column oriented distributed data store ideal for powering interactive applications
