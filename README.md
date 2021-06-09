@@ -254,7 +254,7 @@ multi-processor, multi-core machines
 * [/r/etl](https://www.reddit.com/r/ETL/) Subreddit focused on ETL
 
 ## Conferences
-* [DataEngConf](https://www.datacouncil.ai/about) DataEngConf is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
+* [Data Council](https://www.datacouncil.ai/about) Data Council is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
 
 ## Podcasts
 * [Data Engineering Podcast](https://www.dataengineeringpodcast.com/) The show about modern data infrastructure.
