@@ -253,6 +253,9 @@ multi-processor, multi-core machines
 * [/r/dataengineering](https://www.reddit.com/r/dataengineering/) News, tips and background on Data Engineering
 * [/r/etl](https://www.reddit.com/r/ETL/) Subreddit focused on ETL
 
+## Articles
+* [The Top 10 Essential Data Engineer Skills for 2021](https://www.webagesolutions.com/top-10-essential-data-engineer-skills-for-2021) A review of the data engineer skill requirements for 2021.
+
 ## Conferences
 * [Data Council](https://www.datacouncil.ai/about) Data Council is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
 
