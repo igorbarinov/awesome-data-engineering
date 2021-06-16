@@ -165,6 +165,7 @@ multi-processor, multi-core machines
 * [AWS EMR](https://aws.amazon.com/emr/) A web service that makes it easy to quickly and cost-effectively process vast amounts of data.
 * [Tez](https://tez.apache.org/) An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
 * [Bistro](https://github.com/asavinov/bistro) is a light-weight engine for general-purpose data processing including both batch and stream analytics. It is based on a novel unique data model, which represents data via *functions* and processes data via *columns operations* as opposed to having only set operations in conventional approaches like MapReduce or SQL.
+* [Prosto](https://github.com/asavinov/prosto) Prosto is a data processing toolkit radically changing how data is processed by heavily relying on functions and operations with functions - an alternative to map-reduce and join-groupby.
 - Batch ML
 	* [H2O](https://www.h2o.ai/) Fast scalable machine learning API for smarter applications.
 	* [Mahout](https://mahout.apache.org/) An environment for quickly creating scalable performant machine learning applications.
