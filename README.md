@@ -13,6 +13,7 @@ List of content
 6. [Batch Processing](#batch-processing)
 7. [Charts and Dashboards](#charts-and-dashboards)
 8. [Workflow](#workflow)
+9. [Data Lake Management](#data-lake-management)
 9. [ELK Elastic Logstash Kibana](#elk-elastic-logstash-kibana)
 10. [Docker](#docker)
 11. [Datasets](#datasets)
@@ -47,6 +48,7 @@ List of content
 	* [AWS Redshift](https://aws.amazon.com/redshift/) A fast, fully managed, petabyte-scale data warehouse that makes it simple and cost-effective to analyze all your data using your existing business intelligence tools.
 	* [FiloDB](https://github.com/filodb/FiloDB) Distributed. Columnar. Versioned. Streaming. SQL.
 	* [Vertica](https://www.vertica.com) Distributed, MPP columnar database with extensive analytics SQL.
+	* [ClickHouse](https://clickhouse.tech) Distributed columnar DBMS for OLAP. SQL.
 - Document
 	* [MongoDB](https://www.mongodb.com) An open-source, document database designed for ease of development and scaling. 
 		* [Percona Server for MongoDB](https://www.percona.com/software/mongo-database/percona-server-for-mongodb) Percona Server for MongoDB® is a free, enhanced, fully compatible, open source, drop-in replacement for the MongoDB® Community Edition that includes enterprise-grade features and functionality.
@@ -68,6 +70,7 @@ List of content
 - Timeseries
 	* [InfluxDB](https://github.com/influxdata/influxdb) Scalable datastore for metrics, events, and real-time analytics.
 	* [OpenTSDB](https://github.com/OpenTSDB/opentsdb) A scalable, distributed Time Series Database.
+	* [QuestDB](https://questdb.io/) A relational column-oriented database designed for real-time analytics on time series and event data.
 	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database.
 	* [Heroic](https://github.com/spotify/heroic) A scalable time series database based on Cassandra and Elasticsearch, by Spotify
 	* [Druid](https://github.com/apache/incubator-druid) Column oriented distributed data store ideal for powering interactive applications
@@ -82,6 +85,7 @@ List of content
 	* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
 	* [cayley](https://github.com/cayleygraph/cayley) An open-source graph database. Google.
 	* [Snappydata](https://github.com/SnappyDataInc/snappydata) SnappyData: OLTP + OLAP Database built on Apache Spark
+	* [TimescaleDB](https://www.timescale.com/): Built as an extension on top of PostgreSQL, TimescaleDB is a time-series SQL database providing fast analytics, scalability, with automated data management on a proven storage engine.
 
 # Data Ingestion
 * [Kafka](https://kafka.apache.org/) Publish-subscribe messaging rethought as a distributed commit log.
@@ -105,6 +109,7 @@ List of content
 * [Nakadi](https://nakadi.io) Nakadi is an open source event messaging platform that provides a REST API on top of Kafka-like queues.
 * [Pravega](http://www.pravega.io) Pravega provides a new storage abstraction - a stream - for continuous and unbounded data.
 * [Apache Pulsar](https://pulsar.apache.org/) Apache Pulsar is an open-source distributed pub-sub messaging system.
+* [AWS Data Wranlger](https://github.com/awslabs/aws-data-wrangler) Utility belt to handle data on AWS.
 
 # File System
 * [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)
@@ -141,11 +146,14 @@ multi-processor, multi-core machines
 * [Apache Storm](https://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system
 * [Apache Samza](https://samza.apache.org) Apache Samza is a distributed stream processing framework
 * [Apache NiFi](https://nifi.apache.org/) is an easy to use, powerful, and reliable system to process and distribute data
+* [Apache Hudi](https://hudi.apache.org/) Apache Hudi is an open source framework for managing storage for real time processing, one of the most interesting feature is the Upsert
 * [VoltDB](https://voltdb.com/) VoltDb is an ACID-compliant RDBMS which uses a [shared nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture).
 * [PipelineDB](https://github.com/pipelinedb/pipelinedb) The Streaming SQL Database
 * [Spring Cloud Dataflow](https://cloud.spring.io/spring-cloud-dataflow/) Streaming and tasks execution between Spring Boot apps
 * [Bonobo](https://www.bonobo-project.org/) Bonobo is a data-processing toolkit for python 3.5+
 * [Robinhood's Faust](https://github.com/robinhood/faust) Forever scalable event processing & in-memory durable K/V store as a library with asyncio & static typing.
+* [HStreamDB](https://github.com/hstreamdb/hstream) The streaming database built for IoT data storage and real-time processing.
+* [Kuiper](https://github.com/emqx/kuiper) An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.
 
 # Batch Processing
 * [Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
@@ -197,6 +205,13 @@ multi-processor, multi-core machines
 * [Pinball](https://github.com/pinterest/pinball) DAG based workflow manager. Job flows are defined programmaticaly in Python. Support output passing between jobs.
 * [Dagster](https://github.com/dagster-io/dagster) Dagster is an open-source Python library for building data applications.
 * [Kedro](https://kedro.readthedocs.io/en/latest/) Kedro is a framework that makes it easy to build robust and scalable data pipelines by providing uniform project templates, data abstraction, configuration and pipeline assembly.
+* [Dataform](https://dataform.co/) is an open-source framework and web based IDE to manage datasets and their dependencies. SQLX extends your existing SQL warehouse dialect to add features that support dependency management, testing, documentation and more.
+* [Census](https://getcensus.com/) is a reverse-ETL  tool that let you sync data from your cloud data warehouse to SaaS applications like Salesforce, Marketo, HubSpot, Zendesk, etc. No engineering favors required—just SQL.
+* [dbt](https://getdbt.com/) is a command line tool that enables data analysts and engineers to transform data in their warehouses more effectively.
+
+# Data Lake Management
+* [lakeFS](https://github.com/treeverse/lakeFS) lakeFS is an open source platform that delivers resilience and manageability to object-storage based data lakes.
+
 
 # ELK Elastic Logstash Kibana
 * [docker-logstash](https://github.com/pblittle/docker-logstash) A highly configurable logstash (1.4.4) docker image running Elasticsearch (1.7.0) and Kibana (3.1.2).
@@ -241,7 +256,7 @@ multi-processor, multi-core machines
 * [/r/etl](https://www.reddit.com/r/ETL/) Subreddit focused on ETL
 
 ## Conferences
-* [DataEngConf](https://www.datacouncil.ai/about) DataEngConf is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
+* [Data Council](https://www.datacouncil.ai/about) Data Council is the first technical conference that bridges the gap between data scientists, data engineers and data analysts.
 
 ## Podcasts
 * [Data Engineering Podcast](https://www.dataengineeringpodcast.com/) The show about modern data infrastructure.
