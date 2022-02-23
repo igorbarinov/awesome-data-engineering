@@ -210,6 +210,7 @@ multi-processor, multi-core machines
 
 # Data Lake Management
 * [lakeFS](https://github.com/treeverse/lakeFS) lakeFS is an open source platform that delivers resilience and manageability to object-storage based data lakes.
+* [rtdl](https://rtdl.io/) - rtdl an open source real-time data lake building tool that is compatible with AWS, GCP, and Azure. It ingests JSON data, stores in Parquet, and automatically gives you access to your data via Dremio (included). ([Source Code](https://github.com/realtimedatalake/rtdl)) `MIT` `Go/Docker` `Self-Hosted`
 
 # ELK Elastic Logstash Kibana
 * [docker-logstash](https://github.com/pblittle/docker-logstash) A highly configurable logstash (1.4.4) docker image running Elasticsearch (1.7.0) and Kibana (3.1.2).
