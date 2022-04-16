@@ -151,7 +151,7 @@ multi-processor, multi-core machines
 * [PipelineDB](https://github.com/pipelinedb/pipelinedb) The Streaming SQL Database
 * [Spring Cloud Dataflow](https://cloud.spring.io/spring-cloud-dataflow/) Streaming and tasks execution between Spring Boot apps
 * [Bonobo](https://www.bonobo-project.org/) Bonobo is a data-processing toolkit for python 3.5+
-* [Robinhood's Faust](https://github.com/robinhood/faust) Forever scalable event processing & in-memory durable K/V store as a library with asyncio & static typing.
+* [Robinhood's Faust](https://github.com/faust-streaming/faust) Forever scalable event processing & in-memory durable K/V store as a library with asyncio & static typing.
 * [HStreamDB](https://github.com/hstreamdb/hstream) The streaming database built for IoT data storage and real-time processing.
 * [Kuiper](https://github.com/emqx/kuiper) An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.
 
