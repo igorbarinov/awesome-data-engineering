@@ -247,6 +247,9 @@ multi-processor, multi-core machines
 * [Prometheus.io](https://github.com/prometheus/prometheus) An open-source service monitoring system and time series database
 * [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
 
+## Observability
+* [Metaplane](https://www.metaplane.dev/) Free-to-use database monitoring, anomaly detection, and alerting
+
 # Community
 
 ## Forums
