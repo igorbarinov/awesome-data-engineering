@@ -217,6 +217,7 @@ multi-processor, multi-core machines
 * [ZomboDB](https://github.com/zombodb/zombodb) Postgres Extension that allows creating an index backed by Elasticsearch
 
 # Docker
+* [envd](https://github.com/tensorchord/envd/) 🏕️ Development environment for machine learning
 * [Gockerize](https://github.com/redbooth/gockerize) Package golang service into minimal docker containers
 * [Flocker](https://github.com/ClusterHQ/flocker) Easily manage Docker containers & their data
 * [Rancher](https://rancher.com/rancher-os/) RancherOS is a 20mb Linux distro that runs the entire OS as Docker containers
