@@ -18,8 +18,9 @@ List of content
 10. [Docker](#docker)
 11. [Datasets](#datasets)
 12. [Monitoring](#monitoring)
-13. [Community](#community)
-14. [No Code](#no-code)
+13. [No Code](#no-code)
+14. [Community](#community)
+
 
 # Databases
 - Relational
@@ -248,6 +249,10 @@ multi-processor, multi-core machines
 * [Prometheus.io](https://github.com/prometheus/prometheus) An open-source service monitoring system and time series database
 * [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
 
+# No Code
+* [QuickTable](https://www.quicktable.io/) - Empowers everyone to access, clean, transform, and analyze data on databases, datalakes and warehouses with no code.
+
+
 # Community
 
 ## Forums
@@ -267,8 +272,5 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list. Created
 ## License
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-# No Code
-* [QuickTable](https://www.quicktable.io/) - Empowers everyone to access, clean, transform, and analyze data on databases, datalakes and warehouses with no code.
 
 To the extent possible under law, [Igor Barinov](https://github.com/igorbarinov/) has waived all copyright and related or neighboring rights to this work.
