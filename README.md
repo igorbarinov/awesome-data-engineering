@@ -64,7 +64,7 @@ List of content
 	* [Titan](https://titan.thinkaurelius.com) A scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster.
 	* [FlockDB](https://github.com/twitter-archive/flockdb) A distributed, fault-tolerant graph database by Twitter. Deprecated.
 - Distributed
-	* [DAtomic](https://www.datomic.com) The fully transactional, cloud-ready, distributed database.
+	* [Datomic](https://www.datomic.com) The fully transactional, cloud-ready, distributed database.
 	* [Apache Geode](https://geode.apache.org/) An open source, distributed, in-memory database for scale-out applications.
 	* [Gaffer ](https://github.com/gchq/Gaffer) A large-scale graph database
 - Timeseries
