@@ -154,6 +154,7 @@ multi-processor, multi-core machines
 * [Robinhood's Faust](https://github.com/faust-streaming/faust) Forever scalable event processing & in-memory durable K/V store as a library with asyncio & static typing.
 * [HStreamDB](https://github.com/hstreamdb/hstream) The streaming database built for IoT data storage and real-time processing.
 * [Kuiper](https://github.com/emqx/kuiper) An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.
+* [Substation](https://github.com/brexhq/substation) Substation is a cloud native data pipeline and transformation toolkit written in Go.
 
 # Batch Processing
 * [Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
