@@ -17,8 +17,9 @@ List of content
 9. [ELK Elastic Logstash Kibana](#elk-elastic-logstash-kibana)
 10. [Docker](#docker)
 11. [Datasets](#datasets)
-12. [Monitoring](#monitoring)
-13. [Community](#community)
+12. [Websites](#websites)
+13. [Monitoring](#monitoring)
+14. [Community](#community)
 
 # Databases
 - Relational
@@ -241,6 +242,10 @@ multi-processor, multi-core machines
 * [GitHub Archive](https://www.gharchive.org/) GitHub's public timeline since 2011, updated every hour
 * [Common Crawl](https://commoncrawl.org/) Open source repository of web crawl data
 * [Wikipedia](https://dumps.wikimedia.org/enwiki/latest/) Wikipedia's complete copy of all wikis, in the form of wikitext source and metadata embedded in XML. A number of raw database tables in SQL form are also available.
+
+# Websites
+
+* [Synthical](https://synthical.com) - AI-powered collaborative research environment. You can use it to get recommendations of articles based on reading history, simplify papers, find out what articles are trending, search articles by meaning (not just keywords), create and share folders of articles, see lists of articles from specific companies and universities, and so on.
 
 # Monitoring
 
