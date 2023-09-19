@@ -208,7 +208,7 @@ multi-processor, multi-core machines
 * [Census](https://getcensus.com/) is a reverse-ETL  tool that let you sync data from your cloud data warehouse to SaaS applications like Salesforce, Marketo, HubSpot, Zendesk, etc. No engineering favors required—just SQL.
 * [dbt](https://getdbt.com/) is a command line tool that enables data analysts and engineers to transform data in their warehouses more effectively.
 * [RudderStack](https://github.com/rudderlabs/rudder-server) is a warehouse-first Customer Data Platform that enables you to collect data from every application, website and SaaS platform, and then activate it in your warehouse and business tools
-* [Kestra](https://github.com/kestra-io/kestra) A versatile orchestrator and scheduler built on Java, designed to handle a broad range of workflows with a language-agnostic, API-first architecture.
+* [Kestra](https://github.com/kestra-io/kestra) A versatile open source orchestrator and scheduler built on Java, designed to handle a broad range of workflows with a language-agnostic, API-first architecture.
 
 # Data Lake Management
 * [lakeFS](https://github.com/treeverse/lakeFS) lakeFS is an open source platform that delivers resilience and manageability to object-storage based data lakes.
