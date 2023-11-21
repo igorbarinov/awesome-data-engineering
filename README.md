@@ -164,7 +164,9 @@ multi-processor, multi-core machines
 	* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores. Deprecated.
 	* [Spark RDD API Examples](http://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html) by Zhen He
 	* [Livy](https://livy.incubator.apache.org) Livy, the REST Spark Server
+	* [Delight](https://github.com/datamechanics/delight) A free & cross platform monitoring tool (Spark UI / Spark History Server alternative)
 * [AWS EMR](https://aws.amazon.com/emr/) A web service that makes it easy to quickly and cost-effectively process vast amounts of data.
+* [Data Mechanics](https://www.datamechanics.co) A cloud-based platform deployed on Kubernetes making Apache Spark more developer-friendly and cost-effective.
 * [Tez](https://tez.apache.org/) An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
 * [Bistro](https://github.com/asavinov/bistro) is a light-weight engine for general-purpose data processing including both batch and stream analytics. It is based on a novel unique data model, which represents data via *functions* and processes data via *columns operations* as opposed to having only set operations in conventional approaches like MapReduce or SQL.
 - Batch ML
