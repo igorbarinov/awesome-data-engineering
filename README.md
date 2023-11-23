@@ -57,6 +57,7 @@ List of content
 	* [Couchbase](https://www.couchbase.com/) The highest performing NoSQL distributed database.
 	* [RethinkDB](https://rethinkdb.com/) The open-source database for the realtime web.
 	* [RavenDB](https://ravendb.net/) Fully Transactional NoSQL Document Database.
+	* [HarperDB](https://www.harperdb.io/) Globally-distributed edge database and application platform with near-zero latency, huge cost savings, and a superior developer experience.
 - Graph
 	* [Neo4j](https://neo4j.com/) The world’s leading graph database.
 	* [OrientDB](https://orientdb.com) 2nd Generation Distributed Graph Database with the flexibility of Documents in one product with an Open Source commercial friendly license.
