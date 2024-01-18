@@ -291,3 +291,7 @@
 ### Podcasts
 
 - [Data Engineering Podcast](https://www.dataengineeringpodcast.com/) - The show about modern data infrastructure.
+
+### Books
+
+- [Snowflake Data Engineering](https://www.manning.com/books/snowflake-data-engineering) - A practical introduction to data engineering on the Snowflake cloud data platform.
