@@ -20,6 +20,8 @@
   - [Data Dumps](#data-dumps)
 - [Monitoring](#monitoring)
   - [Prometheus](#prometheus)
+- [Profiling](#profiling)
+  - [Data Profiler](#data-profiler)
 - [Testing](#testing)
 - [Community](#community)
   - [Forums](#forums)
@@ -273,6 +275,12 @@
 
 - [Prometheus.io](https://github.com/prometheus/prometheus) - An open-source service monitoring system and time series database.
 - [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) - Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption.
+
+## Profiling
+
+### Data Profiler
+- [Data Profiler](https://github.com/capitalone/dataprofiler) - The DataProfiler is a Python library designed to make data analysis, monitoring, and sensitive data detection easy.
+
 
 ## Testing
 
