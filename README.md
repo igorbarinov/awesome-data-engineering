@@ -129,7 +129,7 @@
 - [Airbyte](https://airbyte.io/) - Open-source data integration for modern data teams.
 - [Sling](https://slingdata.io/) - Sling is CLI data integration tool specialized in moving data between databases, as well as storage systems.
 - [Meltano](https://meltano.com/) - CLI & code-first ELT.
-- [Singer SDK](https://sdk.meltano.com) - The fastest way to build custom data extractors and loaders compliant with the Singer Spec.
+  - [Singer SDK](https://sdk.meltano.com) - The fastest way to build custom data extractors and loaders compliant with the Singer Spec.
 
 ## File System
 
