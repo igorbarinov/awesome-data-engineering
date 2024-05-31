@@ -91,91 +91,106 @@
   - [Blueflood](https://github.com/rackerlabs/blueflood) - A distributed system designed to ingest and process time series data.
   - [Timely](https://github.com/NationalSecurityAgency/timely) - Timely is a time series database application that provides secure access to time series data based on Accumulo and Grafana.
 - Other
-	* [Tarantool](https://github.com/tarantool/tarantool/) Tarantool is an in-memory database and application server.
-	* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
-	* [cayley](https://github.com/cayleygraph/cayley) An open-source graph database. Google.
-	* [Snappydata](https://github.com/SnappyDataInc/snappydata) SnappyData: OLTP + OLAP Database built on Apache Spark
-	* [TimescaleDB](https://www.timescale.com/): Built as an extension on top of PostgreSQL, TimescaleDB is a time-series SQL database providing fast analytics, scalability, with automated data management on a proven storage engine.
+  - [Tarantool](https://github.com/tarantool/tarantool/) - Tarantool is an in-memory database and application server.
+  - [GreenPlum](https://github.com/greenplum-db/gpdb) - The Greenplum Database (GPDB) - An advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
+  - [cayley](https://github.com/cayleygraph/cayley) - An open-source graph database. Google.
+  - [Snappydata](https://github.com/SnappyDataInc/snappydata) - SnappyData: OLTP + OLAP Database built on Apache Spark.
+  - [TimescaleDB](https://www.timescale.com/) - Built as an extension on top of PostgreSQL, TimescaleDB is a time-series SQL database providing fast analytics, scalability, with automated data management on a proven storage engine.
 
-# Data Ingestion
-* [Kafka](https://kafka.apache.org/) Publish-subscribe messaging rethought as a distributed commit log.
-	* [BottledWater](https://github.com/confluentinc/bottledwater-pg) Change data capture from PostgreSQL into Kafka. Deprecated.
-	* [kafkat](https://github.com/airbnb/kafkat) Simplified command-line administration for Kafka brokers
-	* [kafkacat](https://github.com/edenhill/kafkacat) Generic command line non-JVM Apache Kafka producer and consumer
-	* [pg-kafka](https://github.com/xstevens/pg_kafka) A PostgreSQL extension to produce messages to Apache Kafka
-	* [librdkafka](https://github.com/edenhill/librdkafka) The Apache Kafka C/C++ library
-	* [kafka-docker](https://github.com/wurstmeister/kafka-docker) Kafka in Docker
-	* [kafka-manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka
-	* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
-	* [Secor](https://github.com/pinterest/secor) Pinterest's Kafka to S3 distributed consumer
-	* [Kafka-logger](https://github.com/uber/kafka-logger) Kafka-winston logger for nodejs from uber
-* [AWS Kinesis](https://aws.amazon.com/kinesis/) A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
-* [RabbitMQ](https://www.rabbitmq.com/) Robust messaging for applications.
-* [FluentD](https://www.fluentd.org) An open source data collector for unified logging layer.
-* [Embulk](https://www.embulk.org) An open source bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
-* [Apache Sqoop](https://sqoop.apache.org) A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
-* [Heka](https://github.com/mozilla-services/heka) Data Acquisition and Processing Made Easy. Deprecated.
-* [Gobblin](https://github.com/apache/incubator-gobblin) Universal data ingestion framework for Hadoop from Linkedin
-* [Nakadi](https://nakadi.io) Nakadi is an open source event messaging platform that provides a REST API on top of Kafka-like queues.
-* [Pravega](http://www.pravega.io) Pravega provides a new storage abstraction - a stream - for continuous and unbounded data.
-* [Apache Pulsar](https://pulsar.apache.org/) Apache Pulsar is an open-source distributed pub-sub messaging system.
-* [AWS Data Wranlger](https://github.com/awslabs/aws-data-wrangler) Utility belt to handle data on AWS.
+## Data Comparison
 
-# File System
-* [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)
-	* [Snakebite](https://github.com/spotify/snakebite) A pure python HDFS client
-* [AWS S3](https://aws.amazon.com/s3/)
-	* [smart_open](https://github.com/RaRe-Technologies/smart_open) Utils for streaming large files (S3, HDFS, gzip, bz2)
-* [Alluxio](https://www.alluxio.org/) Alluxio is a memory-centric distributed storage system enabling reliable data sharing at memory-speed across cluster frameworks, such as Spark and MapReduce
-* [CEPH](https://ceph.com/) Ceph is a unified, distributed storage system designed for excellent performance, reliability and scalability
-* [JuiceFS](https://github.com/juicedata/juicefs) JuiceFS is a high-performance Cloud-Native file system driven by object storage for large-scale data storage.
-* [OrangeFS](https://www.orangefs.org/) Orange File System is a branch of the Parallel Virtual File System
-* [SnackFS](https://github.com/tuplejump/snackfs-release) SnackFS is our bite-sized, lightweight HDFS compatible FileSystem built over Cassandra
-* [GlusterFS](https://www.gluster.org/) Gluster Filesystem
-* [XtreemFS](http://www.xtreemfs.org/) fault-tolerant distributed file system for all storage needs
-* [SeaweedFS](https://github.com/chrislusf/seaweedfs) Seaweed-FS is a simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast! Instead of supporting full POSIX file system semantics, Seaweed-FS choose to implement only a key~file mapping. Similar to the word "NoSQL", you can call it as "NoFS".
-* [S3QL](https://github.com/s3ql/s3ql/) S3QL is a file system that stores all its data online using storage services like Google Storage, Amazon S3, or OpenStack.
-* [LizardFS](https://lizardfs.com/) LizardFS Software Defined Storage is a distributed, parallel, scalable, fault-tolerant, Geo-Redundant and highly available file system.
+- [datacompy](https://github.com/capitalone/datacompy) - DataComPy is a Python library that facilitates the comparison of two DataFrames in pandas, Polars, Spark and more. The library goes beyond basic equality checks by providing detailed insights into discrepancies at both row and column levels. 
 
-# Serialization format
-* [Apache Avro](https://avro.apache.org) Apache Avro™ is a data serialization system
-* [Apache Parquet](https://parquet.apache.org) Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
-	* [Snappy](https://github.com/google/snappy) A fast compressor/decompressor. Used with Parquet
-	* [PigZ](https://zlib.net/pigz/) A parallel implementation of gzip for modern
-multi-processor, multi-core machines
-* [Apache ORC](https://orc.apache.org/) The smallest, fastest columnar storage for Hadoop workloads 
-* [Apache Thrift](https://thrift.apache.org) The Apache Thrift software framework, for scalable cross-language services development
-* [ProtoBuf](https://github.com/protocolbuffers/protobuf) Protocol Buffers - Google's data interchange format
-* [SequenceFile](https://wiki.apache.org/hadoop/SequenceFile) SequenceFile is a flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats
-* [Kryo](https://github.com/EsotericSoftware/kryo) Kryo is a fast and efficient object graph serialization framework for Java
+## Data Ingestion
 
+- [Kafka](https://kafka.apache.org/) - Publish-subscribe messaging rethought as a distributed commit log.
+  - [BottledWater](https://github.com/confluentinc/bottledwater-pg) - Change data capture from PostgreSQL into Kafka. Deprecated.
+  - [kafkat](https://github.com/airbnb/kafkat) - Simplified command-line administration for Kafka brokers.
+  - [kafkacat](https://github.com/edenhill/kafkacat) - Generic command line non-JVM Apache Kafka producer and consumer.
+  - [pg-kafka](https://github.com/xstevens/pg_kafka) - A PostgreSQL extension to produce messages to Apache Kafka.
+  - [librdkafka](https://github.com/edenhill/librdkafka) - The Apache Kafka C/C++ library.
+  - [kafka-docker](https://github.com/wurstmeister/kafka-docker) - Kafka in Docker.
+  - [kafka-manager](https://github.com/yahoo/kafka-manager) - A tool for managing Apache Kafka.
+  - [kafka-node](https://github.com/SOHU-Co/kafka-node) - Node.js client for Apache Kafka 0.8.
+  - [Secor](https://github.com/pinterest/secor) - Pinterest's Kafka to S3 distributed consumer.
+  - [Kafka-logger](https://github.com/uber/kafka-logger) - Kafka-winston logger for Node.js from uber.
+- [AWS Kinesis](https://aws.amazon.com/kinesis/) - A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
+- [RabbitMQ](https://www.rabbitmq.com/) - Robust messaging for applications.
+- [dlt](https://www.dlthub.com) - A fast&simple pipeline building library for python data devs, runs in notebooks, cloud functions, airflow, etc. 
+- [FluentD](https://www.fluentd.org) - An open source data collector for unified logging layer.
+- [Embulk](https://www.embulk.org) - An open source bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
+- [Apache Sqoop](https://sqoop.apache.org) - A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
+- [Heka](https://github.com/mozilla-services/heka) - Data Acquisition and Processing Made Easy. Deprecated.
+- [Gobblin](https://github.com/apache/incubator-gobblin) - Universal data ingestion framework for Hadoop from Linkedin.
+- [Nakadi](https://nakadi.io) - Nakadi is an open source event messaging platform that provides a REST API on top of Kafka-like queues.
+- [Pravega](https://www.pravega.io) - Pravega provides a new storage abstraction - a stream - for continuous and unbounded data.
+- [Apache Pulsar](https://pulsar.apache.org/) - Apache Pulsar is an open-source distributed pub-sub messaging system.
+- [AWS Data Wranlger](https://github.com/awslabs/aws-data-wrangler) - Utility belt to handle data on AWS.
+- [Airbyte](https://airbyte.io/) - Open-source data integration for modern data teams.
+- [Sling](https://slingdata.io/) - Sling is CLI data integration tool specialized in moving data between databases, as well as storage systems.
+- [Meltano](https://meltano.com/) - CLI & code-first ELT.
+  - [Singer SDK](https://sdk.meltano.com) - The fastest way to build custom data extractors and loaders compliant with the Singer Spec.
 
-# Stream Processing
-* [Apache Beam](https://beam.apache.org/) Apache Beam is a unified programming model that implements both batch and streaming data processing jobs that run on many execution engines.
-* [Spark Streaming](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
-* [Apache Flink](https://flink.apache.org/) Apache Flink is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams.
-* [Apache Storm](https://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system
-* [Apache Samza](https://samza.apache.org) Apache Samza is a distributed stream processing framework
-* [Apache NiFi](https://nifi.apache.org/) is an easy to use, powerful, and reliable system to process and distribute data
-* [Apache Hudi](https://hudi.apache.org/) Apache Hudi is an open source framework for managing storage for real time processing, one of the most interesting feature is the Upsert
-* [VoltDB](https://voltdb.com/) VoltDb is an ACID-compliant RDBMS which uses a [shared nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture).
-* [PipelineDB](https://github.com/pipelinedb/pipelinedb) The Streaming SQL Database
-* [Spring Cloud Dataflow](https://cloud.spring.io/spring-cloud-dataflow/) Streaming and tasks execution between Spring Boot apps
-* [Bonobo](https://www.bonobo-project.org/) Bonobo is a data-processing toolkit for python 3.5+
-* [Robinhood's Faust](https://github.com/robinhood/faust) Forever scalable event processing & in-memory durable K/V store as a library with asyncio & static typing.
-* [HStreamDB](https://github.com/hstreamdb/hstream) The streaming database built for IoT data storage and real-time processing.
-* [Kuiper](https://github.com/emqx/kuiper) An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.
+## File System
 
-# Batch Processing
-* [Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner
-* [Spark](https://spark.apache.org/)
-	* [Spark Packages](https://spark-packages.org) A community index of packages for Apache Spark
-	* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores. Deprecated.
-	* [Spark RDD API Examples](http://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html) by Zhen He
-	* [Livy](https://livy.incubator.apache.org) Livy, the REST Spark Server
-* [AWS EMR](https://aws.amazon.com/emr/) A web service that makes it easy to quickly and cost-effectively process vast amounts of data.
-* [Tez](https://tez.apache.org/) An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
-* [Bistro](https://github.com/asavinov/bistro) is a light-weight engine for general-purpose data processing including both batch and stream analytics. It is based on a novel unique data model, which represents data via *functions* and processes data via *columns operations* as opposed to having only set operations in conventional approaches like MapReduce or SQL.
+- [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system designed to run on commodity hardware.
+  - [Snakebite](https://github.com/spotify/snakebite) - A pure python HDFS client.
+- [AWS S3](https://aws.amazon.com/s3/) - Object storage built to retrieve any amount of data from anywhere.
+  - [smart_open](https://github.com/RaRe-Technologies/smart_open) - Utils for streaming large files (S3, HDFS, gzip, bz2).
+- [Alluxio](https://www.alluxio.org/) - Alluxio is a memory-centric distributed storage system enabling reliable data sharing at memory-speed across cluster frameworks, such as Spark and MapReduce.
+- [CEPH](https://ceph.com/) - Ceph is a unified, distributed storage system designed for excellent performance, reliability and scalability.
+- [JuiceFS](https://github.com/juicedata/juicefs) JuiceFS is a high-performance Cloud-Native file system driven by object storage for large-scale data storage.
+- [OrangeFS](https://www.orangefs.org/) - Orange File System is a branch of the Parallel Virtual File System.
+- [SnackFS](https://github.com/tuplejump/snackfs-release) - SnackFS is our bite-sized, lightweight HDFS compatible FileSystem built over Cassandra.
+- [GlusterFS](https://www.gluster.org/) - Gluster Filesystem.
+- [XtreemFS](https://www.xtreemfs.org/) - Fault-tolerant distributed file system for all storage needs.
+- [SeaweedFS](https://github.com/chrislusf/seaweedfs) - Seaweed-FS is a simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast! Instead of supporting full POSIX file system semantics, Seaweed-FS choose to implement only a key~file mapping. Similar to the word "NoSQL", you can call it as "NoFS".
+- [S3QL](https://github.com/s3ql/s3ql/) - S3QL is a file system that stores all its data online using storage services like Google Storage, Amazon S3, or OpenStack.
+- [LizardFS](https://lizardfs.com/) - LizardFS Software Defined Storage is a distributed, parallel, scalable, fault-tolerant, Geo-Redundant and highly available file system.
+
+## Serialization format
+
+- [Apache Avro](https://avro.apache.org) - Apache Avro™ is a data serialization system.
+- [Apache Parquet](https://parquet.apache.org) - Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
+  - [Snappy](https://github.com/google/snappy) - A fast compressor/decompressor. Used with Parquet.
+  - [PigZ](https://zlib.net/pigz/) - A parallel implementation of gzip for modern multi-processor, multi-core machines.
+- [Apache ORC](https://orc.apache.org/) - The smallest, fastest columnar storage for Hadoop workloads.
+- [Apache Thrift](https://thrift.apache.org) - The Apache Thrift software framework, for scalable cross-language services development.
+- [ProtoBuf](https://github.com/protocolbuffers/protobuf) - Protocol Buffers - Google's data interchange format.
+- [SequenceFile](https://wiki.apache.org/hadoop/SequenceFile) - SequenceFile is a flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats.
+- [Kryo](https://github.com/EsotericSoftware/kryo) - Kryo is a fast and efficient object graph serialization framework for Java.
+
+## Stream Processing
+
+- [Apache Beam](https://beam.apache.org/) - Apache Beam is a unified programming model that implements both batch and streaming data processing jobs that run on many execution engines.
+- [Spark Streaming](https://spark.apache.org/streaming/) - Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
+- [Apache Flink](https://flink.apache.org/) - Apache Flink is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams.
+- [Apache Storm](https://storm.apache.org) - Apache Storm is a free and open source distributed realtime computation system.
+- [Apache Samza](https://samza.apache.org) - Apache Samza is a distributed stream processing framework.
+- [Apache NiFi](https://nifi.apache.org/) - An easy to use, powerful, and reliable system to process and distribute data.
+- [Apache Hudi](https://hudi.apache.org/) - An open source framework for managing storage for real time processing, one of the most interesting feature is the Upsert.
+- [VoltDB](https://voltdb.com/) - VoltDb is an ACID-compliant RDBMS which uses a [shared nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture).
+- [PipelineDB](https://github.com/pipelinedb/pipelinedb) - The Streaming SQL Database.
+- [Spring Cloud Dataflow](https://cloud.spring.io/spring-cloud-dataflow/) - Streaming and tasks execution between Spring Boot apps.
+- [Bonobo](https://www.bonobo-project.org/) - Bonobo is a data-processing toolkit for python 3.5+.
+- [Robinhood's Faust](https://github.com/faust-streaming/faust) - Forever scalable event processing & in-memory durable K/V store as a library with asyncio & static typing.
+- [HStreamDB](https://github.com/hstreamdb/hstream) - The streaming database built for IoT data storage and real-time processing.
+- [Kuiper](https://github.com/emqx/kuiper) - An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.
+- [Zilla](https://github.com/aklivity/zilla) - - An API gateway built for event-driven architectures and streaming that supports standard protocols such as HTTP, SSE, gRPC, MQTT and the native Kafka protocol.
+
+## Batch Processing
+
+- [Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) - Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) - in-parallel on large clusters (thousands of nodes) - of commodity hardware in a reliable, fault-tolerant manner.
+- [Spark](https://spark.apache.org/) - A multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.
+  - [Spark Packages](https://spark-packages.org) - A community index of packages for Apache Spark.
+  - [Deep Spark](https://github.com/Stratio/deep-spark) - Connecting Apache Spark with different data stores. Deprecated.
+  - [Spark RDD API Examples](https://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html) - Examples by Zhen He.
+  - [Livy](https://livy.incubator.apache.org) - The REST Spark Server.
+  - [Delight](https://github.com/datamechanics/delight) - A free & cross platform monitoring tool (Spark UI / Spark History Server alternative).
+- [AWS EMR](https://aws.amazon.com/emr/) - A web service that makes it easy to quickly and cost-effectively process vast amounts of data.
+- [Data Mechanics](https://www.datamechanics.co) - A cloud-based platform deployed on Kubernetes making Apache Spark more developer-friendly and cost-effective.
+- [Tez](https://tez.apache.org/) - An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
+- [Bistro](https://github.com/asavinov/bistro) - A light-weight engine for general-purpose data processing including both batch and stream analytics. It is based on a novel unique data model, which represents data via _functions_ and processes data via _columns operations_ as opposed to having only set operations in conventional approaches like MapReduce or SQL.
 
 - Batch ML
   - [H2O](https://www.h2o.ai/) - Fast scalable machine learning API for smarter applications.
