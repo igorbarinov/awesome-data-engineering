@@ -28,6 +28,7 @@
   - [Forums](#forums)
   - [Conferences](#conferences)
   - [Podcasts](#podcasts)
+  - [Books](#books)
 
 ## Databases
 
