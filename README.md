@@ -116,6 +116,7 @@
   - [kafka-node](https://github.com/SOHU-Co/kafka-node) - Node.js client for Apache Kafka 0.8.
   - [Secor](https://github.com/pinterest/secor) - Pinterest's Kafka to S3 distributed consumer.
   - [Kafka-logger](https://github.com/uber/kafka-logger) - Kafka-winston logger for Node.js from Uber.
+  - [Kroxylicious](https://github.com/kroxylicious/kroxylicious) - A Kafka Proxy, solving problems like encrypting your Kafka data at rest.
 - [AWS Kinesis](https://aws.amazon.com/kinesis/) - A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
 - [RabbitMQ](https://www.rabbitmq.com/) - Robust messaging for applications.
 - [dlt](https://www.dlthub.com) - A fast&simple pipeline building library for python data devs, runs in notebooks, cloud functions, airflow, etc.
