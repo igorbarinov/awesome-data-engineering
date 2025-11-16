@@ -1,0 +1,28 @@
+name: Markdown Lint
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - '**.md'
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Lint markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v15
+        with:
+          globs: '**/*.md'
+          config: '.markdownlint.json'
+
+      - name: Check awesome list
+        uses: max/awesome-lint@v2

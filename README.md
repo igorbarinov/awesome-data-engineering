@@ -1,6 +1,6 @@
 # Awesome Data Engineering
 
-A curated list of data engineering tools for software developers. [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+A curated list of data engineering tools for software developers. [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Organized by the **data lifecycle** - from ingestion to insights. Each tool is chosen for production readiness, active maintenance, and real-world impact.
 
@@ -16,6 +16,7 @@ Organized by the **data lifecycle** - from ingestion to insights. Each tool is c
   - [Document Databases](#document-databases)
   - [Graph Databases](#graph-databases)
   - [Time-Series Databases](#time-series-databases)
+  - [Vector Databases](#vector-databases)
   - [Cloud Data Warehouses](#cloud-data-warehouses)
   - [Data Lakes & Lakehouses](#data-lakes--lakehouses)
   - [File Systems](#file-systems)
@@ -28,6 +29,13 @@ Organized by the **data lifecycle** - from ingestion to insights. Each tool is c
 - [Data Discovery & Governance](#data-discovery--governance)
 - [Reverse ETL](#reverse-etl)
 - [Analytics & Visualization](#analytics--visualization)
+- [AI/ML & LLM Infrastructure](#aiml--llm-infrastructure)
+  - [LLM Orchestration & Frameworks](#llm-orchestration--frameworks)
+  - [Model Training & Fine-tuning](#model-training--fine-tuning)
+  - [Feature Stores](#feature-stores)
+  - [ML Experiment Tracking](#ml-experiment-tracking)
+  - [Model Serving & Deployment](#model-serving--deployment)
+  - [LLM Evaluation & Monitoring](#llm-evaluation--monitoring)
 - [Infrastructure & Deployment](#infrastructure--deployment)
 - [Learning Resources](#learning-resources)
 
@@ -87,7 +95,7 @@ Build robust data pipelines to move data from sources to destinations.
 * [AWS DynamoDB](https://aws.amazon.com/dynamodb/) - Fully managed NoSQL database with single-digit millisecond performance at any scale.
 * [Riak](https://riak.com/) - Distributed database delivering maximum availability by distributing data across multiple servers.
 * [etcd](https://etcd.io/) - Distributed key-value store for distributed systems coordination. Used by Kubernetes.
-* [SSDB](http://ssdb.io/) - High-performance NoSQL database supporting many data structures. Alternative to Redis with disk persistence.
+* [SSDB](https://github.com/ideawu/ssdb) - High-performance NoSQL database supporting many data structures. Alternative to Redis with disk persistence.
 * [Kyoto Tycoon](https://github.com/alticelabs/kyoto) - Lightweight network server on Kyoto Cabinet key-value database. Built for high concurrency.
 
 ### Wide-Column Stores
@@ -130,6 +138,30 @@ Build robust data pipelines to move data from sources to destinations.
 * [Graphite](https://graphiteapp.org/) - Enterprise-ready monitoring tool storing numeric time-series data.
 * [QuestDB](https://questdb.io/) - High-performance time-series database with SQL support and InfluxDB line protocol compatibility.
 * [VictoriaMetrics](https://victoriametrics.com/) - Fast, cost-effective monitoring solution and time-series database.
+
+### Vector Databases
+
+Specialized databases for storing and querying high-dimensional vectors, essential for AI/ML applications, semantic search, and RAG (Retrieval-Augmented Generation).
+
+**Open Source**
+* [Chroma](https://www.trychroma.com/) - AI-native embedding database. Simple, fast, and production-ready for LLM applications.
+* [Milvus](https://milvus.io/) - Open-source vector database built for scalable similarity search. Cloud-native with GPU acceleration.
+* [Weaviate](https://weaviate.io/) - Vector database with built-in vectorization and hybrid search. GraphQL and RESTful APIs.
+* [Qdrant](https://qdrant.tech/) - High-performance vector search engine with Rust-based core. Extended filtering support.
+* [LanceDB](https://lancedb.com/) - Embedded vector database built on Lance columnar format. Serverless and multi-modal.
+* [txtai](https://github.com/neuml/txtai) - Embeddings database for semantic search, LLM orchestration, and language model workflows.
+* [Vespa](https://vespa.ai/) - Big data serving engine with vector search, lexical search, and ML model inference.
+
+**Managed / Cloud**
+* [Pinecone](https://www.pinecone.io/) - Fully managed vector database for production-scale similarity search. Serverless and pod-based options.
+* [Zilliz Cloud](https://zilliz.com/) - Managed Milvus with enterprise features and global deployment.
+* [Weaviate Cloud](https://weaviate.io/pricing) - Managed Weaviate with automatic scaling and multi-cloud support.
+* [MongoDB Atlas Vector Search](https://www.mongodb.com/products/platform/atlas-vector-search) - Vector search integrated into MongoDB Atlas.
+* [PostgreSQL pgvector](https://github.com/pgvector/pgvector) - Vector similarity search extension for PostgreSQL.
+* [Elasticsearch Vector Search](https://www.elastic.co/elasticsearch/vector-database) - Dense vector search capabilities in Elasticsearch.
+* [Redis Vector Search](https://redis.io/docs/interact/search-and-query/search/vectors/) - Vector similarity search in Redis Stack.
+* [Azure Cognitive Search](https://azure.microsoft.com/en-us/products/ai-services/cognitive-search) - AI-powered cloud search with vector search capabilities.
+* [AWS OpenSearch Vector Engine](https://aws.amazon.com/opensearch-service/features/vector-engine/) - k-NN vector search in Amazon OpenSearch.
 
 ### Cloud Data Warehouses
 
@@ -371,6 +403,144 @@ Transform data into insights and visualizations.
 
 ---
 
+## AI/ML & LLM Infrastructure
+
+Infrastructure for building, training, and deploying AI/ML models and LLM applications at scale.
+
+### LLM Orchestration & Frameworks
+
+Build production LLM applications with retrieval, agents, and complex workflows.
+
+**LLM Application Frameworks**
+* [LangChain](https://www.langchain.com/) - Framework for building LLM applications with chains, agents, and memory. Python and JavaScript.
+* [LlamaIndex](https://www.llamaindex.ai/) - Data framework for LLM applications with advanced RAG (Retrieval-Augmented Generation) capabilities.
+* [Haystack](https://haystack.deepset.ai/) - End-to-end NLP framework for building search, QA, and LLM applications.
+* [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's SDK for integrating LLMs with conventional programming languages.
+* [AutoGen](https://microsoft.github.io/autogen/) - Multi-agent conversation framework from Microsoft for building LLM applications.
+* [CrewAI](https://www.crewai.com/) - Framework for orchestrating role-playing autonomous AI agents.
+
+**LLM Gateways & Proxies**
+* [LiteLLM](https://www.litellm.ai/) - Call 100+ LLM APIs using the OpenAI format. Load balancing, fallbacks, and cost tracking.
+* [Portkey](https://portkey.ai/) - Full-stack LLMOps platform with gateway, observability, and prompt management.
+* [Helicone](https://www.helicone.ai/) - Open-source LLM observability platform with monitoring, caching, and cost tracking.
+* [OpenLLM](https://github.com/bentoml/OpenLLM) - Run any open-source LLMs as OpenAI-compatible API endpoints.
+
+**Prompt Engineering & Management**
+* [PromptFlow](https://microsoft.github.io/promptflow/) - Microsoft's tool for creating LLM apps with prompt engineering and evaluation.
+* [Langfuse](https://langfuse.com/) - Open-source LLM engineering platform with tracing, prompt management, and evaluation.
+* [Weights & Biases Prompts](https://wandb.ai/site/prompts) - Prompt engineering and tracking integrated with W&B.
+* [PromptLayer](https://promptlayer.com/) - Platform for prompt engineering with version control and observability.
+
+### Model Training & Fine-tuning
+
+Tools for training, fine-tuning, and optimizing machine learning models.
+
+**Model Training Frameworks**
+* [PyTorch](https://pytorch.org/) - Deep learning framework with dynamic computational graphs. Industry standard for research and production.
+* [TensorFlow](https://www.tensorflow.org/) - End-to-end ML platform with production deployment capabilities.
+* [JAX](https://github.com/google/jax) - High-performance ML research framework with autograd and XLA compilation from Google.
+* [Keras](https://keras.io/) - High-level neural networks API running on TensorFlow.
+* [MXNet](https://mxnet.apache.org/) - Flexible deep learning framework supporting multiple languages.
+
+**LLM Fine-tuning & Training**
+* [Hugging Face Transformers](https://huggingface.co/transformers/) - State-of-the-art ML models for PyTorch, TensorFlow, and JAX.
+* [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) - Tool for fine-tuning LLMs with support for various architectures and techniques.
+* [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Unified framework for fine-tuning 100+ LLMs with PEFT methods.
+* [Unsloth](https://github.com/unslothai/unsloth) - 2-5x faster LLM fine-tuning with lower memory usage.
+* [Ludwig](https://ludwig.ai/) - Low-code ML framework for building custom models including LLMs.
+* [DeepSpeed](https://www.deepspeed.ai/) - Deep learning optimization library for distributed training and inference from Microsoft.
+* [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) - Large-scale transformer model training by NVIDIA.
+
+**Distributed Training**
+* [Ray Train](https://docs.ray.io/en/latest/train/train.html) - Distributed training library supporting PyTorch, TensorFlow, and XGBoost.
+* [Horovod](https://horovod.ai/) - Distributed deep learning training framework from Uber.
+* [Accelerate](https://huggingface.co/docs/accelerate/) - Easy distributed training for PyTorch models from Hugging Face.
+
+**AutoML & Neural Architecture Search**
+* [AutoGluon](https://auto.gluon.ai/) - AutoML for tabular, text, and image data. State-of-the-art results with minimal code.
+* [FLAML](https://microsoft.github.io/FLAML/) - Fast and lightweight AutoML library from Microsoft.
+* [Optuna](https://optuna.org/) - Hyperparameter optimization framework with pruning and distributed execution.
+* [Ray Tune](https://docs.ray.io/en/latest/tune/index.html) - Scalable hyperparameter tuning library.
+
+### Feature Stores
+
+Centralized platforms for managing, storing, and serving ML features.
+
+* [Feast](https://feast.dev/) - Open-source feature store for ML. Standardize feature definitions and serve them consistently.
+* [Tecton](https://www.tecton.ai/) - Enterprise feature platform built on Feast. Real-time and batch feature engineering.
+* [Hopsworks](https://www.hopsworks.ai/) - Data platform with feature store, model serving, and vector database.
+* [Feathr](https://github.com/feathr-ai/feathr) - Enterprise-grade feature store from LinkedIn supporting offline and online features.
+* [Databricks Feature Store](https://www.databricks.com/product/feature-store) - Managed feature store integrated with Unity Catalog and MLflow.
+* [Amazon SageMaker Feature Store](https://aws.amazon.com/sagemaker/feature-store/) - Fully managed feature store for ML.
+* [Google Vertex AI Feature Store](https://cloud.google.com/vertex-ai/docs/featurestore) - Managed feature store on GCP.
+
+### ML Experiment Tracking
+
+Track experiments, compare results, and manage model versions.
+
+* [MLflow](https://mlflow.org/) - Open-source platform for ML lifecycle management. Tracking, projects, models, and model registry.
+* [Weights & Biases](https://wandb.ai/) - ML experiment tracking, model management, and collaboration platform.
+* [Neptune.ai](https://neptune.ai/) - Metadata store for MLOps with experiment tracking and model registry.
+* [ClearML](https://clear.ml/) - Open-source MLOps platform for experiment management, orchestration, and data management.
+* [Comet](https://www.comet.com/) - ML experiment tracking and model production management.
+* [Sacred](https://github.com/IDSIA/sacred) - Tool for configuring, organizing, logging, and reproducing experiments.
+* [Guild AI](https://guild.ai/) - Experiment tracking and pipeline automation for ML.
+* [Aim](https://aimstack.io/) - Easy-to-use experiment tracking for AI/ML teams.
+
+### Model Serving & Deployment
+
+Deploy and serve ML models in production at scale.
+
+**Model Serving Frameworks**
+* [BentoML](https://www.bentoml.com/) - Unified framework for building, shipping, and scaling ML services.
+* [Ray Serve](https://docs.ray.io/en/latest/serve/index.html) - Scalable model serving library built on Ray. Multi-model composition.
+* [TorchServe](https://pytorch.org/serve/) - PyTorch model serving framework with multi-model support and APIs.
+* [TensorFlow Serving](https://www.tensorflow.org/tfx/guide/serving) - Production serving system for TensorFlow models with gRPC and REST APIs.
+* [Triton Inference Server](https://developer.nvidia.com/triton-inference-server) - NVIDIA's inference serving software for AI models across platforms.
+* [Seldon Core](https://www.seldon.io/solutions/open-source-projects/core) - MLOps framework for deploying ML models on Kubernetes.
+* [KServe](https://kserve.github.io/website/) - Serverless inferencing on Kubernetes. Successor to KFServing.
+
+**LLM Serving & Inference**
+* [vLLM](https://vllm.ai/) - Fast and easy LLM serving with PagedAttention and continuous batching.
+* [Text Generation Inference](https://github.com/huggingface/text-generation-inference) - Production-ready LLM serving from Hugging Face.
+* [Ollama](https://ollama.ai/) - Run LLMs locally with simple API. Supports Llama 2, Mistral, and more.
+* [LocalAI](https://localai.io/) - Drop-in replacement REST API for OpenAI compatible with consumer-grade hardware.
+* [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of LLaMA models in pure C/C++ for efficient CPU/GPU execution.
+* [Xinference](https://inference.xorbits.io/) - Powerful and unified LLM serving framework supporting various models.
+
+**Model Optimization**
+* [ONNX Runtime](https://onnxruntime.ai/) - Cross-platform ML model accelerator for optimized inference.
+* [TensorRT](https://developer.nvidia.com/tensorrt) - NVIDIA's deep learning inference optimizer and runtime.
+* [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) - Intel's toolkit for optimizing and deploying deep learning models.
+
+**Managed ML Platforms**
+* [Amazon SageMaker](https://aws.amazon.com/sagemaker/) - Fully managed ML service for building, training, and deploying models.
+* [Google Vertex AI](https://cloud.google.com/vertex-ai) - Unified ML platform on GCP for building and deploying AI models.
+* [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/) - Enterprise-grade ML service for the entire ML lifecycle.
+* [Databricks ML](https://www.databricks.com/product/machine-learning) - Unified ML platform with MLflow, AutoML, and feature store.
+
+### LLM Evaluation & Monitoring
+
+Evaluate and monitor LLM performance, quality, and safety in production.
+
+**LLM Evaluation**
+* [RAGAS](https://github.com/explodinggradients/ragas) - Framework for evaluating RAG (Retrieval Augmented Generation) pipelines.
+* [DeepEval](https://www.confident-ai.com/deepeval) - Unit testing for LLMs with metrics like hallucination, toxicity, and bias.
+* [TruLens](https://www.trulens.org/) - Evaluation and tracking for LLM apps with feedback functions.
+* [LangSmith](https://www.langchain.com/langsmith) - Platform for debugging, testing, and monitoring LLM applications.
+* [OpenAI Evals](https://github.com/openai/evals) - Framework for evaluating LLMs and LLM systems.
+* [Promptfoo](https://www.promptfoo.dev/) - Test and evaluate LLM prompts systematically.
+
+**LLM Observability & Monitoring**
+* [LangFuse](https://langfuse.com/) - Open-source LLM engineering platform with tracing, evaluation, and analytics.
+* [Arize AI](https://arize.com/) - ML observability platform for monitoring model performance and detecting issues.
+* [Evidently AI](https://www.evidentlyai.com/) - Open-source ML monitoring with drift detection and model quality evaluation.
+* [Fiddler AI](https://www.fiddler.ai/) - Model performance management platform with explainability and monitoring.
+* [WhyLabs](https://whylabs.ai/) - AI observability platform with data and ML monitoring.
+* [Phoenix](https://phoenix.arize.com/) - Open-source AI observability for LLM applications with tracing and evaluations.
+
+---
+
 ## Infrastructure & Deployment
 
 Deploy and manage data infrastructure at scale.
@@ -423,7 +593,6 @@ Deploy and manage data infrastructure at scale.
 
 ## Related Resources
 
-* [The Data Engineering Ecosystem: An Interactive Map](http://xyz.insightdataengineering.com/blog/pipeline_map.html) - Visual map of the data engineering landscape.
 * [Awesome Data Science](https://github.com/academic/awesome-datascience) - Curated list of data science resources.
 * [Awesome Big Data](https://github.com/0xnr/awesome-bigdata) - Curated list of big data frameworks, resources, and tools.
 * [Awesome ETL](https://github.com/pawl/awesome-etl) - Curated list of ETL frameworks, libraries, and software.

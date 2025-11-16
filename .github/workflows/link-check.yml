@@ -1,0 +1,62 @@
+name: Check Links
+
+on:
+  schedule:
+    # Run weekly on Mondays at 9am UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'contributing.md'
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check links in README
+        uses: lycheeverse/lychee-action@v1
+        with:
+          files: README.md contributing.md
+          args: '--verbose --no-progress --exclude-mail --exclude twitter.com --exclude linkedin.com --max-retries 3 --timeout 20'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue if links are broken
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = '🔗 Broken Links Detected';
+            const body = `Automated link checking has detected broken links in the repository.
+
+            Please review the [workflow run](${context.payload.repository.html_url}/actions/runs/${context.runId}) for details.
+
+            Common causes:
+            - Website temporarily down
+            - URL changed/deprecated
+            - Typo in URL
+
+            Action required: Update or remove broken links.`;
+
+            // Check if issue already exists
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: ['broken-links']
+            });
+
+            if (issues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['broken-links', 'automated']
+              });
+            }

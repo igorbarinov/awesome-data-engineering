@@ -1,0 +1,57 @@
+name: Update Existing Tool
+description: Suggest updates to an existing tool entry
+title: "[UPDATE] "
+labels: ["update"]
+body:
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      description: Which tool needs updating?
+      placeholder: ex. dbt
+    validations:
+      required: true
+
+  - type: dropdown
+    id: update-type
+    attributes:
+      label: Update Type
+      description: What kind of update is needed?
+      options:
+        - Description update
+        - URL change
+        - Category change
+        - Add sub-tool/related project
+        - Remove deprecated tool
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-entry
+    attributes:
+      label: Current Entry
+      description: Copy the current entry from README
+      placeholder: |
+        * [Tool](url) - Current description
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed Change
+      description: What should it be changed to?
+      placeholder: |
+        * [Tool](new-url) - Updated description
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this update necessary?
+      placeholder: The tool was acquired, URL changed, new features added, etc.
+    validations:
+      required: true

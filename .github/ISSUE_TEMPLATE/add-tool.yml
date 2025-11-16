@@ -1,0 +1,89 @@
+name: Add New Tool
+description: Suggest a new data engineering tool to be added to the list
+title: "[ADD] "
+labels: ["enhancement", "new-tool"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new tool! Please provide the following information to help us evaluate your suggestion.
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      description: What is the name of the tool?
+      placeholder: ex. Apache Spark
+    validations:
+      required: true
+
+  - type: input
+    id: tool-url
+    attributes:
+      label: Tool URL
+      description: Official website or repository URL
+      placeholder: https://spark.apache.org/
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this tool belong to?
+      options:
+        - Data Ingestion
+        - Data Storage
+        - Data Transformation
+        - Orchestration & Workflow
+        - Stream Processing
+        - Batch Processing
+        - Data Quality & Observability
+        - Data Discovery & Governance
+        - Reverse ETL
+        - Analytics & Visualization
+        - AI/ML & LLM Infrastructure
+        - Infrastructure & Deployment
+        - Other (specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Tool Description
+      description: Provide a one-sentence description (under 100 characters)
+      placeholder: "Unified analytics engine for large-scale data processing with SQL, streaming, ML, and graph capabilities."
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why should this tool be included?
+      description: |
+        Explain why this tool deserves to be on the list:
+        - Is it production-ready and actively maintained?
+        - Is it used by known companies at scale?
+        - Does it solve a problem not addressed by existing entries?
+      placeholder: |
+        - Used by 80% of Fortune 500 companies
+        - Active development with releases every 2 months
+        - Provides unique capabilities for X use case
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      description: Please confirm the following
+      options:
+        - label: The tool is production-ready and actively maintained
+          required: true
+        - label: I have checked that this tool is not already listed
+          required: true
+        - label: The tool has real-world production usage
+          required: true
+        - label: I have read the [contribution guidelines](../contributing.md)
+          required: true

@@ -1,0 +1,53 @@
+name: Report Broken Link
+description: Report a broken or outdated link
+title: "[BROKEN LINK] "
+labels: ["broken-link", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us maintain quality links!
+
+  - type: input
+    id: broken-url
+    attributes:
+      label: Broken URL
+      description: What is the broken link?
+      placeholder: https://example.com/tool
+    validations:
+      required: true
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool/Resource Name
+      description: What tool or resource does this link belong to?
+      placeholder: Apache Kafka
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      options:
+        - 404 - Page not found
+        - 500 - Server error
+        - Timeout - Site not responding
+        - Moved - URL has changed
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: suggested-url
+    attributes:
+      label: Suggested Replacement URL (if known)
+      description: If you know the new URL, please provide it
+      placeholder: https://new-url.com
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information that might help
