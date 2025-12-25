@@ -238,7 +238,7 @@
 ## Workflow
 
 - [Luigi](https://github.com/spotify/luigi) - A Python module that helps you build complex pipelines of batch jobs.
-- [CronQ](https://github.com/seatgeek/cronq) - An application cron-like system. [Used](https://chairnerd.seatgeek.com/building-out-the-seatgeek-data-pipeline/) w/Luige. Deprecated.
+- [CronQ](https://github.com/seatgeek/cronq) - An application cron-like system. [Used](https://chairnerd.seatgeek.com/building-out-the-seatgeek-data-pipeline/) w/Luigi. Deprecated.
 - [Cascading](https://www.cascading.org/) - Java based application development platform.
 - [Airflow](https://github.com/apache/airflow) - A system to programmatically author, schedule, and monitor data pipelines.
 - [Azkaban](https://azkaban.github.io/) - A batch workflow job scheduler created at LinkedIn to run Hadoop jobs. Azkaban resolves the ordering through job dependencies and provides an easy-to-use web user interface to maintain and track your workflows.
