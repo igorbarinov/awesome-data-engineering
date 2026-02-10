@@ -74,6 +74,7 @@
   - [ArangoDB](https://www.arangodb.com/) - A distributed free and open-source database with a flexible data model for documents, graphs, and key-values.
   - [Titan](https://titan.thinkaurelius.com) - A scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster.
   - [FlockDB](https://github.com/twitter-archive/flockdb) - A distributed, fault-tolerant graph database by Twitter. Deprecated.
+  - [Actionbase](https://github.com/kakao/actionbase) - A database for user interactions (likes, views, follows) represented as graphs, with precomputed reads served in real-time.
 - Distributed
   - [DAtomic](https://www.datomic.com) - The fully transactional, cloud-ready, distributed database.
   - [Apache Geode](https://geode.apache.org/) - An open source, distributed, in-memory database for scale-out applications.
