@@ -209,6 +209,7 @@
 - [Tez](https://tez.apache.org/) - An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
 - [Bistro](https://github.com/asavinov/bistro) - A light-weight engine for general-purpose data processing including both batch and stream analytics. It is based on a novel unique data model, which represents data via _functions_ and processes data via _columns operations_ as opposed to having only set operations in conventional approaches like MapReduce or SQL.
 - [Substation](https://github.com/brexhq/substation) - A cloud native data pipeline and transformation toolkit written in Go.
+- [dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis) - Personal genome analysis toolkit with Python scripts analyzing raw DNA data across 17 categories (health risks, ancestry, pharmacogenomics, nutrition, psychology, etc.) and generating a terminal-style single-page HTML visualization.
 - Batch ML
   - [H2O](https://www.h2o.ai/) - Fast scalable machine learning API for smarter applications.
   - [Mahout](https://mahout.apache.org/) - An environment for quickly creating scalable performant machine learning applications.
