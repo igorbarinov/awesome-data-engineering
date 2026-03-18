@@ -243,6 +243,7 @@
 
 ## Workflow
 
+- [Bonnard](https://bonnard.dev/) - Agent-native semantic layer with governed metrics, React SDK, and multi-warehouse support. Connects AI agents and dashboards to a single source of truth.
 - [Bruin](https://github.com/bruin-data/bruin) - End-to-end data pipeline tool that combines ingestion, transformation (SQL + Python), and data quality in a single CLI. Connects to BigQuery, Snowflake, PostgreSQL, Redshift, and more. Includes VS Code extension with live previews.
 - [Luigi](https://github.com/spotify/luigi) - A Python module that helps you build complex pipelines of batch jobs.
 - [CronQ](https://github.com/seatgeek/cronq) - An application cron-like system. [Used](https://chairnerd.seatgeek.com/building-out-the-seatgeek-data-pipeline/) w/Luigi. Deprecated.
