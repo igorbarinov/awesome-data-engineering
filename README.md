@@ -347,7 +347,12 @@
 
 ### Podcasts
 
+- [Chain of Thought](https://www.chainofthought.show/) - Interviews with AI and data infrastructure leaders on building production systems.
 - [Data Engineering Podcast](https://www.dataengineeringpodcast.com/) - The show about modern data infrastructure.
+- [Latent Space](https://www.latent.space/podcast) - Technical deep dives on AI engineering, from model training to deployment.
+- [Practical AI](https://practicalai.fm/) - Making AI practical, productive, and accessible to everyone.
+- [Software Engineering Daily](https://softwareengineeringdaily.com/) - Daily interviews about technical software topics, including data infrastructure.
+- [The Analytics Engineering Podcast](https://roundup.getdbt.com/s/the-analytics-engineering-podcast) - How analytics engineers build and maintain data pipelines at scale.
 - [The Data Stack Show](https://datastackshow.com/) - A show where they talk to data engineers, analysts, and data scientists about their experience around building and maintaining data infrastructure, delivering data and data products, and driving better outcomes across their businesses with data.
 
 ### Books
