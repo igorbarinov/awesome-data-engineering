@@ -144,6 +144,7 @@
 - [Estuary Flow](https://estuary.dev) - No/low-code data pipeline platform that handles both batch and real-time data ingestion.
 - [db2lake](https://github.com/bahador-r/db2lake) - Lightweight Node.js ETL framework for databases → data lakes/warehouses.
 - [Kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) - Polyglot document intelligence library with a Rust core and bindings for Python, TypeScript, Go, and more. Extracts text, tables, and metadata from 62+ document formats for data pipeline ingestion.
+- [crdt-merge](https://github.com/mgillr/crdt-merge) - Conflict-free merge for DataFrames, JSON, ML models & distributed agents — powered by CRDTs.
 
 ## File System
 
