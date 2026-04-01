@@ -356,3 +356,110 @@
 - [Best Data Science Books](https://www.appliedaicourse.com/blog/data-science-books/) - This blog offers a curated list of top data science books, categorized by topics and learning stages, to aid readers in building foundational knowledge and staying updated with industry trends.
 - [Architecting an Apache Iceberg Lakehouse](https://www.manning.com/books/architecting-an-apache-iceberg-lakehouse) - A guide to designing an Apache Iceberg lakehouse from scratch.
 - [Learn AI Data Engineering in a Month of Lunches](https://www.manning.com/books/learn-ai-data-engineering-in-a-month-of-lunches) - A fast, friendly guide to integrating large language models into your data workflows.
+
+## Data Engineering Decision Guide
+
+> A quick reference to help choose the right tools and approaches based on common data engineering scenarios.
+
+This section is designed to complement the list of tools by providing high-level guidance on when to use different categories of technologies.
+
+---
+
+### Data Ingestion: Batch vs Streaming
+
+**Use Streaming (e.g. Kafka, Pulsar, Kinesis) when:**
+- You need real-time or near real-time data processing
+- Handling high-throughput event streams
+- Building event-driven architectures
+
+**Use Batch Processing when:**
+- Data can be processed at scheduled intervals (hourly, daily)
+- Latency is not critical
+- Simpler pipelines are preferred
+
+---
+
+### Databases: Choosing the Right Type
+
+**Relational Databases (e.g. PostgreSQL, MySQL):**
+- Structured data with defined schema
+- Transactional systems (OLTP)
+- Strong consistency requirements
+
+**Columnar Databases (e.g. Redshift, ClickHouse):**
+- Analytical workloads (OLAP)
+- Large-scale aggregations and reporting
+- Optimised for read-heavy operations
+
+**NoSQL Databases (e.g. Cassandra, DynamoDB):**
+- High scalability and distributed systems
+- Flexible or evolving schema
+- High write throughput
+
+**Graph Databases (e.g. Neo4j):**
+- Relationship-heavy data
+- Network analysis, recommendations
+
+---
+
+### Processing: Batch vs Stream Processing Frameworks
+
+**Batch Processing (e.g. Spark, Hadoop):**
+- Large-scale historical data processing
+- ETL pipelines
+- Data warehousing
+
+**Stream Processing (e.g. Flink, Spark Streaming):**
+- Continuous data processing
+- Real-time analytics
+- Event-driven transformations
+
+---
+
+### Workflow Orchestration
+
+**Use Orchestration Tools (e.g. Airflow, Dagster, Prefect) when:**
+- Managing complex pipelines with dependencies
+- Scheduling and monitoring workflows
+- Ensuring reliability and retries
+
+**Use Lightweight Scheduling (e.g. Cron) when:**
+- Simple jobs with minimal dependencies
+- No need for complex monitoring
+
+---
+
+### Data Storage: Data Lake vs Data Warehouse
+
+**Data Lakes (e.g. S3, HDFS):**
+- Store raw, unstructured, or semi-structured data
+- Flexible schema (schema-on-read)
+- Used for data science and exploration
+
+**Data Warehouses (e.g. Redshift, BigQuery):**
+- Structured and cleaned data
+- Optimised for analytics and reporting
+- Schema-on-write
+
+---
+
+### Monitoring and Data Quality
+
+**Use Monitoring Tools (e.g. Prometheus, ELK) when:**
+- Tracking system performance
+- Observability of pipelines
+
+**Use Data Quality Tools (e.g. Great Expectations, DQOps) when:**
+- Validating data accuracy and consistency
+- Preventing downstream data issues
+
+---
+
+### General Guidance
+
+- Choose tools based on **use case**, not popularity
+- Prefer **simplicity** where possible
+- Consider **scalability, cost, and team expertise**
+- Align tools with **business requirements and SLAs**
+
+---
