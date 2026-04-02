@@ -1,4 +1,5 @@
 # Awesome Data Engineering [![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/sindresorhus/awesome)
+- [submission-site-discovery](https://github.com/SeeleAI/submission-site-discovery) - Automated discovery of product submission sites, launch directories, and distribution channels for indie hackers.
 
 > A curated list of awesome things related to Data Engineering.
 
