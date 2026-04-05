@@ -69,6 +69,7 @@
   - [RethinkDB](https://rethinkdb.com/) - The open-source database for the realtime web.
   - [RavenDB](https://ravendb.net/) - Fully Transactional NoSQL Document Database.
 - Graph
+  - [ArcadeDB](https://arcadedb.com/) - Open-source multi-model database with native graph, document, key-value, and vector support. SQL, Cypher, and Gremlin query languages. Apache 2.0 license.
   - [Neo4j](https://neo4j.com/) - The world's leading graph database.
   - [OrientDB](https://orientdb.com) - 2nd Generation Distributed Graph Database with the flexibility of Documents in one product with an Open Source commercial friendly license.
   - [ArangoDB](https://www.arangodb.com/) - A distributed free and open-source database with a flexible data model for documents, graphs, and key-values.
