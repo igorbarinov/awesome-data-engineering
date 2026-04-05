@@ -303,6 +303,7 @@
 
 ### Realtime
 
+- [DexPaprika](https://api.dexpaprika.com) - Free real-time DEX data via SSE streaming across 34 blockchains. 30M+ pools, 27M+ tokens, ~1 second price updates. No API key, no rate limits. [Docs](https://docs.dexpaprika.com)
 - [Twitter Realtime](https://developer.twitter.com/en/docs/tweets/filter-realtime/overview) - The Streaming APIs give developers low latency access to Twitter's global stream of Tweet data.
 - [Eventsim](https://github.com/Interana/eventsim) - Event data simulator. Generates a stream of pseudo-random events from a set of users, designed to simulate web traffic.
 - [Reddit](https://www.reddit.com/r/datasets/comments/3mk1vg/realtime_data_is_available_including_comments/) - Real-time data is available including comments, submissions and links posted to reddit.
