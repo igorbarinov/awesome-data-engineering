@@ -308,6 +308,7 @@
 - [GitHub Archive](https://www.gharchive.org/) - GitHub's public timeline since 2011, updated every hour.
 - [Common Crawl](https://commoncrawl.org/) - Open source repository of web crawl data.
 - [Wikipedia](https://dumps.wikimedia.org/enwiki/latest/) - Wikipedia's complete copy of all wikis, in the form of Wikitext source and metadata embedded in XML. A number of raw database tables in SQL form are also available.
+- [FirstData](https://github.com/MLT-OSS/FirstData) - The world's most comprehensive authoritative data source knowledge base. 160+ curated sources from governments, international organizations, and research institutions with MCP integration.
 
 ## Monitoring
 
