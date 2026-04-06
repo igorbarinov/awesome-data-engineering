@@ -2,6 +2,7 @@
 
 > A curated list of awesome things related to Data Engineering.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Claude Code with data pipeline orchestration and automated quality gates. MIT licensed.
 ## Contents
 
 - [Databases](#databases)
