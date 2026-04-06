@@ -2,6 +2,7 @@
 
 > A curated list of awesome things related to Data Engineering.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for data engineering pipeline orchestration, automated ETL management, and multi-agent data processing coordination. MIT licensed.
 ## Contents
 
 - [Databases](#databases)
