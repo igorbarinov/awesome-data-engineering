@@ -355,6 +355,7 @@
 
 - [/r/dataengineering](https://www.reddit.com/r/dataengineering/) - News, tips, and background on Data Engineering.
 - [/r/etl](https://www.reddit.com/r/ETL/) - Subreddit focused on ETL.
+- [AI Dev Jobs](https://aidevboard.com) - Job board focused on AI, ML, and data engineering roles with 7,400+ listings, salary data, and a free REST API.
 
 ### Conferences
 
