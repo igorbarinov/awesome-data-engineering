@@ -171,6 +171,7 @@
 
 ## Serialization format
 
+- [AKF](https://github.com/HMAKT99/AKF) - The AI native file format. Trust scores, source provenance, and compliance metadata that embed into 20+ formats (DOCX, PDF, images, code). EXIF for AI.
 - [Apache Avro](https://avro.apache.org) - Apache Avro™ is a data serialization system.
 - [Apache Parquet](https://parquet.apache.org) - A columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
   - [Snappy](https://github.com/google/snappy) - A fast compressor/decompressor. Used with Parquet.
