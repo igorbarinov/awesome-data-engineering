@@ -376,3 +376,7 @@
 - [Best Data Science Books](https://www.appliedaicourse.com/blog/data-science-books/) - This blog offers a curated list of top data science books, categorized by topics and learning stages, to aid readers in building foundational knowledge and staying updated with industry trends.
 - [Architecting an Apache Iceberg Lakehouse](https://www.manning.com/books/architecting-an-apache-iceberg-lakehouse) - A guide to designing an Apache Iceberg lakehouse from scratch.
 - [Learn AI Data Engineering in a Month of Lunches](https://www.manning.com/books/learn-ai-data-engineering-in-a-month-of-lunches) - A fast, friendly guide to integrating large language models into your data workflows.
+
+### Courses
+
+- [Data Engineering Fundamentals](https://github.com/Mavengence/data-engineering-fundamentals) - Ten chapters as live, interactive browser simulators. Drag the watermark, overflow a worker, break a pipeline gate. Runs without install.
