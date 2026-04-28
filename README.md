@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/igorbarinov-awesome-data-engineering-badge.png)](https://mseep.ai/app/igorbarinov-awesome-data-engineering)
+
 # Awesome Data Engineering [![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/sindresorhus/awesome)
 
 > A curated list of awesome things related to Data Engineering.
