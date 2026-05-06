@@ -275,6 +275,7 @@
 - [Hamilton](https://github.com/dagworks-inc/hamilton) - A lightweight library to define data transformations as a directed-acyclic graph (DAG). If you like dbt for SQL transforms, you will like Hamilton for Python processing.
 - [Kedro](https://kedro.readthedocs.io/en/latest/) - A framework that makes it easy to build robust and scalable data pipelines by providing uniform project templates, data abstraction, configuration and pipeline assembly.
 - [Dataform](https://dataform.co/) - An open-source framework and web based IDE to manage datasets and their dependencies. SQLX extends your existing SQL warehouse dialect to add features that support dependency management, testing, documentation and more.
+- [Dotflow](https://github.com/dotflow-io/dotflow) - A lightweight Python library for building execution pipelines with retry, parallel execution, cron scheduling, and async support.
 - [Census](https://getcensus.com/) - A reverse-ETL tool that let you sync data from your cloud data warehouse to SaaS applications like Salesforce, Marketo, HubSpot, Zendesk, etc. No engineering favors required—just SQL.
 - [dbt](https://getdbt.com/) - A command line tool that enables data analysts and engineers to transform data in their warehouses more effectively.
 - [Kestra](https://github.com/kestra-io/kestra) - Scalable, event-driven, language-agnostic orchestration and scheduling platform to manage millions of workflows declaratively in code.
