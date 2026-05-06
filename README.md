@@ -187,6 +187,7 @@
 - [ProtoBuf](https://github.com/protocolbuffers/protobuf) - Protocol Buffers - Google's data interchange format.
 - [SequenceFile](https://wiki.apache.org/hadoop/SequenceFile) - A flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats.
 - [Kryo](https://github.com/EsotericSoftware/kryo) - A fast and efficient object graph serialization framework for Java.
+- [PFC-JSONL](https://github.com/ImpossibleForge/pfc-jsonl) - Specialized JSONL log compressor with block-level timestamp indexing and DuckDB integration. Achieves ~9% compression ratio (better than gzip) with time-range random access queries.
 
 ## Stream Processing
 
