@@ -137,7 +137,7 @@
 - [Apache Pulsar](https://pulsar.apache.org/) - An open-source distributed pub-sub messaging system.
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - Utility belt to handle data on AWS.
 - [Airbyte](https://airbyte.io/) - Open-source data integration for modern data teams.
-- [DBConvert Streams](https://streams.dbconvert.com) - self-hosted database migration and change data capture (CDC) tool with built-in SQL IDE
+- [DBConvert Streams](https://streams.dbconvert.com) - self-hosted database migration and change data capture (CDC) tool with built-in SQL IDE.
 - [Artie](https://www.artie.com/) - Real-time data ingestion tool leveraging change data capture.
 - [Sling](https://slingdata.io/) - CLI data integration tool specialized in moving data between databases, as well as storage systems.
 - [Meltano](https://meltano.com/) - CLI & code-first ELT.
