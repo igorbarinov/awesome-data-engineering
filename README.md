@@ -160,6 +160,7 @@
 - [Crustdata](https://crustdata.com) - A real-time B2B data API for company and people intelligence, providing firmographics, headcount signals, job listings, web traffic, and funding events via REST API and webhooks for data enrichment pipelines.
 - [crdt-merge](https://github.com/mgillr/crdt-merge) - Conflict-free merge for DataFrames, JSON, ML models & distributed agents — powered by CRDTs.
 - [LinkedIn Jobs Scraper](https://apify.com/cryptosignals/linkedin-jobs-scraper) - Crawlee-based actor extracting structured LinkedIn job listings at scale without API keys.
+- [CARQ](https://github.com/whispering3/CARQ) - Context-Aware RAG Processing Queue for high availability and adaptive rate-limiting.
 
 ## File System
 
