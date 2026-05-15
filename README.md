@@ -323,6 +323,7 @@
 ## Datasets
 
 ### Realtime
+- [FilingFirehose](https://filingfirehose.com) - SEC EDGAR JSON API with body-text-classified 8-Ks, activist-tagged 13D/G, ATM offering detection on S-3/424B5. Polars + Parquet pipeline; hosted MCP server. Free public tier (last 72h), paid full archive from $29/mo.
 
 - [DexPaprika](https://api.dexpaprika.com) - Free real-time DEX data via SSE streaming across 34 blockchains. 30M+ pools, 27M+ tokens, ~1 second price updates. No API key, no rate limits. [Docs](https://docs.dexpaprika.com)
 - [Helium MCP](https://github.com/connerlambden/helium-mcp) - Remote MCP server for real-time financial data, 3.2M+ news articles, ML options pricing, and news bias analysis. Free, no API key. [MCP](https://heliumtrades.com/mcp)
