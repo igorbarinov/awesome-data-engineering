@@ -161,6 +161,7 @@
 - [crdt-merge](https://github.com/mgillr/crdt-merge) - Conflict-free merge for DataFrames, JSON, ML models & distributed agents — powered by CRDTs.
 - [LinkedIn Jobs Scraper](https://apify.com/cryptosignals/linkedin-jobs-scraper) - Crawlee-based actor extracting structured LinkedIn job listings at scale without API keys.
 - [CARQ](https://github.com/whispering3/CARQ) - Context-Aware RAG Processing Queue for high availability and adaptive rate-limiting.
+- [Amazonscraperapi](https://amazonscraperapi.com) - Amazon product, search, and batch scraping API with residential proxies, REST endpoints and an MCP server for AI agent integration. 1000 free requests, then usage-based pricing.
 
 ## File System
 
