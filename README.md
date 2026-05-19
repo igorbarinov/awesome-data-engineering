@@ -372,6 +372,7 @@
 - [DataScreenIQ](https://datascreeniq.com) - Real-time data quality firewall for pipelines and APIs. Screens rows in milliseconds for schema drift, null spikes, type mismatches, and data anomalies with PASS / WARN / BLOCK decisions.
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
+- [data-contract-cite](https://github.com/plusultra-tools/data-contract-cite) - Verbatim-cited data-contract validator for regulated data pipelines. Emits compliance manifest mapping each contract assertion to the regulation that authorises it (GDPR, EU Data Act, HIPAA).
 
 ## Community
 
