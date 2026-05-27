@@ -161,6 +161,7 @@
 - [crdt-merge](https://github.com/mgillr/crdt-merge) - Conflict-free merge for DataFrames, JSON, ML models & distributed agents — powered by CRDTs.
 - [LinkedIn Jobs Scraper](https://apify.com/cryptosignals/linkedin-jobs-scraper) - Crawlee-based actor extracting structured LinkedIn job listings at scale without API keys.
 - [CARQ](https://github.com/whispering3/CARQ) - Context-Aware RAG Processing Queue for high availability and adaptive rate-limiting.
+- [Awareness](https://github.com/nazmiefearmutcu/awareness) - Local-first public-text ingestion engine. Backfills from Common Crawl + FineWeb and live-tails RSS / sitemaps / GDELT into Apache Iceberg, queryable from DuckDB. Single Python process, no cluster required.
 
 ## File System
 
