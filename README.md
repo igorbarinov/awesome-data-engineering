@@ -276,6 +276,7 @@
 - [Oozie](https://oozie.apache.org/) - A workflow scheduler system to manage Apache Hadoop jobs.
 - [Pinball](https://github.com/pinterest/pinball) - DAG based workflow manager. Job flows are defined programmatically in Python. Support output passing between jobs.
 - [Dagster](https://github.com/dagster-io/dagster) - An open-source Python library for building data applications.
+- [Data Workers](https://github.com/DataWorkersProject/dataworkers-claw-community) - Open-source autonomous agent swarm for data engineering. Fifteen MCP-native AI agents covering catalog, quality, incidents, schema evolution, governance, migration, observability, and ML. Works with Claude Code, Cursor, ChatGPT, and any MCP client. Apache 2.0.
 - [Hamilton](https://github.com/dagworks-inc/hamilton) - A lightweight library to define data transformations as a directed-acyclic graph (DAG). If you like dbt for SQL transforms, you will like Hamilton for Python processing.
 - [Kedro](https://kedro.readthedocs.io/en/latest/) - A framework that makes it easy to build robust and scalable data pipelines by providing uniform project templates, data abstraction, configuration and pipeline assembly.
 - [Dataform](https://dataform.co/) - An open-source framework and web based IDE to manage datasets and their dependencies. SQLX extends your existing SQL warehouse dialect to add features that support dependency management, testing, documentation and more.
