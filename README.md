@@ -223,6 +223,7 @@
   - [Spark RDD API Examples](https://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html) - Examples by Zhen He.
   - [Livy](https://livy.incubator.apache.org) - The REST Spark Server.
   - [Delight](https://github.com/datamechanics/delight) - A free & cross platform monitoring tool (Spark UI / Spark History Server alternative).
+  - [search-keyword-performance-revenue](https://github.com/naveenayalla1-CS50/search-keyword-performance-revenue) - Cloud-based PySpark ETL pipeline for analyzing web analytics search keyword performance and revenue using AWS Glue, Amazon S3, and Terraform.
 - [AWS EMR](https://aws.amazon.com/emr/) - A web service that makes it easy to quickly and cost-effectively process vast amounts of data.
 - [Data Mechanics](https://www.datamechanics.co) - A cloud-based platform deployed on Kubernetes making Apache Spark more developer-friendly and cost-effective.
 - [Tez](https://tez.apache.org/) - An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
