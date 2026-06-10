@@ -161,6 +161,7 @@
 - [crdt-merge](https://github.com/mgillr/crdt-merge) - Conflict-free merge for DataFrames, JSON, ML models & distributed agents — powered by CRDTs.
 - [LinkedIn Jobs Scraper](https://apify.com/cryptosignals/linkedin-jobs-scraper) - Crawlee-based actor extracting structured LinkedIn job listings at scale without API keys.
 - [CARQ](https://github.com/whispering3/CARQ) - Context-Aware RAG Processing Queue for high availability and adaptive rate-limiting.
+- [Duckle](https://github.com/SouravRoy-ETL/duckle) - Open-source visual ETL/ELT studio that compiles a drag-and-drop canvas to plain DuckDB SQL, with 300+ connectors (Snowflake, Oracle, SQL Server, Postgres, Excel, Parquet, REST) and a built-in MCP server for generating and running pipelines from natural language.
 
 ## File System
 
