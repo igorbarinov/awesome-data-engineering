@@ -103,13 +103,15 @@
   - [TimescaleDB](https://www.timescale.com/) - Built as an extension on top of PostgreSQL, TimescaleDB is a time-series SQL database providing fast analytics, scalability, with automated data management on a proven storage engine.
   - [DuckDB](https://duckdb.org/) - A fast in-process analytical database that has zero external dependencies, runs on Linux/macOS/Windows, offers a rich SQL dialect, and is free and extensible.
   - [SlothDB](https://github.com/SouravRoy-ETL/slothdb) - In-process analytical SQL database written in C++20. Reads Parquet, CSV, JSON, Avro, Arrow, SQLite, and Excel directly. Single binary, Python package, and 1.3 MB WASM build for the browser.
+  - [chDB](https://chdb.io) - Embedded ClickHouse — full ClickHouse SQL dialect, ~80 data formats, and 12+ source connectors (S3, Postgres, MongoDB, Kafka, Iceberg) in core. Python, Go, Rust, Node, Bun, Zig, and Ruby bindings.
 
 ## Data Comparison
 
 - [datacompy](https://github.com/capitalone/datacompy) - A Python library that facilitates the comparison of two DataFrames in Pandas, Polars, Spark and more. The library goes beyond basic equality checks by providing detailed insights into discrepancies at both row and column levels.
 - [dvt](https://github.com/GoogleCloudPlatform/professional-services-data-validator) - Data Validation Tool compares data from source and target tables to ensure that they match. It provides column validation, row validation, schema validation, custom query validation, and ad hoc SQL exploration.
 - [koala-diff](https://github.com/godalida/koala-diff) - A high-performance Python library for comparing large datasets (CSV, Parquet) locally using Rust and Polars. It features zero-copy streaming to prevent OOM errors and generates interactive HTML data quality reports.
-- [everyrow](https://github.com/futuresearch/everyrow-sdk) - AI-powered data operations SDK for Python. Semantic deduplication, fuzzy table merging, and intelligent row ranking using LLM agents.
+- [FutureSearch SDK](https://github.com/futuresearch/futuresearch-python) - Python SDK that dispatches parallel web-research agents across
+  table rows, synthesizing multi-agent findings into structured columns.
 
 ## Data Ingestion
 
@@ -162,6 +164,7 @@
 - [LinkedIn Jobs Scraper](https://apify.com/cryptosignals/linkedin-jobs-scraper) - Crawlee-based actor extracting structured LinkedIn job listings at scale without API keys.
 - [CARQ](https://github.com/whispering3/CARQ) - Context-Aware RAG Processing Queue for high availability and adaptive rate-limiting.
 - [Duckle](https://github.com/SouravRoy-ETL/duckle) - Local-first, open-source desktop ETL/ELT studio: drag a pipeline onto a canvas (or describe it to a built-in on-device AI assistant) and run it at native speed through DuckDB. 290+ connectors, a scheduler, and an MCP server for driving pipelines from an LLM. No cloud, no servers.
+- [Rawbbit](https://github.com/mirlan-irokez/rawbbit) - Open-source self-hosted analytics pipeline that lands raw events as Parquet in your own object storage. Uses NATS JetStream for durable buffering and BigQuery external tables for querying. Designed for teams that want to own their raw event data.
 
 ## File System
 
@@ -235,6 +238,7 @@
   - [Mahout](https://mahout.apache.org/) - An environment for quickly creating scalable performant machine learning applications.
   - [Spark MLlib](https://spark.apache.org/docs/latest/ml-guide.html) - Spark's scalable machine learning library consisting of common learning algorithms and utilities, including classification, regression, clustering, collaborative filtering, dimensionality reduction, as well as underlying optimization primitives.
   - [Datatrax](https://github.com/rbmuller/datatrax) - Pure-Go classic machine learning toolkit and data engineering utilities. Eight algorithms with zero external dependencies.
+  - [Zingg](https://www.zingg.ai/) - Open source Master Data Management platform using machine learning for entity resolution at scale. Native to Databricks, Microsoft Fabric, Snowflake, AWS, and GCP. Golden records are maintained through a persistent Zingg ID across all systems and sources.
 - Batch Graph
   - [GraphLab Create](https://turi.com/products/create/docs/) - A machine learning platform that enables data scientists and app developers to easily create intelligent apps at scale.
   - [Giraph](https://giraph.apache.org/) - An iterative graph processing system built for high scalability.
@@ -264,11 +268,14 @@
 - [Seaborn](https://seaborn.pydata.org) - A Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
 - [QueryGPT](https://github.com/MKY508/QueryGPT) - Natural language database query interface with automatic chart generation, supporting Chinese and English queries.
 - [AI for Database](https://aifordatabase.com/) - Agentic AI platform to connect any database (PostgreSQL, MySQL, MongoDB, etc.) and query in plain English; includes self-refreshing intelligent dashboards and action workflows triggered by data changes.
+- [Dekart](https://github.com/dekart-xyz/dekart) - Open-source SQL to map platform for BigQuery, Snowflake, and PostGIS.
 
 ## Workflow
 
 - [Bonnard](https://bonnard.dev/) - Agent-native semantic layer with governed metrics, React SDK, and multi-warehouse support. Connects AI agents and dashboards to a single source of truth.
+- [OrionBelt Semantic Layer](https://github.com/ralfbecher/orionbelt-semantic-layer) - Open-source semantic sidecar that compiles YAML-defined dimensions, measures, and metrics into optimized SQL across 8 engines (BigQuery, ClickHouse, Databricks, Dremio, DuckDB, MySQL, PostgreSQL, Snowflake). Unified REST, MCP, and Postgres wire protocol; one model powers AI agents, analytics, DQ rules, and KPIs.
 - [Bruin](https://github.com/bruin-data/bruin) - End-to-end data pipeline tool that combines ingestion, transformation (SQL + Python), and data quality in a single CLI. Connects to BigQuery, Snowflake, PostgreSQL, Redshift, and more. Includes VS Code extension with live previews.
+- [DataFlow](https://github.com/OpenDCAI/DataFlow) - Open-source platform for data preparation, synthetic data generation, and AI/data pipelines. Includes reusable skills for automating workflow steps across data and AI tasks.
 - [Luigi](https://github.com/spotify/luigi) - A Python module that helps you build complex pipelines of batch jobs.
 - [CronQ](https://github.com/seatgeek/cronq) - An application cron-like system. [Used](https://chairnerd.seatgeek.com/building-out-the-seatgeek-data-pipeline/) w/Luigi. Deprecated.
 - [Cascading](https://www.cascading.org/) - Java based application development platform.
@@ -330,6 +337,7 @@
 - [Twitter Realtime](https://developer.twitter.com/en/docs/tweets/filter-realtime/overview) - The Streaming APIs give developers low latency access to Twitter's global stream of Tweet data.
 - [Sorsa API](https://api.sorsa.io) - Real-time X (Twitter) data API providing tweets, profiles, search, communities and engagement metrics. Up to 50x cheaper than the official X API with 20 req/sec rate limit, JSON output.
 - [Eventsim](https://github.com/Interana/eventsim) - Event data simulator. Generates a stream of pseudo-random events from a set of users, designed to simulate web traffic.
+- [Eventum](https://eventum.run) - Data generation platform for producing synthetic event streams with complex correlations.
 - [Reddit](https://www.reddit.com/r/datasets/comments/3mk1vg/realtime_data_is_available_including_comments/) - Real-time data is available including comments, submissions and links posted to reddit.
 
 ### Data Dumps
