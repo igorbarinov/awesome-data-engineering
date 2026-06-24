@@ -23,6 +23,7 @@
   - [Prometheus](#prometheus)
 - [Profiling](#profiling)
   - [Data Profiler](#data-profiler)
+- [Schema](#schema)
 - [Testing](#testing)
 - [Community](#community)
   - [Forums](#forums)
@@ -363,6 +364,11 @@
 - [Data Profiler](https://github.com/capitalone/dataprofiler) - The DataProfiler is a Python library designed to make data analysis, monitoring, and sensitive data detection easy.
 - [YData Profiling](https://docs.profiling.ydata.ai/latest/) - A general-purpose open-source data profiler for high-level analysis of a dataset.
 - [Desbordante](https://github.com/desbordante/desbordante-core) - An open-source data profiler specifically focused on discovery and validation of complex patterns in data.
+
+
+## Schema
+
+- [SchemaCrawler](https://www.schemacrawler.com/) - Open-source and free relational database schema discovery and comprehension tool. Documents and diagrams relational database schemas from your Java programs, build tools and the command line. Find database design issues with lint, and write scripts against the database. Includes an MCP Server for use by AI agents.
 
 
 ## Testing
