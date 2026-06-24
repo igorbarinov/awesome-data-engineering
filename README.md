@@ -117,6 +117,7 @@
 
 - [DataSpoc Pipe](https://github.com/dataspoclab/dataspoc-pipe) - Data ingestion engine that connects 400+ Singer taps to Parquet files in cloud buckets (S3, GCS, Azure). Streaming, incremental, with auto-catalog.
 - [Enrich.sh](https://enrich.sh) - Managed event ingestion service that converts JSON sent to a REST API into Hive-partitioned Parquet on Cloudflare R2, queryable from DuckDB, ClickHouse, BigQuery, Snowflake, and Python.
+- [enrich-companies](https://github.com/Alessandro114/enrich-companies) - CLI tool to enrich CSV files with company data (financials, contacts, metadata) from 250M+ company records. Available on [npm](https://www.npmjs.com/package/enrich-companies).
 - [ingestr](https://github.com/bruin-data/ingestr) - CLI tool to copy data between databases with a single command. Supports 50+ sources including PostgreSQL, MySQL, MongoDB, Salesforce, Shopify to any data warehouse.
 - [Kafka](https://kafka.apache.org/) - Publish-subscribe messaging rethought as a distributed commit log.
   - [BottledWater](https://github.com/confluentinc/bottledwater-pg) - Change data capture from PostgreSQL into Kafka. Deprecated.
