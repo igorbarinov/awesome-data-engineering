@@ -196,6 +196,7 @@
 - [SequenceFile](https://wiki.apache.org/hadoop/SequenceFile) - A flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats.
 - [Kryo](https://github.com/EsotericSoftware/kryo) - A fast and efficient object graph serialization framework for Java.
 - [PFC-JSONL](https://github.com/ImpossibleForge/pfc-jsonl) - Specialized JSONL log compressor with block-level timestamp indexing and DuckDB integration. Achieves ~9% compression ratio (better than gzip) with time-range random access queries.
+- [StreamXL](https://github.com/Mullassery/StreamXL) - Streaming XLSX reader for Python powered by Rust. Processes large Excel files row-by-row at constant memory (68 MB at 250k rows vs openpyxl's 911 MB). 4–5× faster than openpyxl. PyO3 bindings, pip and uv installable.
 
 ## Stream Processing
 
@@ -381,6 +382,7 @@
 - [DataScreenIQ](https://datascreeniq.com) - Real-time data quality firewall for pipelines and APIs. Screens rows in milliseconds for schema drift, null spikes, type mismatches, and data anomalies with PASS / WARN / BLOCK decisions.
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
+- [statguard](https://github.com/Mullassery/statguard) - Rust-native data quality and validation library with a Python API. Compiles a declarative contract DSL into a columnar execution plan; supports schema checks, drift detection (PSI + KS), anomaly detection, and native Delta Lake, Iceberg, Parquet, Avro, and ORC formats. 13–25× faster than pandera and Great Expectations.
 
 ## Community
 
