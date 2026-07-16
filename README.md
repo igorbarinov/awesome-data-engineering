@@ -303,7 +303,7 @@
 - [SuprSend](https://www.suprsend.com/products/workflows) - Create automated workflows and logic using API's for your notification service. Add templates, batching, preferences, inapp inbox with workflows to trigger notifications directly from your data warehouse.
 - [Mage](https://www.mage.ai) - Open-source data pipeline tool for transforming and integrating data.
 - [SQLMesh](https://sqlmesh.readthedocs.io) - An open-source data transformation framework for managing, testing, and deploying SQL and Python-based data pipelines with version control, environment isolation, and automatic dependency resolution.
-
+- [Altimate AI](https://altimate.ai) - AI teammate for analytics engineers, providing dbt column-level lineage, SQL best-practice checks, and agentic workflows for modern data teams.
 ## Data Lake Management
 
 - [lakeFS](https://github.com/treeverse/lakeFS) - An open source platform that delivers resilience and manageability to object-storage based data lakes.
