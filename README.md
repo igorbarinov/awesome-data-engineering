@@ -381,6 +381,7 @@
 
 ## Testing
 
+- [mutaprobe](https://github.com/patchwright/mutaprobe) - Detect silent data mutations when values cross format boundaries (precision loss, type coercion, range overflow). Zero false positives by construction.
 - [Aegis DQ](https://github.com/aegis-dq/aegis-dq) - Open-source agentic data quality framework with LLM-powered diagnosis, root-cause analysis, SQL auto-fix proposals, and 31 rule types — DuckDB, Postgres, BigQuery, Databricks, Athena, Snowflake.
 - [Grai](https://github.com/grai-io/grai-core/) - A data catalog tool that integrates into your CI system exposing downstream impact testing of data changes. These tests prevent data changes which might break data pipelines or BI dashboards from making it to production.
 - [DQOps](https://github.com/dqops/dqo) - An open-source data quality platform for the whole data platform lifecycle from profiling new data sources to applying full automation of data quality monitoring.
