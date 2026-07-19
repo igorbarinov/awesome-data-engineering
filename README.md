@@ -49,11 +49,11 @@
   - [Riak](https://docs.basho.com/riak/kv/) - A distributed database designed to deliver maximum data availability by distributing data across multiple servers.
   - [AWS DynamoDB](https://aws.amazon.com/dynamodb/) - A fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale.
   - [HyperDex](https://github.com/rescrv/HyperDex) - A scalable, searchable key-value store. Deprecated.
-  - [SSDB](https://ssdb.io) - A high performance NoSQL database supporting many data structures, an alternative to Redis.
-  - [Kyoto Tycoon](https://github.com/alticelabs/kyoto) - A lightweight network server on top of the Kyoto Cabinet key-value database, built for high-performance and concurrency.
+  - [SSDB](https://ssdb.io) - A high ormance NoSQL database supporting many data structures, an alternative to Redis.
+  - [Kyoto Tycoon](https://github.com/alticelabs/kyoto) - A lightweight network server on top of the Kyoto Cabinet key-value database, built for high-ormance and concurrency.
   - [IonDB](https://github.com/iondbproject/iondb) - A key-value store for microcontroller and IoT applications.
 - Column
-  - [Cassandra](https://cassandra.apache.org/) - The right choice when you need scalability and high availability without compromising performance.
+  - [Cassandra](https://cassandra.apache.org/) - The right choice when you need scalability and high availability without compromising ormance.
     - [Cassandra Calculator](https://www.ecyrd.com/cassandracalculator/) - This simple form allows you to try out different values for your Apache Cassandra cluster and see what the impact is for your application.
     - [CCM](https://github.com/pcmanus/ccm) - A script to easily create and destroy an Apache Cassandra cluster on localhost.
     - [ScyllaDB](https://github.com/scylladb/scylla) - NoSQL data store using the seastar framework, compatible with Apache Cassandra.
@@ -67,7 +67,7 @@
     - [Percona Server for MongoDB](https://www.percona.com/software/mongo-database/percona-server-for-mongodb) - Percona Server for MongoDB® is a free, enhanced, fully compatible, open source, drop-in replacement for the MongoDB® Community Edition that includes enterprise-grade features and functionality.
     - [MemDB](https://github.com/rain1017/memdb) - Distributed Transactional In-Memory Database (based on MongoDB).
   - [Elasticsearch](https://www.elastic.co/) - Search & Analyze Data in Real Time.
-  - [Couchbase](https://www.couchbase.com/) - The highest performing NoSQL distributed database.
+  - [Couchbase](https://www.couchbase.com/) - The highest orming NoSQL distributed database.
   - [RethinkDB](https://rethinkdb.com/) - The open-source database for the realtime web.
   - [RavenDB](https://ravendb.net/) - Fully Transactional NoSQL Document Database.
 - Graph
@@ -106,13 +106,13 @@
   - [SlothDB](https://github.com/SouravRoy-ETL/slothdb) - In-process analytical SQL database written in C++20. Reads Parquet, CSV, JSON, Avro, Arrow, SQLite, and Excel directly. Single binary, Python package, and 1.3 MB WASM build for the browser.
   - [chDB](https://chdb.io) - Embedded ClickHouse — full ClickHouse SQL dialect, ~80 data formats, and 12+ source connectors (S3, Postgres, MongoDB, Kafka, Iceberg) in core. Python, Go, Rust, Node, Bun, Zig, and Ruby bindings.
   - [zvec](https://github.com/alibaba/zvec) - An embedded vector database for on-device RAG and edge AI, the SQLite of vector databases.
-  - [ReductStore](https://github.com/reductstore/reductstore) - high-performance blob and time-series storage, with edge deployment, selective replication, and efficient querying of multimodal data.
-    
+  - [ReductStore](https://github.com/reductstore/reductstore) - High-ormance blob and time-series storage, with edge deployment, selective replication, and efficient querying of multimodal data.
+
 ## Data Comparison
 
 - [datacompy](https://github.com/capitalone/datacompy) - A Python library that facilitates the comparison of two DataFrames in Pandas, Polars, Spark and more. The library goes beyond basic equality checks by providing detailed insights into discrepancies at both row and column levels.
 - [dvt](https://github.com/GoogleCloudPlatform/professional-services-data-validator) - Data Validation Tool compares data from source and target tables to ensure that they match. It provides column validation, row validation, schema validation, custom query validation, and ad hoc SQL exploration.
-- [koala-diff](https://github.com/godalida/koala-diff) - A high-performance Python library for comparing large datasets (CSV, Parquet) locally using Rust and Polars. It features zero-copy streaming to prevent OOM errors and generates interactive HTML data quality reports.
+- [koala-diff](https://github.com/godalida/koala-diff) - A high-ormance Python library for comparing large datasets (CSV, Parquet) locally using Rust and Polars. It features zero-copy streaming to prevent OOM errors and generates interactive HTML data quality reports.
 - [FutureSearch SDK](https://github.com/futuresearch/futuresearch-python) - Python SDK that dispatches parallel web-research agents across
   table rows, synthesizing multi-agent findings into structured columns.
 
@@ -157,7 +157,7 @@
 - [CsvPath Framework](https://www.csvpath.org/) - A delimited data preboarding framework that fills the gap between MFT and the data lake.
 - [Estuary Flow](https://estuary.dev) - No/low-code data pipeline platform that handles both batch and real-time data ingestion.
 - [db2lake](https://github.com/bahador-r/db2lake) - Lightweight Node.js ETL framework for databases → data lakes/warehouses.
-- [data-genie](https://github.com/pujansrt/data-genie) - High-performance, streaming-first ETL engine for Node.js and TypeScript with constant memory footprint.
+- [data-genie](https://github.com/pujansrt/data-genie) - High-ormance, streaming-first ETL engine for Node.js and TypeScript with constant memory footprint.
 - [Kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) - Polyglot document intelligence library with a Rust core and bindings for Python, TypeScript, Go, and more. Extracts text, tables, and metadata from 62+ document formats for data pipeline ingestion.
 - [pdfmux](https://github.com/NameetP/pdfmux) - Python PDF-to-Markdown orchestrator. Classifies each page and routes to the optimal backend (PyMuPDF, Docling, RapidOCR, Gemini Flash), emitting Markdown plus a per-page confidence score so ingestion pipelines can quarantine low-trust pages before feeding LLMs or retrieval.
 - [DataRaven](https://dataraven.io/) - Managed cloud object storage transfers for ingestion workflows.
@@ -177,8 +177,8 @@
 - [AWS S3](https://aws.amazon.com/s3/) - Object storage built to retrieve any amount of data from anywhere.
   - [smart_open](https://github.com/RaRe-Technologies/smart_open) - Utils for streaming large files (S3, HDFS, gzip, bz2).
 - [Alluxio](https://www.alluxio.org/) - A memory-centric distributed storage system enabling reliable data sharing at memory-speed across cluster frameworks, such as Spark and MapReduce.
-- [CEPH](https://ceph.com/) - A unified, distributed storage system designed for excellent performance, reliability, and scalability.
-- [JuiceFS](https://github.com/juicedata/juicefs) - A high-performance Cloud-Native file system driven by object storage for large-scale data storage.
+- [CEPH](https://ceph.com/) - A unified, distributed storage system designed for excellent ormance, reliability, and scalability.
+- [JuiceFS](https://github.com/juicedata/juicefs) - A high-ormance Cloud-Native file system driven by object storage for large-scale data storage.
 - [OrangeFS](https://www.orangefs.org/) - Orange File System is a branch of the Parallel Virtual File System.
 - [SnackFS](https://github.com/tuplejump/snackfs-release) - A bite-sized, lightweight HDFS compatible file system built over Cassandra.
 - [GlusterFS](https://www.gluster.org/) - Gluster Filesystem.
@@ -220,7 +220,7 @@
 - [Kuiper](https://github.com/emqx/kuiper) - An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.
 - [Zilla](https://github.com/aklivity/zilla) - - An API gateway built for event-driven architectures and streaming that supports standard protocols such as HTTP, SSE, gRPC, MQTT, and the native Kafka protocol.
 - [SwimOS](https://github.com/swimos/swim-rust) - A framework for building real-time streaming data processing applications that supports a wide range of ingestion sources.
-- [Pathway](https://github.com/pathwaycom/pathway) - Performant open-source Python ETL framework with Rust runtime, supporting 300+ data sources.
+- [Pathway](https://github.com/pathwaycom/pathway) - ormant open-source Python ETL framework with Rust runtime, supporting 300+ data sources.
 
 ## Batch Processing
 
@@ -239,7 +239,7 @@
 - [dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis) - Personal genome analysis toolkit with Python scripts analyzing raw DNA data across 17 categories (health risks, ancestry, pharmacogenomics, nutrition, psychology, etc.) and generating a terminal-style single-page HTML visualization.
 - Batch ML
   - [H2O](https://www.h2o.ai/) - Fast scalable machine learning API for smarter applications.
-  - [Mahout](https://mahout.apache.org/) - An environment for quickly creating scalable performant machine learning applications.
+  - [Mahout](https://mahout.apache.org/) - An environment for quickly creating scalable ormant machine learning applications.
   - [Spark MLlib](https://spark.apache.org/docs/latest/ml-guide.html) - Spark's scalable machine learning library consisting of common learning algorithms and utilities, including classification, regression, clustering, collaborative filtering, dimensionality reduction, as well as underlying optimization primitives.
   - [Datatrax](https://github.com/rbmuller/datatrax) - Pure-Go classic machine learning toolkit and data engineering utilities. Eight algorithms with zero external dependencies.
   - [Zingg](https://www.zingg.ai/) - Open source Master Data Management platform using machine learning for entity resolution at scale. Native to Databricks, Microsoft Fabric, Snowflake, AWS, and GCP. Golden records are maintained through a persistent Zingg ID across all systems and sources.
