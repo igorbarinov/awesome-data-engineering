@@ -256,6 +256,7 @@
   - [Drill](https://drill.apache.org/) - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 
 ## Charts and Dashboards
+- [PipeSage](https://pipesage.com) - Free web-based calculators for fluid dynamics, Darcy-Weisbach pressure drops, and pump sizing.
 
 - [Highcharts](https://www.highcharts.com/) - A charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application.
 - [ZingChart](https://www.zingchart.com/) - Fast JavaScript charts for any data set.
