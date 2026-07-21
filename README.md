@@ -306,6 +306,7 @@
 - [SuprSend](https://www.suprsend.com/products/workflows) - Create automated workflows and logic using API's for your notification service. Add templates, batching, preferences, inapp inbox with workflows to trigger notifications directly from your data warehouse.
 - [Mage](https://www.mage.ai) - Open-source data pipeline tool for transforming and integrating data.
 - [SQLMesh](https://sqlmesh.readthedocs.io) - An open-source data transformation framework for managing, testing, and deploying SQL and Python-based data pipelines with version control, environment isolation, and automatic dependency resolution.
+- [Datanika](https://github.com/datanika-io/datanika-core) - Open-source data pipeline platform combining dlt (extract and load) and dbt-core (transform) with a multi-tenant web UI for connections, scheduling, and run observability. Self-hostable via Docker Compose or Helm.
 
 ## Data Lake Management
 
