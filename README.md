@@ -395,6 +395,8 @@
 - [DataScreenIQ](https://datascreeniq.com) - Real-time data quality firewall for pipelines and APIs. Screens rows in milliseconds for schema drift, null spikes, type mismatches, and data anomalies with PASS / WARN / BLOCK decisions.
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
+- [MockJutsu](https://github.com/altansayan/mock-jutsu-api) - Algorithmic open-source synthetic data engine generating 390+ format-valid types with real checksums (IBAN, TCKN, Luhn, VIN, NHS, SWIFT, MRZ and more). CLI + REST API +
+  Python package + JMeter plugin, 6 locales.
 
 ## Community
 
