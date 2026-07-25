@@ -96,6 +96,7 @@
   - [Dalmatiner DB](https://github.com/dalmatinerdb/dalmatinerdb) - Fast distributed metrics database.
   - [Blueflood](https://github.com/rackerlabs/blueflood) - A distributed system designed to ingest and process time series data.
   - [Timely](https://github.com/NationalSecurityAgency/timely) - A time series database application that provides secure access to time series data based on Accumulo and Grafana.
+  - [h5i-db](https://github.com/h5i-dev/h5i-db) - Embedded versioned time series database written in Rust. Stores Parquet, queries it with DataFusion SQL plus ASOF joins and time bucketing, and makes every write an atomic commit so any past version reads in constant time.
 - Other
   - [Tarantool](https://github.com/tarantool/tarantool/) - An in-memory database and application server.
   - [GreenPlum](https://github.com/greenplum-db/gpdb) - The Greenplum Database (GPDB) - An advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
