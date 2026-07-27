@@ -395,6 +395,7 @@
 - [DataScreenIQ](https://datascreeniq.com) - Real-time data quality firewall for pipelines and APIs. Screens rows in milliseconds for schema drift, null spikes, type mismatches, and data anomalies with PASS / WARN / BLOCK decisions.
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
+- [Agentsor File Contracts](https://github.com/linkoinsight/agentsor-file) - An MIT-licensed Python CLI for local CSV and Parquet schema, freshness, row-count, and file-size checks with optional missed-run monitoring.
 
 ## Community
 
