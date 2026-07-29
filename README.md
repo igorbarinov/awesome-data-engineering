@@ -106,6 +106,7 @@
   - [SlothDB](https://github.com/SouravRoy-ETL/slothdb) - In-process analytical SQL database written in C++20. Reads Parquet, CSV, JSON, Avro, Arrow, SQLite, and Excel directly. Single binary, Python package, and 1.3 MB WASM build for the browser.
   - [chDB](https://chdb.io) - Embedded ClickHouse — full ClickHouse SQL dialect, ~80 data formats, and 12+ source connectors (S3, Postgres, MongoDB, Kafka, Iceberg) in core. Python, Go, Rust, Node, Bun, Zig, and Ruby bindings.
   - [zvec](https://github.com/alibaba/zvec) - An embedded vector database for on-device RAG and edge AI, the SQLite of vector databases.
+  - [Infino](https://github.com/infino-ai/infino) - An embedded retrieval engine that answers SQL, full-text (BM25), and vector queries over one copy of the data on object storage. Rows are stored as spec-compliant Parquet with the search indexes embedded in the files, so other Parquet readers can still open them. Rust, Python, and Node.js bindings.
 
 ## Data Comparison
 
