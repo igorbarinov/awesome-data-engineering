@@ -42,6 +42,7 @@
   - [MariaDB](https://mariadb.org/) - An enhanced, drop-in replacement for MySQL.
   - [PostgreSQL](https://www.postgresql.org/) - The world's most advanced open source database.
   - [Rivestack](https://rivestack.io/) - Managed PostgreSQL with pgvector for AI workloads. HNSW indexing, sub-4ms latency, and built-in SQL editor with automatic embedding generation.
+  - [KoldStore](https://github.com/kalamdb/koldstore) - PostgreSQL tiered-storage that moves historical rows to Parquet while keeping the original table fully queryable and supporting updates and deletes.
   - [Amazon RDS](https://aws.amazon.com/rds/) - Makes it easy to set up, operate, and scale a relational database in the cloud.
   - [Crate.IO](https://crate.io/) - Scalable SQL database with the NOSQL goodies.
 - Key-Value
