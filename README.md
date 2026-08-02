@@ -395,6 +395,7 @@
 - [DataScreenIQ](https://datascreeniq.com) - Real-time data quality firewall for pipelines and APIs. Screens rows in milliseconds for schema drift, null spikes, type mismatches, and data anomalies with PASS / WARN / BLOCK decisions.
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
+- [Seshat BI](https://github.com/Kemetra/Seshat-BI) - Readiness governance for agent-built BI pipelines. Tracks every table across a seven-stage source-to-Power-BI spine, runs static checks over committed SQL, TMDL and PBIR text, and blocks each stage transition behind a recorded human approval so an AI agent cannot self-approve grain, PII or metric decisions. Ships a CLI plus a read-only MCP server.
 
 ## Community
 
