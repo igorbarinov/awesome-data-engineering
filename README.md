@@ -395,6 +395,7 @@
 - [DataScreenIQ](https://datascreeniq.com) - Real-time data quality firewall for pipelines and APIs. Screens rows in milliseconds for schema drift, null spikes, type mismatches, and data anomalies with PASS / WARN / BLOCK decisions.
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
+- [csv-quality-gate](https://github.com/hermes-labs-ai/csv-quality-gate) - Command-line CSV preflight validation gate for ML/LLM pipelines. Checks missing columns, empty files, empty cells, and duplicate rows, returning pass/warn/fail with matching exit codes. Stdlib-only Python, CI-ready.
 
 ## Community
 
