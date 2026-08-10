@@ -357,6 +357,8 @@
 - [FirstData](https://github.com/MLT-OSS/FirstData) - The world's most comprehensive authoritative data source knowledge base. 160+ curated sources from governments, international organizations, and research institutions with MCP integration.
 - [Mindweave Synthetic Business Data](https://github.com/MindweaveTech/sme-sim-sample) - 42-table synthetic SME dataset with double-entry accounting, tax compliance (AU/US/UK), and temporal realism. CSV, SQL, Parquet, SQLite. Ideal for ETL pipeline testing.
 - [LatAm Synth](https://apify.com/jmendozapuche/latam-synth) - Synthetic financial savings behavior generator for Latin America: users, savings goals, and transactions calibrated on 506K real records (2015–2024). Reproducible by seed, 100% synthetic.
+- [Gumroad Marketplace Snapshot](https://github.com/sujeito-operator/gumroad-market-data) - 9,878 listing observations covering 8,322 digital products from 4,543 sellers across 261 Gumroad categories, August 2026. Prices normalised to USD; 316 listings publish a real unit-sales count rather than a ratings proxy. CSV, CC BY 4.0, scraper included.
+- [VS Code Marketplace Installs](https://github.com/sujeito-operator/vscode-marketplace-data) - 64,490 VS Code extensions from 50,468 publishers with real install counts rather than a proxy, 5,688,542,991 installs represented. Collected from the Marketplace's own public extensionquery API, August 2026. CSV and JSONL, CC BY 4.0, collector included.
 
 ## Monitoring
 
