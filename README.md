@@ -114,6 +114,7 @@
 - [koala-diff](https://github.com/godalida/koala-diff) - A high-performance Python library for comparing large datasets (CSV, Parquet) locally using Rust and Polars. It features zero-copy streaming to prevent OOM errors and generates interactive HTML data quality reports.
 - [FutureSearch SDK](https://github.com/futuresearch/futuresearch-python) - Python SDK that dispatches parallel web-research agents across
   table rows, synthesizing multi-agent findings into structured columns.
+- [Glyph](https://github.com/Koda-OSS/Glyph) - Framework agnostic TypeScript library for generating, searching, and comparing MinHash fingerprints for fast text similarity, deduplication, and retrieval.
 
 ## Data Ingestion
 
