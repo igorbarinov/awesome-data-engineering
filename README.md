@@ -275,6 +275,7 @@
 - [AI for Database](https://aifordatabase.com/) - Agentic AI platform to connect any database (PostgreSQL, MySQL, MongoDB, etc.) and query in plain English; includes self-refreshing intelligent dashboards and action workflows triggered by data changes.
 - [Dekart](https://github.com/dekart-xyz/dekart) - Open-source SQL to map platform for BigQuery, Snowflake, and PostGIS.
 - [LunaPad](https://lunapad.dev/) - Open-source analytics notebook for reusable SQL workflows, interactive reports, and AI-assisted data exploration.
+- [Mongrel](https://www.visorcraft.com/) - Desktop database workbench for 30+ engines (PostgreSQL, MySQL, ClickHouse, DuckDB, Snowflake, BigQuery, Trino, Spark) with query, explain, backups, and data movement.
 
 ## Workflow
 
