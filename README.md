@@ -340,7 +340,7 @@
 
 ### Realtime
 
-- [DexPaprika](https://api.dexpaprika.com) - Free real-time DEX data via SSE streaming across 36 blockchains. 36M+ pools, 33M+ tokens, swap-driven price updates. No API key needed; free tier is 200K requests/month. [Docs](https://docs.dexpaprika.com)
+- [DexPaprika](https://api.dexpaprika.com) - DEX data via SSE streaming across 36 blockchains. 36M+ pools, 33M+ tokens. Metered free tier, no API key required, data delayed up to 15s; real-time on the paid tier. [Docs](https://docs.dexpaprika.com)
 - [Helium MCP](https://github.com/connerlambden/helium-mcp) - Remote MCP server for real-time financial data, 3.2M+ news articles, ML options pricing, and news bias analysis. Free, no API key. [MCP](https://heliumtrades.com/mcp)
 - [Twitter Realtime](https://developer.twitter.com/en/docs/tweets/filter-realtime/overview) - The Streaming APIs give developers low latency access to Twitter's global stream of Tweet data.
 - [Sorsa API](https://api.sorsa.io) - Real-time X (Twitter) data API providing tweets, profiles, search, communities and engagement metrics. Up to 50x cheaper than the official X API with 20 req/sec rate limit, JSON output.
