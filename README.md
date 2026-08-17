@@ -347,6 +347,7 @@
 - [Eventsim](https://github.com/Interana/eventsim) - Event data simulator. Generates a stream of pseudo-random events from a set of users, designed to simulate web traffic.
 - [Eventum](https://eventum.run) - Data generation platform for producing synthetic event streams with complex correlations.
 - [Reddit](https://www.reddit.com/r/datasets/comments/3mk1vg/realtime_data_is_available_including_comments/) - Real-time data is available including comments, submissions and links posted to reddit.
+- [Live Tennis API](https://livetennisapi.com) - Real-time tennis scores and fixtures as JSON across ATP, WTA, Challenger and ITF. Free keyed tier with 100 requests/day; point-by-point events and WebSocket streaming on paid plans. [Docs](https://docs.livetennisapi.com)
 
 ### Data Dumps
 
