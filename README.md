@@ -306,6 +306,7 @@
 - [SuprSend](https://www.suprsend.com/products/workflows) - Create automated workflows and logic using API's for your notification service. Add templates, batching, preferences, inapp inbox with workflows to trigger notifications directly from your data warehouse.
 - [Mage](https://www.mage.ai) - Open-source data pipeline tool for transforming and integrating data.
 - [SQLMesh](https://sqlmesh.readthedocs.io) - An open-source data transformation framework for managing, testing, and deploying SQL and Python-based data pipelines with version control, environment isolation, and automatic dependency resolution.
+- [dbt-ci](https://github.com/datablock-dev/dbt-ci) - State-based CI for dbt Core that runs only the changed models with a configurable downstream depth, drops deleted models from the warehouse, migrates changed BigQuery partitioning, and reports the change and exposure impact of every pull request.
 
 ## Data Lake Management
 
