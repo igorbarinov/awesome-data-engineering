@@ -21,6 +21,7 @@
   - [Data Dumps](#data-dumps)
 - [Monitoring](#monitoring)
   - [Prometheus](#prometheus)
+  - [Data Monitoring](#data-monitoring)
 - [Profiling](#profiling)
   - [Data Profiler](#data-profiler)
 - [Schema](#schema)
@@ -365,6 +366,10 @@
 - [Prometheus.io](https://github.com/prometheus/prometheus) - An open-source service monitoring system and time series database.
 - [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) - Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption.
 - [Signals CLI](https://github.com/sortlist/signals-cli) - Intent signal monitoring CLI. Track LinkedIn engagers, keyword posters, job changers, funding events. JSON output for data pipelines.
+
+### Data Monitoring
+
+- [HighWater](https://github.com/FrankFu916/highwater) - Self-hosted data freshness and quality monitoring: watches tables, APIs and files for staleness, schema drift, null spikes and volume anomalies. YAML checks, a live dashboard, Prometheus metrics and Slack/Discord/webhook alerts.
 
 ## Profiling
 
