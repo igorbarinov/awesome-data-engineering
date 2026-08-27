@@ -169,6 +169,7 @@
 - [Duckle](https://github.com/SouravRoy-ETL/duckle) - Local-first, open-source desktop ETL/ELT studio: drag a pipeline onto a canvas (or describe it to a built-in on-device AI assistant) and run it at native speed through DuckDB. 290+ connectors, a scheduler, and an MCP server for driving pipelines from an LLM. No cloud, no servers.
 - [Rawbbit](https://github.com/mirlan-irokez/rawbbit) - Open-source self-hosted analytics pipeline that lands raw events as Parquet in your own object storage. Uses NATS JetStream for durable buffering and BigQuery external tables for querying. Designed for teams that want to own their raw event data.
 - [faucet-stream](https://github.com/PawanSikawat/faucet-stream) - Config-driven data-movement platform for Rust with pluggable source and sink connectors, running ETL, CDC, and streaming pipelines declaratively from YAML or embedded as a library.
+- [Big Data Log Analytics Platform](https://github.com/mojtaba-py-code/big-data-log-analytics-platform) - Self-hosted streaming log pipeline that ingests files, directories, databases and paginated REST APIs into Hive-partitioned Parquet queried in place by DuckDB, with format auto-detection, a dead-letter queue, statistical anomaly detection and security analytics.
 
 ## File System
 
