@@ -17,3 +17,24 @@ Please ensure your pull request adheres to the following guidelines:
 
 Thank you for your suggestions!
 
+
+## Inclusion Criteria
+
+This is a curated list, not a directory. New entries should meet the following
+bar. If your submission does not yet, we are glad to look again once it does.
+
+- **On topic.** Data engineering infrastructure and tooling: databases,
+  ingestion, processing, orchestration, storage, quality, and datasets. Not
+  learning sites, interview preparation, general SaaS, or unrelated utilities.
+- **Used by someone other than the author.** Show it: stars, forks, outside
+  contributors, published packages, or tagged releases with a real changelog.
+- **Not brand new.** Projects should be at least 30 days old and still
+  maintained. A burst of commits followed by silence is not maintenance.
+- **Submitted by an established account.** Accounts created to make the
+  submission will be closed without further review.
+- **Described, not sold.** State what the tool does in one sentence. No
+  superlatives, no unverifiable claims ("fastest", "zero false positives").
+- **Licensed, if it is a repository.** Include a license file.
+
+AI-assisted development is fine and increasingly common. What we look for is
+evidence that the project is real and used, whoever or whatever wrote the code.
