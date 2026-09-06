@@ -171,6 +171,7 @@
 - [Rawbbit](https://github.com/mirlan-irokez/rawbbit) - Open-source self-hosted game analytics pipeline. HTTP event collector with NATS JetStream buffering, raw Parquet in object storage you own, and ClickHouse for queries via Metabase, SQL, or a read-only MCP server for AI agents. Designed for teams that want to own their raw game data.
 - [faucet-stream](https://github.com/PawanSikawat/faucet-stream) - Config-driven data-movement platform for Rust with pluggable source and sink connectors, running ETL, CDC, and streaming pipelines declaratively from YAML or embedded as a library.
 - [Jitsu](https://github.com/jitsucom/jitsu) - An open-source Customer Data Platform. Captures event data from websites, apps, and servers and streams it into ClickHouse, Snowflake, BigQuery, Redshift, Postgres, and MySQL in real time.
+- [Scriptella ETL](https://github.com/scriptella/scriptella-etl) - Open-source, Java-based ETL and script execution tool for transferring and transforming data between databases, files, and other sources.
 
 ## File System
 
