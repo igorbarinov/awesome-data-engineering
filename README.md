@@ -204,7 +204,8 @@
 - [Kryo](https://github.com/EsotericSoftware/kryo) - A fast and efficient object graph serialization framework for Java.
 - [PFC-JSONL](https://github.com/ImpossibleForge/pfc-jsonl) - Specialized JSONL log compressor with block-level timestamp indexing and DuckDB integration. Achieves ~9% compression ratio (better than gzip) with time-range random access queries.
 - [ParquetKit](https://parquetkit.com) - Browser-based viewer, SQL workbench and converter for Parquet files powered by DuckDB-WASM. Fully client-side, no upload.
-- [DBConvert Parquet Viewer](https://streams.dbconvert.com/parquet-viewer) - Browser-based Parquet viewer on DuckDB-WASM: schema, row groups, compression codecs and column statistics, plus read-only SQL over the file and CSV export. Client-side, no upload; a JSONL/NDJSON viewer at /jsonl-viewer uses the same engine.
+- [DBConvert Parquet Viewer](https://streams.dbconvert.com/parquet-viewer) - Browser-based Parquet viewer on DuckDB-WASM: schema, row groups, compression codecs and column statistics, plus read-only SQL over the file and CSV export. Client-side, no upload.
+- [DBConvert JSONL Viewer](https://streams.dbconvert.com/jsonl-viewer) - Browser-based JSONL/NDJSON viewer on DuckDB-WASM: shows the file as a table with column types inferred across all lines, flags the lines that are not valid JSON, and runs read-only SQL. Client-side, no upload.
 
 ## Stream Processing
 
