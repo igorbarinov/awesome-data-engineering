@@ -67,7 +67,7 @@
     - [Percona Server for MongoDB](https://www.percona.com/software/mongo-database/percona-server-for-mongodb) - Percona Server for MongoDB® is a free, enhanced, fully compatible, open source, drop-in replacement for the MongoDB® Community Edition that includes enterprise-grade features and functionality.
     - [MemDB](https://github.com/rain1017/memdb) - Distributed Transactional In-Memory Database (based on MongoDB).
   - [Elasticsearch](https://www.elastic.co/) - Search & Analyze Data in Real Time.
-  - [Couchbase](https://www.couchbase.com/) - The highest orming NoSQL distributed database.
+  - [Couchbase](https://www.couchbase.com/) - The highest performing NoSQL distributed database.
   - [RethinkDB](https://rethinkdb.com/) - The open-source database for the realtime web.
   - [RavenDB](https://ravendb.net/) - Fully Transactional NoSQL Document Database.
 - Graph
@@ -106,7 +106,7 @@
   - [SlothDB](https://github.com/SouravRoy-ETL/slothdb) - In-process analytical SQL database written in C++20. Reads Parquet, CSV, JSON, Avro, Arrow, SQLite, and Excel directly. Single binary, Python package, and 1.3 MB WASM build for the browser.
   - [chDB](https://chdb.io) - Embedded ClickHouse — full ClickHouse SQL dialect, ~80 data formats, and 12+ source connectors (S3, Postgres, MongoDB, Kafka, Iceberg) in core. Python, Go, Rust, Node, Bun, Zig, and Ruby bindings.
   - [zvec](https://github.com/alibaba/zvec) - An embedded vector database for on-device RAG and edge AI, the SQLite of vector databases.
-  - [ReductStore](https://github.com/reductstore/reductstore) - High-pefperformance blob and time-series storage, with edge deployment, selective replication, and efficient querying of multimodal data.
+  - [ReductStore](https://github.com/reductstore/reductstore) - High-performance blob and time-series storage, with edge deployment, selective replication, and efficient querying of multimodal data.
   - [Manticore Search](https://github.com/manticoresoftware/manticoresearch) - An open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL.
 
 ## Data Comparison
@@ -335,7 +335,7 @@
 - [Kontena](https://www.kontena.io/) - Application Containers for Masses.
 - [Weave](https://github.com/weaveworks/weave) - Weaving Docker containers into applications.
 - [Zodiac](https://github.com/CenturyLinkLabs/zodiac) - A lightweight tool for easy deployment and rollback of dockerized applications.
-- [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and perfperformance characteristics of running containers.
+- [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
 - [Micro S3 persistence](https://github.com/figadore/micro-s3-persistence) - Docker microservice for saving/restoring volume data to S3.
 - [Rocker-compose](https://github.com/grammarly/rocker-compose) - Docker composition tool with idempotency features for deploying apps composed of multiple containers. Deprecated.
 - [Nomad](https://github.com/hashicorp/nomad) - A cluster manager, designed for both long-lived services and short-lived batch processing workloads.
