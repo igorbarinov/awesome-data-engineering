@@ -274,6 +274,7 @@
 - [Metabase](https://github.com/metabase/metabase) - The easy, open source way for everyone in your company to ask questions and learn from data.
 - [stratif.io](https://stratif.io) - Open-source, self-hosted, warehouse-native product analytics. Runs funnels, retention, and paths directly on DuckDB, Postgres, Snowflake, or ClickHouse.
 - [PyQtGraph](https://www.pyqtgraph.org/) - A pure-python graphics and GUI library built on PyQt4 / PySide and numpy. It is intended for use in mathematics / scientific / engineering applications.
+- [Streamlit](https://streamlit.io/) - An open-source Python framework for building interactive data apps and dashboards with minimal code. Connects to any data source and supports real-time updates, caching, and one-click deployment.
 - [Seaborn](https://seaborn.pydata.org) - A Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
 - [QueryGPT](https://github.com/MKY508/QueryGPT) - Natural language database query interface with automatic chart generation, supporting Chinese and English queries.
 - [AI for Database](https://aifordatabase.com/) - Agentic AI platform to connect any database (PostgreSQL, MySQL, MongoDB, etc.) and query in plain English; includes self-refreshing intelligent dashboards and action workflows triggered by data changes.
