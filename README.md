@@ -401,6 +401,7 @@
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
 - [dbmask](https://github.com/sealandseacat/dbmask) - Open-source tool that scans SQL databases for sensitive columns, masks them with deterministic fakes, and validates the masked copy row by row against the original.
+- [DoT](https://github.com/techvij/DoT) - Lightweight CLI data observability for small data teams. Define checks in YAML, run against Postgres or BigQuery. MIT licensed.
 
 ## Community
 
