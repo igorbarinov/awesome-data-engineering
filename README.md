@@ -44,6 +44,7 @@
   - [Rivestack](https://rivestack.io/) - Managed PostgreSQL with pgvector for AI workloads. HNSW indexing, sub-4ms latency, and built-in SQL editor with automatic embedding generation.
   - [Amazon RDS](https://aws.amazon.com/rds/) - Makes it easy to set up, operate, and scale a relational database in the cloud.
   - [Crate.IO](https://crate.io/) - Scalable SQL database with the NOSQL goodies.
+  - [KoldStore](https://github.com/kalamdb/koldstore) - PostgreSQL tiered-storage that moves historical rows to Parquet while keeping the original table fully queryable and supporting updates and deletes.
 - Key-Value
   - [Redis](https://redis.io/) - An open source, BSD licensed, advanced key-value cache and store.
   - [Riak](https://docs.basho.com/riak/kv/) - A distributed database designed to deliver maximum data availability by distributing data across multiple servers.
