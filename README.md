@@ -383,7 +383,6 @@
 
 - [Aegis DQ](https://github.com/aegis-dq/aegis-dq) - Open-source agentic data quality framework with LLM-powered diagnosis, root-cause analysis, SQL auto-fix proposals, and 31 rule types — DuckDB, Postgres, BigQuery, Databricks, Athena, Snowflake.
 - [Grai](https://github.com/grai-io/grai-core/) - A data catalog tool that integrates into your CI system exposing downstream impact testing of data changes. These tests prevent data changes which might break data pipelines or BI dashboards from making it to production.
-- [data-contract-validator](https://github.com/OGsiji/data-contract-validator) - Catches breaking changes between dbt models and whatever consumes them, before they merge. Compares the columns a dbt model produces (any adapter - Snowflake, BigQuery, Redshift, Postgres) against reverse-ETL destinations such as HubSpot CRM and against FastAPI/Pydantic services, failing CI when they drift apart.
 - [DQOps](https://github.com/dqops/dqo) - An open-source data quality platform for the whole data platform lifecycle from profiling new data sources to applying full automation of data quality monitoring.
 - [DataKitchen](https://datakitchen.io/) -  Open Source Data Observability for end-to-end Data Journey Observability, data profiling, anomaly detection, and auto-created data quality validation tests.
 - [GreatExpectation](https://greatexpectations.io/) -  Open Source data validation framework to manage data quality. Users can define and document “expectations” rules about how data should look and behave.
@@ -396,6 +395,7 @@
 - [DataScreenIQ](https://datascreeniq.com) - Real-time data quality firewall for pipelines and APIs. Screens rows in milliseconds for schema drift, null spikes, type mismatches, and data anomalies with PASS / WARN / BLOCK decisions.
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
+- [data-contract-validator](https://github.com/OGsiji/data-contract-validator) - Catches breaking changes between dbt models and whatever consumes them, before they merge. Compares the columns a dbt model produces (any adapter - Snowflake, BigQuery, Redshift, Postgres) against reverse-ETL destinations such as HubSpot CRM and against FastAPI/Pydantic services, failing CI when they drift apart.
 
 ## Community
 
