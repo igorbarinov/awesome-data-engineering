@@ -137,7 +137,7 @@
   - [Kroxylicious](https://github.com/kroxylicious/kroxylicious) - A Kafka Proxy, solving problems like encrypting your Kafka data at rest.
 - [AWS Kinesis](https://aws.amazon.com/kinesis/) - A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
 - [RabbitMQ](https://www.rabbitmq.com/) - Robust messaging for applications.
-- [dlt](https://www.dlthub.com) - A fast&simple pipeline building library for Python data devs, runs in notebooks, cloud functions, airflow, etc.
+- [dlt](https://www.dlthub.com) - Data load tool is an open-source Python library that turns data ingestion into a lightweight code-first utility. It lets data developers build fast pipelines anywhere Python runs, from notebooks to Airflow by automatically handling the tedious parts of ELT: schema inference, nested JSON flattening, and incremental loading.
 - [drt](https://github.com/drt-hub/drt) - OSS Reverse ETL CLI. Sync data from warehouses to business tools via YAML.
 - [FluentD](https://www.fluentd.org) - An open source data collector for unified logging layer.
 - [Embulk](https://www.embulk.org) - An open source bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
