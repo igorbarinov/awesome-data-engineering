@@ -365,6 +365,8 @@
 
 ## Monitoring
 
+- [FrostWatch](https://github.com/arunrajiah/frostwatch) - Self-hosted cost and query observability for Snowflake with anomaly detection, dbt attribution and weekly digests.
+
 ### Prometheus
 
 - [Prometheus.io](https://github.com/prometheus/prometheus) - An open-source service monitoring system and time series database.
