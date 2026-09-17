@@ -46,7 +46,7 @@
   - [Crate.IO](https://crate.io/) - Scalable SQL database with the NOSQL goodies.
 - Key-Value
   - [Redis](https://redis.io/) - An open source, BSD licensed, advanced key-value cache and store.
-  - [Riak](https://docs.basho.com/riak/kv/) - A distributed database designed to deliver maximum data availability by distributing data across multiple servers.
+  - [Riak](https://docs.riak.com/riak/kv/latest/) - A distributed database designed to deliver maximum data availability by distributing data across multiple servers.
   - [AWS DynamoDB](https://aws.amazon.com/dynamodb/) - A fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale.
   - [HyperDex](https://github.com/rescrv/HyperDex) - A scalable, searchable key-value store. Deprecated.
   - [SSDB](https://ssdb.io) - A high performance NoSQL database supporting many data structures, an alternative to Redis.
@@ -74,7 +74,7 @@
   - [ArcadeDB](https://arcadedb.com/) - Open-source multi-model database with native graph, document, key-value, and vector support. SQL, Cypher, and Gremlin query languages. Apache 2.0 license.
   - [Neo4j](https://neo4j.com/) - The world's leading graph database.
   - [Omnigraph](https://github.com/ModernRelay/omnigraph) - Typed graph database where agents branch and merge like Git. S3-native, Rust, traversal + vector + BM25 in one runtime.
-  - [OrientDB](https://orientdb.com) - 2nd Generation Distributed Graph Database with the flexibility of Documents in one product with an Open Source commercial friendly license.
+  - [OrientDB](https://orientdb.dev/) - 2nd Generation Distributed Graph Database with the flexibility of Documents in one product with an Open Source commercial friendly license.
   - [ArangoDB](https://www.arangodb.com/) - A distributed free and open-source database with a flexible data model for documents, graphs, and key-values.
   - [Titan](https://titan.thinkaurelius.com) - A scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster.
   - [FlockDB](https://github.com/twitter-archive/flockdb) - A distributed, fault-tolerant graph database by Twitter. Deprecated.
@@ -266,7 +266,7 @@
 - [C3.js](https://c3js.org) - D3-based reusable chart library.
 - [D3.js](https://d3js.org/) - A JavaScript library for manipulating documents based on data.
   - [D3Plus](https://d3plus.org) - D3's simpler, easier to use cousin. Mostly predefined templates that you can just plug data in.
-- [SmoothieCharts](https://smoothiecharts.org) - A JavaScript Charting Library for Streaming Data.
+- [SmoothieCharts](https://github.com/joewalnes/smoothie) - A JavaScript Charting Library for Streaming Data.
 - [PyXley](https://github.com/stitchfix/pyxley) - Python helpers for building dashboards using Flask and React.
 - [Plotly](https://github.com/plotly/dash) - Flask, JS, and CSS boilerplate for interactive, web-based visualization apps in Python.
 - [Apache Superset](https://github.com/apache/incubator-superset) - A modern, enterprise-ready business intelligence web application.
@@ -412,7 +412,7 @@
 
 ### Conferences
 
-- [Data Council](https://www.datacouncil.ai/about) - The first technical conference that bridges the gap between data scientists, data engineers and data analysts.
+- [Data Council](https://www.datacouncil.ai/) - The first technical conference that bridges the gap between data scientists, data engineers and data analysts.
 
 ### Podcasts
 
