@@ -108,6 +108,7 @@
   - [zvec](https://github.com/alibaba/zvec) - An embedded vector database for on-device RAG and edge AI, the SQLite of vector databases.
   - [ReductStore](https://github.com/reductstore/reductstore) - High-performance blob and time-series storage, with edge deployment, selective replication, and efficient querying of multimodal data.
   - [Manticore Search](https://github.com/manticoresoftware/manticoresearch) - An open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL.
+  - [Pixeltable](https://github.com/pixeltable/pixeltable) - Declarative multimodal AI data engine providing versioned tables, computed columns, incremental transformation, and vector search.
 
 ## Data Comparison
 
