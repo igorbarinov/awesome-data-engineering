@@ -138,6 +138,7 @@
 - [AWS Kinesis](https://aws.amazon.com/kinesis/) - A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
 - [RabbitMQ](https://www.rabbitmq.com/) - Robust messaging for applications.
 - [dlt](https://www.dlthub.com) - A fast&simple pipeline building library for Python data devs, runs in notebooks, cloud functions, airflow, etc.
+- [adbcBridge](https://github.com/singhpratech/adbcbridge) - Driver for ADBC, Apache Arrow's database connectivity API, that sits on top of any ODBC driver, so the hundreds of databases that ship ODBC but no native Arrow driver (Db2, Informix, Vertica, Firebird, Ingres and more) return columnar Apache Arrow record batches and take bulk ingest instead of row-at-a-time buffers. PostgreSQL, MySQL, SQL Server, SQLite and DuckDB work through it too, and where a native ADBC driver is installed it hands the connection over. One plain-C library with bindings for Python, Rust, Go, Java, C# and R; verified against 53 databases on Linux, macOS and Windows.
 - [drt](https://github.com/drt-hub/drt) - OSS Reverse ETL CLI. Sync data from warehouses to business tools via YAML.
 - [FluentD](https://www.fluentd.org) - An open source data collector for unified logging layer.
 - [Embulk](https://www.embulk.org) - An open source bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
