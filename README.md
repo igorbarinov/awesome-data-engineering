@@ -401,7 +401,7 @@
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
 - [dbmask](https://github.com/sealandseacat/dbmask) - Open-source tool that scans SQL databases for sensitive columns, masks them with deterministic fakes, and validates the masked copy row by row against the original.
-- [MockJutsu](https://github.com/altansayan/mock-jutsu-api) - Algorithmic open-source synthetic data engine generating 390+ format-valid types with real checksums (IBAN, TCKN, Luhn, VIN, NHS, SWIFT, MRZ and more). CLI + REST API + Python package + JMeter plugin, 6 locales.
+- [MockJutsu](https://github.com/altansayan/mock-jutsu-api) - Algorithmic open-source synthetic data engine generating 390+ format-valid types with real checksums (IBAN, TCKN, Luhn, VIN, NHS, MRZ and more), plus real registered SWIFT/BIC codes. CLI + REST API + Python package + JMeter plugin, 6 locales.
 
 ## Community
 
