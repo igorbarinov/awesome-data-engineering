@@ -144,6 +144,7 @@
 - [Apache Sqoop](https://sqoop.apache.org) - A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
 - [Heka](https://github.com/mozilla-services/heka) - Data Acquisition and Processing Made Easy. Deprecated.
 - [Gobblin](https://github.com/apache/incubator-gobblin) - Universal data ingestion framework for Hadoop from LinkedIn.
+- [GramScraper](https://gramscraper.com) - REST API for Instagram and TikTok data extraction. 91 endpoints covering profiles, posts, stories, reels, comments, hashtags, and search. Credit-based pricing with a free tier.
 - [Nakadi](https://nakadi.io) - An open source event messaging platform that provides a REST API on top of Kafka-like queues.
 - [Pravega](https://www.pravega.io) - Provides a new storage abstraction - a stream - for continuous and unbounded data.
 - [Apache Pulsar](https://pulsar.apache.org/) - An open-source distributed pub-sub messaging system.
