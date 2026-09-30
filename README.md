@@ -401,6 +401,7 @@
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
 - [dbmask](https://github.com/sealandseacat/dbmask) - Open-source tool that scans SQL databases for sensitive columns, masks them with deterministic fakes, and validates the masked copy row by row against the original.
+- [AutoLineage](https://github.com/kishanraj41/autolineage) - Python library that records operation-level lineage across pandas, scikit-learn and PySpark from a single import, then compares a run against a saved baseline to flag row-count and metric anomalies and name the operation responsible.
 
 ## Community
 
