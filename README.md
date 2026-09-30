@@ -362,6 +362,7 @@
 - [FirstData](https://github.com/MLT-OSS/FirstData) - The world's most comprehensive authoritative data source knowledge base. 160+ curated sources from governments, international organizations, and research institutions with MCP integration.
 - [Mindweave Synthetic Business Data](https://github.com/MindweaveTech/sme-sim-sample) - 42-table synthetic SME dataset with double-entry accounting, tax compliance (AU/US/UK), and temporal realism. CSV, SQL, Parquet, SQLite. Ideal for ETL pipeline testing.
 - [LatAm Synth](https://apify.com/jmendozapuche/latam-synth) - Synthetic financial savings behavior generator for Latin America: users, savings goals, and transactions calibrated on 506K real records (2015–2024). Reproducible by seed, 100% synthetic.
+- [Techmap Job Postings](https://jobdatafeeds.com/) - Daily job postings files and historical datasets since 2020 from 185 sources in 250 countries, delivered as gzipped JSON Lines via AWS Data Exchange and a REST API. Free samples on Kaggle.
 
 ## Monitoring
 
