@@ -401,6 +401,7 @@
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
 - [dbmask](https://github.com/sealandseacat/dbmask) - Open-source tool that scans SQL databases for sensitive columns, masks them with deterministic fakes, and validates the masked copy row by row against the original.
+- [rand-engine](https://github.com/marcoaureliomenezes/rand_engine) - Declarative synthetic data generation for reproducible pipeline tests, streams, files, and Spark dataframes.
 
 ## Community
 
