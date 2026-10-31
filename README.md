@@ -382,6 +382,7 @@
 ## Schema
 
 - [SchemaCrawler](https://www.schemacrawler.com/) - Open-source and free relational database schema discovery and comprehension tool. Documents and diagrams relational database schemas from your Java programs, build tools and the command line. Find database design issues with lint, and write scripts against the database. Includes an MCP Server for use by AI agents.
+- [dbprint](https://github.com/jakubro/dbprint) - Snapshots a database's DDL, joins and per-column statistics (value lists, null shares, ranges) into plain files committed to Git, which coding agents read offline through an MCP server or a skill. Works with PostgreSQL, MySQL, Snowflake, BigQuery, Databricks, Redshift, ClickHouse and DuckDB.
 
 
 ## Testing
