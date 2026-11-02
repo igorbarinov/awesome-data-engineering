@@ -352,6 +352,7 @@
 - [Eventsim](https://github.com/Interana/eventsim) - Event data simulator. Generates a stream of pseudo-random events from a set of users, designed to simulate web traffic.
 - [Eventum](https://eventum.run) - Data generation platform for producing synthetic event streams with complex correlations.
 - [Reddit](https://www.reddit.com/r/datasets/comments/3mk1vg/realtime_data_is_available_including_comments/) - Real-time data is available including comments, submissions and links posted to reddit.
+- [SiftingIO](https://sifting.io/docs) - Real-time market data streams and historical REST data for US stocks and ETFs, forex, commodities, and crypto. API key required; free and paid plans.
 
 ### Data Dumps
 
