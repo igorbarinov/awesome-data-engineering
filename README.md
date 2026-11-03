@@ -116,6 +116,7 @@
 - [koala-diff](https://github.com/godalida/koala-diff) - A high-performance Python library for comparing large datasets (CSV, Parquet) locally using Rust and Polars. It features zero-copy streaming to prevent OOM errors and generates interactive HTML data quality reports.
 - [FutureSearch SDK](https://github.com/futuresearch/futuresearch-python) - Python SDK that dispatches parallel web-research agents across
   table rows, synthesizing multi-agent findings into structured columns.
+- [compara](https://github.com/andrey-usa/compara) - A Rust CLI that diffs two tables (CSV, TSV, NDJSON, Parquet) on a composite key, with counts, per-column statistics, an HTML report, and pipeline exit codes.
 
 ## Data Ingestion
 
