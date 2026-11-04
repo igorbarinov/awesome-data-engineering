@@ -280,6 +280,7 @@
 - [Dekart](https://github.com/dekart-xyz/dekart) - Open-source SQL to map platform for BigQuery, Snowflake, and PostGIS.
 - [LunaPad](https://lunapad.dev/) - Open-source analytics notebook for reusable SQL workflows, interactive reports, and AI-assisted data exploration.
 - [FlexViz](https://github.com/flex-analytics/flexviz) - Open-source Python library for interactive cross-filter dashboards on large datasets. Zoom, pan, and selection are answered by lazy Polars aggregations on a stateless server instead of sending rows to the browser.
+- [MAD Designer](https://github.com/mthomason/MAD) - Open-source relational reporting engine and macOS/iOS report designer that turns a portable .mad document into SQL and a local SQLite result table.
 
 ## Workflow
 
