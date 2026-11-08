@@ -320,6 +320,7 @@
 - [Gravitino](https://github.com/apache/gravitino) - An open-source, unified metadata management for data lakes, data warehouses, and external catalogs.
 - [FlightPath Data](https://www.flightpathdata.com) - FlightPath is a gateway to a data lake's bronze layer, protecting it from invalid external data file feeds as a trusted publisher.
 - [rawquery](https://rawquery.dev) - Managed lakehouse platform on Apache Iceberg with DuckDB query compute, S3 storage, Postgres wire protocol, and SQL transforms.
+- [Opteryx](https://opteryx.app/) - Hosted SQL engine that queries Parquet and JSONL files in place in GCS or S3, with Iceberg and PostgreSQL sources, OData and Arrow Flight SQL access, and a free tier.
 
 ## ELK Elastic Logstash Kibana
 
