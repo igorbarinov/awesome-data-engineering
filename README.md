@@ -381,6 +381,7 @@
 
 ## Schema
 
+- [mysql-to-bigquery-schema](https://github.com/Quayen-Technologies/mysql-to-bigquery-schema) - CLI and Node.js library that converts MySQL CREATE TABLE statements or mysqldump --no-data output into BigQuery DDL and JSON schemas, handling unsigned BIGINT, wide DECIMAL, ENUM/SET, TIME and identifiers BigQuery rejects.
 - [SchemaCrawler](https://www.schemacrawler.com/) - Open-source and free relational database schema discovery and comprehension tool. Documents and diagrams relational database schemas from your Java programs, build tools and the command line. Find database design issues with lint, and write scripts against the database. Includes an MCP Server for use by AI agents.
 
 
