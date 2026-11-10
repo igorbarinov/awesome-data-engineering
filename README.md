@@ -21,6 +21,7 @@
   - [Data Dumps](#data-dumps)
 - [Monitoring](#monitoring)
   - [Prometheus](#prometheus)
+  - [Data Pipelines](#data-pipelines)
 - [Profiling](#profiling)
   - [Data Profiler](#data-profiler)
 - [Schema](#schema)
@@ -379,6 +380,10 @@
 - [Prometheus.io](https://github.com/prometheus/prometheus) - An open-source service monitoring system and time series database.
 - [HAProxy Exporter](https://github.com/prometheus/haproxy_exporter) - Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption.
 - [Signals CLI](https://github.com/sortlist/signals-cli) - Intent signal monitoring CLI. Track LinkedIn engagers, keyword posters, job changers, funding events. JSON output for data pipelines.
+
+### Data Pipelines
+
+- [DataOps Observability](https://github.com/DataKitchen/dataops-observability) - Open-source observability for data pipelines that collects run, test, and timing events from each tool through agents and a REST API, with a web UI, timeline view, and rule-based alerts.
 
 ## Profiling
 
