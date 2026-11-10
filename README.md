@@ -175,6 +175,7 @@
 - [Jitsu](https://github.com/jitsucom/jitsu) - An open-source Customer Data Platform. Captures event data from websites, apps, and servers and streams it into ClickHouse, Snowflake, BigQuery, Redshift, Postgres, and MySQL in real time.
 - [Scriptella ETL](https://github.com/scriptella/scriptella-etl) - Open-source, Java-based ETL and script execution tool for transferring and transforming data between databases, files, and other sources.
 - [Renart](https://github.com/renart-data/renart) - Local-first IDE for authoring and running SQL and Python data pipelines stored in Git.
+- [OLake](https://github.com/datazip-inc/olake) - Open-source replication of Postgres, MySQL, MongoDB, Oracle, SQL Server, DB2, Kafka and S3 into Apache Iceberg, with CDC and table maintenance. Written in Go.
 
 ## File System
 
@@ -284,6 +285,7 @@
 - [Dekart](https://github.com/dekart-xyz/dekart) - Open-source SQL to map platform for BigQuery, Snowflake, and PostGIS.
 - [LunaPad](https://lunapad.dev/) - Open-source analytics notebook for reusable SQL workflows, interactive reports, and AI-assisted data exploration.
 - [FlexViz](https://github.com/flex-analytics/flexviz) - Open-source Python library for interactive cross-filter dashboards on large datasets. Zoom, pan, and selection are answered by lazy Polars aggregations on a stateless server instead of sending rows to the browser.
+- [GeoSQL](https://github.com/dekart-xyz/geosql) - Claude/Codex skill for cost-safe geospatial SQL on BigQuery and Snowflake.
 
 ## Workflow
 
@@ -364,6 +366,7 @@
 - [The Quiet-Broke Index](https://jeevesagency.github.io/quiet-broke-index/) - A 30-metro composite of US household cost burdens (housing, taxes, childcare, healthcare, transport) aggregated from Census ACS, BLS Consumer Expenditure Survey, and HUD Fair Market Rents. Open methodology, free, no email gate.
 - [FirstData](https://github.com/MLT-OSS/FirstData) - The world's most comprehensive authoritative data source knowledge base. 160+ curated sources from governments, international organizations, and research institutions with MCP integration.
 - [Mindweave Synthetic Business Data](https://github.com/MindweaveTech/sme-sim-sample) - 42-table synthetic SME dataset with double-entry accounting, tax compliance (AU/US/UK), and temporal realism. CSV, SQL, Parquet, SQLite. Ideal for ETL pipeline testing.
+- [OpenChainBench](https://openchainbench.com) - Live dataset of crypto infrastructure benchmarks (RPC latency, oracle deviation, bridge fees, L1 finality, perp DEX metrics). Open methodology, CC BY 4.0, Zenodo DOI 10.5281/zenodo.20800312. [Source](https://github.com/ChainBench/OpenChainBench).
 
 ## Monitoring
 
