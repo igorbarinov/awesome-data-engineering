@@ -117,6 +117,7 @@
 - [koala-diff](https://github.com/godalida/koala-diff) - A high-performance Python library for comparing large datasets (CSV, Parquet) locally using Rust and Polars. It features zero-copy streaming to prevent OOM errors and generates interactive HTML data quality reports.
 - [FutureSearch SDK](https://github.com/futuresearch/futuresearch-python) - Python SDK that dispatches parallel web-research agents across
   table rows, synthesizing multi-agent findings into structured columns.
+- [bricksentry](https://github.com/bricksentry/bricksentry) - Dry-runs pipeline and AI-agent writes on Databricks Delta shallow clones and diffs the result against production with null-safe key joins and a sampling guard, plus downstream lineage and a rollback command.
 
 ## Data Ingestion
 
