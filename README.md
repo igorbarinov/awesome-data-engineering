@@ -180,6 +180,8 @@
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - Open-source web data API that scrapes, crawls, maps, and searches the web and returns Markdown or structured JSON for data pipelines and LLM ingestion.
 - [mq-bridge](https://github.com/marcomq/mq-bridge) - Embeddable Rust engine and CLI that moves data between Kafka, NATS, RabbitMQ, MQTT, SQL databases, Postgres/MongoDB CDC and Parquet on S3/GCS/Azure, with bindings for Python and Node.js.
 
+- [FlashData](https://flashdata.dev/?utm_source=awesomedataengineering&utm_medium=directory) - Paid APIs for Google Search JSON, YouTube metadata and existing captions, and YouTube media delivery to customer cloud storage, with asynchronous and batch ingestion and a shared one-time trial.
+
 ## File System
 
 - [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system designed to run on commodity hardware.
