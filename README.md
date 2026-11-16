@@ -322,6 +322,7 @@
 - [Mage](https://www.mage.ai) - Open-source data pipeline tool for transforming and integrating data.
 - [SQLMesh](https://sqlmesh.readthedocs.io) - An open-source data transformation framework for managing, testing, and deploying SQL and Python-based data pipelines with version control, environment isolation, and automatic dependency resolution.
 - [Ciaren](https://github.com/ciaren-labs/Ciaren) - A local-first visual ETL and ML workflow builder with per-step previews, cron scheduling, and export to pandas or Polars code.
+- [Datris](https://github.com/datris/datris-platform-oss) - Open-source, self-hosted data control plane that lets AI agents build, validate, and run data pipelines through an MCP server, landing data in warehouses, databases, object storage, and vector stores.
 
 ## Data Lake Management
 
