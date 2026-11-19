@@ -120,6 +120,7 @@
 
 ## Data Ingestion
 
+- [Data Fusion Engine](https://hyperi.io/data-fusion-engine/) - Writes data from every source to ClickHouse with its context joined in. Has ready-to-use schemas, pipelines and dashboards. Runs in your environment.
 - [DataSpoc Pipe](https://github.com/dataspoclab/dataspoc-pipe) - Data ingestion engine that connects 400+ Singer taps to Parquet files in cloud buckets (S3, GCS, Azure). Streaming, incremental, with auto-catalog.
 - [Enrich.sh](https://enrich.sh) - Managed event ingestion service that converts JSON sent to a REST API into Hive-partitioned Parquet on Cloudflare R2, queryable from DuckDB, ClickHouse, BigQuery, Snowflake, and Python.
 - [enrich-companies](https://github.com/Alessandro114/enrich-companies) - CLI tool to enrich CSV files with company data (financials, contacts, metadata) from 250M+ company records. Available on [npm](https://www.npmjs.com/package/enrich-companies).
