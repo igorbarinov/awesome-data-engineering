@@ -179,6 +179,7 @@
 - [OLake](https://github.com/datazip-inc/olake) - Open-source replication of Postgres, MySQL, MongoDB, Oracle, SQL Server, DB2, Kafka and S3 into Apache Iceberg, with CDC and table maintenance. Written in Go.
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - Open-source web data API that scrapes, crawls, maps, and searches the web and returns Markdown or structured JSON for data pipelines and LLM ingestion.
 - [mq-bridge](https://github.com/marcomq/mq-bridge) - Embeddable Rust engine and CLI that moves data between Kafka, NATS, RabbitMQ, MQTT, SQL databases, Postgres/MongoDB CDC and Parquet on S3/GCS/Azure, with bindings for Python and Node.js.
+- [GetYouTubeTranscript](https://getyoutubetranscript.com/youtube-transcript-api) - REST API for YouTube transcripts in any caption language, with a batch endpoint that queues whole channels or playlists, plus search and channel data; Python and Node SDKs and an MCP server.
 
 ## File System
 
