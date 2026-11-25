@@ -205,6 +205,7 @@
 - [Kryo](https://github.com/EsotericSoftware/kryo) - A fast and efficient object graph serialization framework for Java.
 - [PFC-JSONL](https://github.com/ImpossibleForge/pfc-jsonl) - Specialized JSONL log compressor with block-level timestamp indexing and DuckDB integration. Achieves ~9% compression ratio (better than gzip) with time-range random access queries.
 - [ParquetKit](https://parquetkit.com) - Browser-based viewer, SQL workbench and converter for Parquet files powered by DuckDB-WASM. Fully client-side, no upload.
+- [Parqeye](https://github.com/kaushiksrini/parqeye) - An open source tool that lets you peek inside your Parquet files. Inspect their contents, schema, and metadata — right from your terminal.
 
 ## Stream Processing
 
@@ -401,7 +402,6 @@
 - [DataDriven](https://www.datadriven.io/) - Interview practice with SQL query execution, Python, and data modeling exercises.
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
 - [dbmask](https://github.com/sealandseacat/dbmask) - Open-source tool that scans SQL databases for sensitive columns, masks them with deterministic fakes, and validates the masked copy row by row against the original.
-- [Parqeye](https://github.com/kaushiksrini/parqeye) - An open source tool that lets you peek inside your Parquet files. Inspect their contents, schema, and metadata — right from your terminal.
 
 ## Community
 
