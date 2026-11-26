@@ -376,6 +376,8 @@
 
 ## Monitoring
 
+- [DataOps Observability](https://github.com/DataKitchen/dataops-observability) - Open-source observability for data pipelines. Collects run, test, and timing events from each tool through agents and a REST API, with a web UI, timeline view, and rule-based alerts.
+
 ### Prometheus
 
 - [Prometheus.io](https://github.com/prometheus/prometheus) - An open-source service monitoring system and time series database.
