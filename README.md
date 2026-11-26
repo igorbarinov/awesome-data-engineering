@@ -109,6 +109,7 @@
   - [ReductStore](https://github.com/reductstore/reductstore) - High-performance blob and time-series storage, with edge deployment, selective replication, and efficient querying of multimodal data.
   - [Manticore Search](https://github.com/manticoresoftware/manticoresearch) - An open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL.
   - [Pixeltable](https://github.com/pixeltable/pixeltable) - Declarative multimodal AI data engine providing versioned tables, computed columns, incremental transformation, and vector search.
+  - [Beekeeper Studio](https://github.com/beekeeper-studio/beekeeper-studio) - Cross-platform open source database manager for PostgreSQL, MySQL, SQLite, SQL Server, ClickHouse, and more.
 
 ## Data Comparison
 
