@@ -152,6 +152,7 @@
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - Utility belt to handle data on AWS.
 - [Airbyte](https://airbyte.io/) - Open-source data integration for modern data teams.
 - [DBConvert Streams](https://streams.dbconvert.com) - Self-hosted database migration and change data capture (CDC) tool with built-in SQL IDE.
+- [DBConvert Studio](https://dbconvert.com/dbconvert-studio/) - Commercial desktop database migration and synchronization tool with an AI assistant for connection setup, job guidance and SQL generation.
 - [Artie](https://www.artie.com/) - Real-time data ingestion tool leveraging change data capture.
 - [Sling](https://slingdata.io/) - CLI data integration tool specialized in moving data between databases, as well as storage systems.
 - [Meltano](https://meltano.com/) - CLI & code-first ELT.
