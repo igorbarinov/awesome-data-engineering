@@ -332,6 +332,7 @@
 - [Gravitino](https://github.com/apache/gravitino) - An open-source, unified metadata management for data lakes, data warehouses, and external catalogs.
 - [FlightPath Data](https://www.flightpathdata.com) - FlightPath is a gateway to a data lake's bronze layer, protecting it from invalid external data file feeds as a trusted publisher.
 - [rawquery](https://rawquery.dev) - Managed lakehouse platform on Apache Iceberg with DuckDB query compute, S3 storage, Postgres wire protocol, and SQL transforms.
+- [DeltaLens](https://github.com/sandy-sachin7/deltalens) - Standalone Rust CLI and library to inspect, diff, trace, and audit Delta Lake tables (`_delta_log/`, V2 checkpoints, Deletion Vectors, Column Mapping, Liquid Clustering) locally or on S3/GCS/Azure without Spark, JVM, or Python.
 
 ## ELK Elastic Logstash Kibana
 
