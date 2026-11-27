@@ -395,6 +395,7 @@
 ## Schema
 
 - [SchemaCrawler](https://www.schemacrawler.com/) - Open-source and free relational database schema discovery and comprehension tool. Documents and diagrams relational database schemas from your Java programs, build tools and the command line. Find database design issues with lint, and write scripts against the database. Includes an MCP Server for use by AI agents.
+- [Helix Foundry](https://github.com/HelixDB/helix-foundry) - Open-source (Apache 2.0) tool that connects databases, SaaS tools and documents, has an agent draft an ontology over them, and loads it into one graph where every value traces back to the row or document it came from.
 
 
 ## Testing
