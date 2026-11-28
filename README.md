@@ -415,6 +415,7 @@
 - [Fixzi](https://fixzi.ai) - JSON/XML validation and API contract monitoring tool for debugging and testing structured data.
 - [dbmask](https://github.com/sealandseacat/dbmask) - Open-source tool that scans SQL databases for sensitive columns, masks them with deterministic fakes, and validates the masked copy row by row against the original.
 - [Data Contract CLI](https://cli.datacontract.com) - Tests data in Snowflake, Databricks, BigQuery, Kafka and other sources against data contracts in the Open Data Contract Standard (ODCS), and converts contracts to and from SQL DDL, dbt, Avro and JSON Schema.
+- [DataRanger](https://github.com/akshaysharma1088/dataranger) - Open-source data repair agent that tests each candidate fix on a copy against the source's control totals and applies only the fixes it can prove, escalating the rest to a person.
 
 ## Community
 
