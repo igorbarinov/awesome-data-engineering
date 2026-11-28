@@ -373,6 +373,7 @@
 - [FirstData](https://github.com/MLT-OSS/FirstData) - The world's most comprehensive authoritative data source knowledge base. 160+ curated sources from governments, international organizations, and research institutions with MCP integration.
 - [Mindweave Synthetic Business Data](https://github.com/MindweaveTech/sme-sim-sample) - 42-table synthetic SME dataset with double-entry accounting, tax compliance (AU/US/UK), and temporal realism. CSV, SQL, Parquet, SQLite. Ideal for ETL pipeline testing.
 - [OpenChainBench](https://openchainbench.com) - Live dataset of crypto infrastructure benchmarks (RPC latency, oracle deviation, bridge fees, L1 finality, perp DEX metrics). Open methodology, CC BY 4.0, Zenodo DOI 10.5281/zenodo.20800312. [Source](https://github.com/ChainBench/OpenChainBench).
+- [Lantern Works GPU Cloud Prices](https://huggingface.co/datasets/lantern-works/gpu-cloud-prices) - Daily snapshots of per-GPU-hour cloud rental prices (H100, A100, RTX 4090 and more) across tracked providers, as CSV with price-change points, CC BY 4.0. Also on [Kaggle](https://www.kaggle.com/datasets/lanternworks/lantern-works-gpu-cloud-price-history), with current prices as [JSON feeds](https://thelanternworks.com/api/?ref=igorbarinov-data-eng).
 
 ## Monitoring
 
